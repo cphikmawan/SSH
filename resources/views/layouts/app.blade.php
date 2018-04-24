@@ -18,6 +18,8 @@
         <link rel="icon" type="image/png" sizes="192x192" href="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/favicons/favicon-192x192.png')}}">
         <link rel="apple-touch-icon" sizes="180x180" href="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/favicons/apple-touch-icon-180x180.png')}}">
         <link rel="stylesheet" id="css-main" href="{{('codebase/02 - Codebase Source (HTML)/src/assets/css/codebase.min.css')}}">
+        <link rel="stylesheet" href="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/plugins/slick/slick.min.css')}}">
+        <link rel="stylesheet" href="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/plugins/slick/slick-theme.min.css')}}">
     </head>
     <body>
         <div id="page-container" class="sidebar-inverse side-scroll page-header-fixed page-header-inverse main-content-boxed">
@@ -56,5 +58,14 @@
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/plugins/jquery-validation/additional-methods.min.js')}}"></script>
         {{--  <!-- Page JS Code -->  --}}
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/pages/be_forms_wizard.js')}}"></script>
+        <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/plugins/slick/slick.min.js')}}"></script>
+
+        <!-- Page JS Code -->
+        <script>
+            jQuery(function () {
+                // Init page helpers (Slick Slider plugin)
+                Codebase.helpers('slick');
+            });
+        </script>
     </body>
 </html>

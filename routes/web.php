@@ -12,9 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Front.frontpage');
+});
+
+Route::get('/about', function () {
+    return view('Front.about');
 });
 
 Route::get('/donasi', function () {
     return view('Donasi.donasi');
+});
+
+Route::get('/readmore', function () {
+    return view('Front.readmore');
 });

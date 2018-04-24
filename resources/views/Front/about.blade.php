@@ -1,88 +1,22 @@
-<!doctype html>
-<!--[if lte IE 9]>     <html lang="en" class="no-focus lt-ie10 lt-ie10-msg"> <![endif]-->
-<!--[if gt IE 9]><!--> <html lang="en" class="no-focus"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+@extends('layouts.app')
 
-        <title>Codebase - Bootstrap 4 Admin Template &amp; UI Framework</title>
+@section('title', 'Donation')
 
-        <meta name="description" content="Codebase - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest">
-        <meta name="author" content="pixelcave">
-        <meta name="robots" content="noindex, nofollow">
+@section('sidebar')
+    @include('layouts.sidebar')
+@endsection
 
-        <!-- Open Graph Meta -->
-        <meta property="og:title" content="Codebase - Bootstrap 4 Admin Template &amp; UI Framework">
-        <meta property="og:site_name" content="Codebase">
-        <meta property="og:description" content="Codebase - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="">
-        <meta property="og:image" content="">
+@section('header')
+    @include('layouts.header')    
+@endsection
 
-        <!-- Icons -->
-        <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-        <link rel="shortcut icon" href="assets/img/favicons/favicon.png">
-        <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/favicon-192x192.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon-180x180.png">
-        <!-- END Icons -->
+@section('content')
 
-        <!-- Stylesheets -->
-        <!-- Codebase framework -->
-        <link rel="stylesheet" id="css-main" href="assets/css/codebase.min.css">
-
-        <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
-        <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/flat.min.css"> -->
-        <!-- END Stylesheets -->
-    </head>
-    <body>
-        <!-- Page Container -->
-        <!--
-            Available classes for #page-container:
-
-        GENERIC
-
-            'enable-cookies'                            Remembers active color theme between pages (when set through color theme helper Codebase() -> uiHandleTheme())
-
-        SIDEBAR & SIDE OVERLAY
-
-            'sidebar-r'                                 Right Sidebar and left Side Overlay (default is left Sidebar and right Side Overlay)
-            'sidebar-mini'                              Mini hoverable Sidebar (screen width > 991px)
-            'sidebar-o'                                 Visible Sidebar by default (screen width > 991px)
-            'sidebar-o-xs'                              Visible Sidebar by default (screen width < 992px)
-            'sidebar-inverse'                           Dark themed sidebar
-
-            'side-overlay-hover'                        Hoverable Side Overlay (screen width > 991px)
-            'side-overlay-o'                            Visible Side Overlay by default
-
-            'side-scroll'                               Enables custom scrolling on Sidebar and Side Overlay instead of native scrolling (screen width > 991px)
-
-        HEADER
-
-            ''                                          Static Header if no class is added
-            'page-header-fixed'                         Fixed Header
-
-        HEADER STYLE
-
-            ''                                          Classic Header style if no class is added
-            'page-header-modern'                        Modern Header style
-            'page-header-inverse'                       Dark themed Header (works only with classic Header style)
-            'page-header-glass'                         Light themed Header with transparency by default
-                                                        (absolute position, perfect for light images underneath - solid light background on scroll if the Header is also set as fixed)
-            'page-header-glass page-header-inverse'     Dark themed Header with transparency by default
-                                                        (absolute position, perfect for dark images underneath - solid dark background on scroll if the Header is also set as fixed)
-
-        MAIN CONTENT LAYOUT
-
-            ''                                          Full width Main Content if no class is added
-            'main-content-boxed'                        Full width Main Content with a specific maximum width (screen width > 1200px)
-            'main-content-narrow'                       Full width Main Content with a percentage width (screen width > 1200px)
-        -->
-        <div id="page-container" class="side-scroll page-header-glass page-header-inverse main-content-boxed side-trans-enabled">
             <!-- Main Container -->
             <main id="main-container">
                 <!-- Hero -->
                 <div class="bg-primary">
-                    <div class="bg-pattern bg-black-op-25" style="background-image: url('assets/img/various/bg-pattern.png');">
+                    <div class="bg-pattern bg-black-op-25" style="background-image: url('{{('codebase/02 - Codebase Source (HTML)/src/assets/img/various/bg-pattern.png')}}');">
                         <div class="content content-top text-center">
                             <div class="py-50">
                                 <h1 class="font-w700 text-white mb-10">SSH</h1>
@@ -157,7 +91,7 @@
                         <div class="col-md-6 col-xl-4">
                             <div class="block text-center">
                                 <div class="block-content">
-                                    <img class="img-avatar img-avatar96" src="assets/img/avatars/avatar1.jpg" alt="">
+                                    <img class="img-avatar img-avatar96" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar1.jpg')}}" alt="">
                                 </div>
                                 <div class="block-content block-content-full">
                                     <div class="font-size-h4 font-w600 mb-0">Udin IMM</div>
@@ -179,7 +113,7 @@
                         <div class="col-md-6 col-xl-4">
                             <div class="block text-center">
                                 <div class="block-content">
-                                    <img class="img-avatar img-avatar96" src="assets/img/avatars/avatar10.jpg" alt="">
+                                    <img class="img-avatar img-avatar96" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar10.jpg')}}" alt="">
                                 </div>
                                 <div class="block-content block-content-full">
                                     <div class="font-size-h4 font-w600 mb-0">DR Fu</div>
@@ -201,7 +135,7 @@
                         <div class="col-md-6 col-xl-4">
                             <div class="block text-center">
                                 <div class="block-content">
-                                    <img class="img-avatar img-avatar96" src="assets/img/avatars/avatar14.jpg" alt="">
+                                    <img class="img-avatar img-avatar96" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar14.jpg')}}" alt="">
                                 </div>
                                 <div class="block-content block-content-full">
                                     <div class="font-size-h4 font-w600 mb-0">Cloud</div>
@@ -239,31 +173,5 @@
                 <!-- END We are hiring -->
 
             </main>
-            <!-- END Main Container -->
 
-            <!-- Footer -->
-            <footer id="page-footer" class="opacity-0">
-                <div class="content py-20 font-size-xs clearfix">
-                    <div class="float-right">
-                        Crafted with <i class="fa fa-heart text-pulse"></i> by <a class="font-w600" href="http://goo.gl/vNS3I" target="_blank">pixelcave</a>
-                    </div>
-                    <div class="float-left">
-                        <a class="font-w600" href="https://goo.gl/po9Usv" target="_blank">Codebase 2.0</a> &copy; <span class="js-year-copy">2017</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- END Footer -->
-        </div>
-        <!-- END Page Container -->
-
-        <!-- Codebase Core JS -->
-        <script src="assets/js/core/jquery.min.js"></script>
-        <script src="assets/js/core/bootstrap.bundle.min.js"></script>
-        <script src="assets/js/core/jquery.slimscroll.min.js"></script>
-        <script src="assets/js/core/jquery.scrollLock.min.js"></script>
-        <script src="assets/js/core/jquery.appear.min.js"></script>
-        <script src="assets/js/core/jquery.countTo.min.js"></script>
-        <script src="assets/js/core/js.cookie.min.js"></script>
-        <script src="assets/js/codebase.js"></script>
-    </body>
-</html>
+@endsection
