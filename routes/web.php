@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/donasi', function () {
+    return view('Donasi.donasi');
+});
