@@ -17,7 +17,7 @@
                     <!-- Logo -->
                     <div class="content-header-item">
                         <a class="link-effect font-w700" href="index.html">
-                            <i class="si si-fire text-primary"></i>
+                            <i class="fa fa-handshake-o text-primary"></i>
                             <span class="font-size-xl text-dual-primary-dark">SS</span><span class="font-size-xl text-primary">H</span>
                         </a>
                     </div>
@@ -35,16 +35,16 @@
                 -->
                 <ul class="nav-main">
                     <li>
-                        <a class="active" href="#"><i class="si si-compass"></i>Home</a>
+                        <a class="active" href="/"><i class="si si-compass"></i>Home</a>
                     </li>
                     <li>
-                        <a class="active" href="#"><i class="si si-compass"></i>About</a>
+                        <a class="active" href="/about"><i class="si si-compass"></i>About</a>
                     </li>
                     <li>
-                        <a class="active" href="#"><i class="si si-compass"></i>Contact</a>
+                        <a class="active" href="/"><i class="si si-compass"></i>Contact</a>
                     </li>
                     <li>
-                        <a class="active" href="#"><i class="si si-compass"></i>Login</a>
+                        <a class="active" href="/dashboard"><i class="si si-compass"></i>Login</a>
                     </li>
                 </ul>
             </div>

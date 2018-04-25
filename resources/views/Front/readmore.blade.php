@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Donation')
+@section('title', 'Blogs')
 
 @section('sidebar')
 @include('layouts.sidebar')

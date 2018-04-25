@@ -23,6 +23,10 @@ Route::get('/donasi', function () {
     return view('Donasi.donasi');
 });
 
+Route::get('/dashboard', function () {
+    return view('Dashboard.index');
+});
+
 Route::get('/readmore', function () {
     return view('Front.readmore');
 });

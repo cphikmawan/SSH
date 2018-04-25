@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Donation')
+@section('title', 'Home')
 
 @section('sidebar')
     @include('layouts.sidebar')
@@ -70,7 +70,7 @@
                         <div class="col-xl-8">
                             <div class="mb-50">
                                 <div class="overflow-hidden rounded mb-20" style="height: 200px;">
-                                    <a class="img-link" href="be_pages_generic_story.html">
+                                    <a class="img-link" href="/readmore">
                                         <img class="img-fluid" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/photos/photo3@2x.jpg')}}"" alt="">
                                     </a>
                                 </div>
@@ -87,11 +87,11 @@
                                     </a>
                                 </div>
                                 <p>Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.</p>
-                                <a class="link-effect font-w600" href="be_pages_generic_story.html">Read More..</a>
+                                <a class="link-effect font-w600" href="/readmore">Read More..</a>
                             </div>
                             <div class="mb-50">
                                 <div class="overflow-hidden rounded mb-20" style="height: 200px;">
-                                    <a class="img-link" href="be_pages_generic_story.html">
+                                    <a class="img-link" href="/readmore">
                                         <img class="img-fluid" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/photos/photo7@2x.jpg')}}" alt="">
                                     </a>
                                 </div>
@@ -108,11 +108,11 @@
                                     </a>
                                 </div>
                                 <p>Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.</p>
-                                <a class="link-effect font-w600" href="be_pages_generic_story.html">Read More..</a>
+                                <a class="link-effect font-w600" href="/readmore">Read More..</a>
                             </div>
                             <div class="mb-50">
                                 <div class="overflow-hidden rounded mb-20" style="height: 200px;">
-                                    <a class="img-link" href="be_pages_generic_story.html">
+                                    <a class="img-link" href="/readmore">
                                         <img class="img-fluid" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/photos/photo28@2x.jpg')}}" alt="">
                                     </a>
                                 </div>
@@ -129,11 +129,11 @@
                                     </a>
                                 </div>
                                 <p>Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.</p>
-                                <a class="link-effect font-w600" href="be_pages_generic_story.html">Read More..</a>
+                                <a class="link-effect font-w600" href="/readmore">Read More..</a>
                             </div>
                             <div class="mb-50">
                                 <div class="overflow-hidden rounded mb-20" style="height: 200px;">
-                                    <a class="img-link" href="be_pages_generic_story.html">
+                                    <a class="img-link" href="/readmore">
                                         <img class="img-fluid" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/photos/photo30@2x.jpg')}}" alt="">
                                     </a>
                                 </div>
@@ -150,7 +150,7 @@
                                     </a>
                                 </div>
                                 <p>Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.</p>
-                                <a class="link-effect font-w600" href="be_pages_generic_story.html">Read More..</a>
+                                <a class="link-effect font-w600" href="/readmore">Read More..</a>
                             </div>
                             <nav class="clearfix push">
                                 <a class="btn btn-secondary min-width-100 float-right" href="javascript:void(0)">

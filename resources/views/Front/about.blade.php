@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Donation')
+@section('title', 'About')
 
 @section('sidebar')
     @include('layouts.sidebar')
@@ -15,12 +15,12 @@
             <!-- Main Container -->
             <main id="main-container">
                 <!-- Hero -->
-                <div class="bg-primary">
-                    <div class="bg-pattern bg-black-op-25" style="background-image: url('{{('codebase/02 - Codebase Source (HTML)/src/assets/img/various/bg-pattern.png')}}');">
+                <div class="bg-image" style="background-image: url('{{('codebase/02 - Codebase Source (HTML)/src/assets/img/photos/photo27@2x.jpg')}}');">
+                    <div class="bg-black-op-75">
                         <div class="content content-top text-center">
-                            <div class="py-50">
+                            <div class="py-100">
                                 <h1 class="font-w700 text-white mb-10">SSH</h1>
-                                <h2 class="h4 font-w400 text-white-op">Saturday Homeless Sharing</h2>
+                                <h2 class="h4 font-w400 text-white-op">Saturday Sharing Homeless</h2>
                             </div>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                         <div class="py-50 nice-copy text-center">
                             <h3 class="font-w700 mb-10">We Need Your Support !</h3>
                             <h4 class="font-w400 text-muted mb-30">Share Happiness With Us</h4>
-                            <a class="btn btn-hero btn-noborder btn-lg btn-rounded btn-primary" href="be_pages_generic_contact.html">DONATE</a>
+                            <a class="btn btn-hero btn-noborder btn-lg btn-rounded btn-primary" href="/donasi">DONATE</a>
                         </div>
                     </div>
                 </div>
