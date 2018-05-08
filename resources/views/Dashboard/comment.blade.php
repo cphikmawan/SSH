@@ -535,256 +535,155 @@
             <main id="main-container">
                 <!-- Page Content -->
                 <div class="content">
-                    <!-- Donations Overview -->
-                    <div class="content-heading">
-                        <div class="dropdown float-right">
-                            <button type="button" class="btn btn-sm btn-secondary dropdown-toggle" id="ecom-orders-overview-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                This Month
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="ecom-orders-overview-drop">
-                                <a class="dropdown-item active" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-calendar mr-5"></i>This Week
+                    <nav class="breadcrumb bg-white push">
+                        <a class="breadcrumb-item" href="{{ url('/dashboard') }}">Dashboard</a>
+                        <a class="breadcrumb-item" href="{{ url('/post') }}">Posts</a>
+                        <span class="breadcrumb-item active">Just a small question!</span>
+                    </nav>
+                    <div class="block">
+                        <div class="block-header block-header-default">
+                            <h3 class="block-title">Just a small question!</h3>
+                            <div class="block-options">
+                                <a class="btn-block-option" href="#forum-reply-form" data-toggle="scroll-to">
+                                    <i class="fa fa-reply"></i> Reply
                                 </a>
-                                <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-calendar mr-5"></i>This Month
-                                </a>
-                                <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-calendar mr-5"></i>This Year
-                                </a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-circle-o mr-5"></i>All Time
-                                </a>
+                                <button type="button" class="btn-block-option" data-toggle="block-option" data-action="fullscreen_toggle"></button>
+                                <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
+                                    <i class="si si-refresh"></i>
+                                </button>
                             </div>
                         </div>
-                        Posts <small class="d-none d-sm-inline">Overview</small>
+                        <div class="block-content">
+                            <!-- Discussion -->
+                            <table class="table table-borderless">
+                                <tbody>
+                                    <tr class="table-active">
+                                        <td class="d-none d-sm-table-cell"></td>
+                                        <td class="font-size-sm text-muted">
+                                            <a href="be_pages_generic_profile.html">Betty Kelley</a> on <em>February 1, 2017 16:15</em>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="d-none d-sm-table-cell text-center" style="width: 140px;">
+                                            <div class="mb-10">
+                                                <a href="be_pages_generic_profile.html">
+                                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar8.jpg')}}" alt="">
+                                                </a>
+                                            </div>
+                                            <small>488 Posts<br>Level 10</small>
+                                        </td>
+                                        <td>
+                                            <p>Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.</p>
+                                            <hr>
+                                            <p class="font-size-sm text-muted">There is only one way to avoid criticism: do nothing, say nothing, and be nothing.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <td class="d-none d-sm-table-cell"></td>
+                                        <td class="font-size-sm text-muted">
+                                            <a href="be_pages_generic_profile.html">Brian Stevens</a> on <em>February 10, 2017 10:09</em>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="d-none d-sm-table-cell text-center" style="width: 140px;">
+                                            <div class="mb-10">
+                                                <a href="be_pages_generic_profile.html">
+                                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar16.jpg')}}" alt="">
+                                                </a>
+                                            </div>
+                                            <small>300 Posts<br>Level 10</small>
+                                        </td>
+                                        <td>
+                                            <p>Felis ullamcorper curae erat nulla luctus sociosqu phasellus posuere habitasse sollicitudin, libero sit potenti leo ultricies etiam blandit id platea augue, erat habitant fermentum lorem commodo taciti tristique etiam curabitur suscipit lacinia habitasse amet mauris eu eget ipsum nec magna in, adipiscing risus aenean turpis proin duis fringilla praesent ornare lorem eros malesuada vitae nullam diam velit potenti consectetur, vehicula accumsan risus lectus tortor etiam facilisis tempus sapien tortor, mi vestibulum taciti dapibus viverra ac justo vivamus erat phasellus turpis nisi class praesent duis ligula, vel ornare faucibus potenti nibh turpis, at id semper nunc dui blandit. Enim et nec habitasse ultricies id tortor curabitur, consectetur eu inceptos ante conubia tempor platea odio, sed sem integer lacinia cras non risus euismod turpis platea erat ultrices iaculis rutrum taciti, fusce lobortis adipiscing dapibus habitant sodales gravida pulvinar, elementum mi tempus ut commodo congue ipsum justo nec dui cursus scelerisque elementum volutpat tellus nulla laoreet taciti, nibh suspendisse primis arcu integer vulputate etiam ligula lobortis nunc, interdum commodo libero aliquam suscipit phasellus sollicitudin arcu varius venenatis erat ornare tempor nullam donec vitae etiam tellus.</p>
+                                            <p>Felis ullamcorper curae erat nulla luctus sociosqu phasellus posuere habitasse sollicitudin, libero sit potenti leo ultricies etiam blandit id platea augue, erat habitant fermentum lorem commodo taciti tristique etiam curabitur suscipit lacinia habitasse amet mauris eu eget ipsum nec magna in, adipiscing risus aenean turpis proin duis fringilla praesent ornare lorem eros malesuada vitae nullam diam velit potenti consectetur, vehicula accumsan risus lectus tortor etiam facilisis tempus sapien tortor, mi vestibulum taciti dapibus viverra ac justo vivamus erat phasellus turpis nisi class praesent duis ligula, vel ornare faucibus potenti nibh turpis, at id semper nunc dui blandit. Enim et nec habitasse ultricies id tortor curabitur, consectetur eu inceptos ante conubia tempor platea odio, sed sem integer lacinia cras non risus euismod turpis platea erat ultrices iaculis rutrum taciti, fusce lobortis adipiscing dapibus habitant sodales gravida pulvinar, elementum mi tempus ut commodo congue ipsum justo nec dui cursus scelerisque elementum volutpat tellus nulla laoreet taciti, nibh suspendisse primis arcu integer vulputate etiam ligula lobortis nunc, interdum commodo libero aliquam suscipit phasellus sollicitudin arcu varius venenatis erat ornare tempor nullam donec vitae etiam tellus.</p>
+                                            <hr>
+                                            <p class="font-size-sm text-muted">Be yourself; everyone else is already taken.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <td class="d-none d-sm-table-cell"></td>
+                                        <td class="font-size-sm text-muted">
+                                            <a href="be_pages_generic_profile.html">Jack Estrada</a> on <em>February 15, 2017 20:17</em>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="d-none d-sm-table-cell text-center" style="width: 140px;">
+                                            <div class="mb-10">
+                                                <a href="be_pages_generic_profile.html">
+                                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar12.jpg')}}" alt="">
+                                                </a>
+                                            </div>
+                                            <small>464 Posts<br>Level 1</small>
+                                        </td>
+                                        <td>
+                                            <p>Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.</p>
+                                            <p>Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.</p>
+                                            <p>Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.</p>
+                                            <p>Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.</p>
+                                            <hr>
+                                            <p class="font-size-sm text-muted">Don't cry because it's over, smile because it happened.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <td class="d-none d-sm-table-cell"></td>
+                                        <td class="font-size-sm text-muted">
+                                            <a href="be_pages_generic_profile.html">Betty Kelley</a> on <em>February 20, 2017 20:29</em>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="d-none d-sm-table-cell text-center" style="width: 140px;">
+                                            <div class="mb-10">
+                                                <a href="be_pages_generic_profile.html">
+                                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar4.jpg')}}" alt="">
+                                                </a>
+                                            </div>
+                                            <small>418 Posts<br>Level 8</small>
+                                        </td>
+                                        <td>
+                                            <p>Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.</p>
+                                            <p>Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.</p>
+                                            <p>Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.</p>
+                                            <hr>
+                                            <p class="font-size-sm text-muted">Strive not to be a success, but rather to be of value.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-active" id="forum-reply-form">
+                                        <td class="d-none d-sm-table-cell"></td>
+                                        <td class="font-size-sm text-muted">
+                                            <a href="be_pages_generic_profile.html">David Fuller</a> Just now
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="d-none d-sm-table-cell text-center">
+                                            <div class="mb-10">
+                                                <a href="be_pages_generic_profile.html">
+                                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar10.jpg')}}" alt="">
+                                                </a>
+                                            </div>
+                                            <small>199 Posts<br>Level 6</small>
+                                        </td>
+                                        <td>
+                                            <form action="be_pages_forum_discussion.html" method="post" onsubmit="return false;">
+                                                <div class="form-group row">
+                                                    <div class="col-12">
+                                                        <!-- CKEditor (js-ckeditor id is initialized in Codebase() -> uiHelperCkeditor()) -->
+                                                        <!-- For more info and examples you can check out http://ckeditor.com -->
+                                                        <textarea id="js-ckeditor" name="ckeditor"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn btn-alt-primary">
+                                                        <i class="fa fa-reply"></i> Reply
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- END Discussion -->
+                        </div>
                     </div>
-
-                    <!-- Content Heading #1 -->
-                    <!-- <div class="content-heading">
-                        Posts
-                        <small class="d-none d-sm-inline">This Month</small> 
-                    </div> -->
-                    <div class="row invisible" data-toggle="appear">
-                        <!-- Row #1 -->
-                        <div class="col-md-4">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full">
-                                    <i class="fa fa-file-text-o fa-2x text-primary-light"></i>
-                                    <div class="row pt-10 pb-30 text-center">
-                                        <div class="col-6 border-r">
-                                            <div class="js-appear-enabled animated fadeInLeft" data-toggle="appear" data-class="animated fadeInLeft">
-                                                <div class="font-size-h3 font-w600 text-primary" data-toggle="countTo" data-speed="1000" data-to="2">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Total Posts</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="js-appear-enabled animated fadeInRight" data-toggle="appear" data-class="animated fadeInRight">
-                                                <div class="font-size-h3 font-w600 text-primary" data-toggle="countTo" data-speed="1000" data-to="1">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">New Posts</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full">
-                                    <i class="si si-doc fa-2x text-elegance-light"></i>
-                                    <div class="row pt-10 pb-30 text-center">
-                                        <div class="col-6 border-r">
-                                            <div class="js-appear-enabled animated fadeInLeft" data-toggle="appear" data-class="animated fadeInLeft">
-                                                <div class="font-size-h3 font-w600 text-elegance" data-toggle="countTo" data-speed="1000" data-to="8">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Total Pages</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="js-appear-enabled animated fadeInRight" data-toggle="appear" data-class="animated fadeInRight">
-                                                <div class="font-size-h3 font-w600 text-elegance" data-toggle="countTo" data-speed="1000" data-to="1">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">New Pages</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full">
-                                    <i class="si si-bubbles fa-2x text-corporate-light"></i>
-                                    <div class="row pt-10 pb-30 text-center">
-                                        <div class="col-6 border-r">
-                                            <div class="js-appear-enabled animated fadeInLeft" data-toggle="appear" data-class="animated fadeInLeft">
-                                                <div class="font-size-h3 font-w600 text-corporate" data-toggle="countTo" data-speed="1000" data-to="150">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Total Comments</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="js-appear-enabled animated fadeInRight" data-toggle="appear" data-class="animated fadeInRight">
-                                                <div class="font-size-h3 font-w600 text-corporate" data-toggle="countTo" data-speed="1000" data-to="20">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">New Comments</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- END Row #1 -->
-                    </div>
-                    <!-- Content Heading #2 -->
-                    <div class="content-heading">
-                        Users <small class="d-none d-sm-inline">Overview</small>
-                    </div>
-                    <div class="row invisible" data-toggle="appear">
-                        <!-- Row #2 -->
-                        <div class="col-6 col-xl-3">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full clearfix">
-                                    <div class="float-right mt-15 d-none d-sm-block">
-                                        <i class="si si-users fa-2x text-pulse-light"></i>
-                                    </div>
-                                    <div class="font-size-h3 font-w600 text-pulse" data-toggle="countTo" data-speed="1000" data-to="94">0</div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Total Users</div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full clearfix">
-                                    <div class="float-right mt-15 d-none d-sm-block">
-                                        <i class="si si-user-follow fa-2x text-pulse-light"></i>
-                                    </div>
-                                    <div class="font-size-h3 font-w600 text-pulse" data-toggle="countTo" data-speed="1000" data-to="15">0</div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">New Users</div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full clearfix">
-                                    <div class="float-right mt-15 d-none d-sm-block">
-                                        <i class="si si-emoticon-smile fa-2x text-earth-light"></i>
-                                    </div>
-                                    <div class="font-size-h3 font-w600 text-earth" data-toggle="countTo" data-speed="1000" data-to="65">0</div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Total Donators</div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full clearfix">
-                                    <div class="float-right mt-15 d-none d-sm-block">
-                                        <i class="fa fa-money fa-2x text-earth-light"></i>
-                                    </div>
-                                    <div class="font-size-h3 font-w600 text-earth">Rp. <span data-toggle="countTo" data-speed="1000" data-to="8504000">0</span></div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Total Donations</div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- END Row #2 -->
-                    </div>
-                    <div class="row invisible" data-toggle="appear">
-                        <!-- Row #3 -->
-                        <div class="col-md-12">
-                            <div class="block block-rounded block-bordered">
-                                <div class="block-header block-header-default border-b">
-                                    <h3 class="block-title">
-                                        Donations <small>This week</small>
-                                    </h3>
-                                    <div class="block-options">
-                                        <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
-                                            <i class="si si-refresh"></i>
-                                        </button>
-                                        <button type="button" class="btn-block-option">
-                                            <i class="si si-wrench"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="block-content block-content-full">
-                                    <div class="pull-all pt-50">
-                                        <!-- Lines Chart Container -->
-                                        <canvas class="js-chartjs-dashboard-lines"></canvas>
-                                    </div>
-                                </div>
-                                <div class="block-content">
-                                    <div class="row items-push text-center">
-                                        <div class="col-6 col-sm-4">
-                                            <div class="font-w600 text-success">
-                                                <i class="fa fa-caret-up"></i> +16%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">Rp. 1.440.000</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Month</div>
-                                        </div>
-                                        <div class="col-6 col-sm-4">
-                                            <div class="font-w600 text-danger">
-                                                <i class="fa fa-caret-down"></i> -3%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">Rp. 320.000</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Week</div>
-                                        </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="font-w600 text-success">
-                                                <i class="fa fa-caret-up"></i> +9%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">Rp. 48.600</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">Average</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="col-md-6">
-                            <div class="block block-rounded block-bordered">
-                                <div class="block-header block-header-default border-b">
-                                    <h3 class="block-title">
-                                        Earnings <small>This week</small>
-                                    </h3>
-                                    <div class="block-options">
-                                        <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
-                                            <i class="si si-refresh"></i>
-                                        </button>
-                                        <button type="button" class="btn-block-option">
-                                            <i class="si si-wrench"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="block-content block-content-full">
-                                    <div class="pull-all pt-50"> -->
-                                        <!-- Lines Chart Container -->
-                                        <!-- <canvas class="js-chartjs-dashboard-lines2"></canvas>
-                                    </div>
-                                </div>
-                                <div class="block-content bg-white">
-                                    <div class="row items-push text-center">
-                                        <div class="col-6 col-sm-4">
-                                            <div class="font-w600 text-success">
-                                                <i class="fa fa-caret-up"></i> +4%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">$ 6,540</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Month</div>
-                                        </div>
-                                        <div class="col-6 col-sm-4">
-                                            <div class="font-w600 text-danger">
-                                                <i class="fa fa-caret-down"></i> -7%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">$ 1,525</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Week</div>
-                                        </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="font-w600 text-success">
-                                                <i class="fa fa-caret-up"></i> +35%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">$ 9,352</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">Balance</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- END Row #3 -->
-                    </div>
-                    
                 </div>
                 <!-- END Page Content -->
             </main>

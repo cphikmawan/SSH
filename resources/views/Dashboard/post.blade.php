@@ -535,256 +535,305 @@
             <main id="main-container">
                 <!-- Page Content -->
                 <div class="content">
-                    <!-- Donations Overview -->
-                    <div class="content-heading">
-                        <div class="dropdown float-right">
-                            <button type="button" class="btn btn-sm btn-secondary dropdown-toggle" id="ecom-orders-overview-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                This Month
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="ecom-orders-overview-drop">
-                                <a class="dropdown-item active" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-calendar mr-5"></i>This Week
-                                </a>
-                                <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-calendar mr-5"></i>This Month
-                                </a>
-                                <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-calendar mr-5"></i>This Year
-                                </a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-circle-o mr-5"></i>All Time
-                                </a>
+                    <nav class="breadcrumb bg-white push">
+                        <a class="breadcrumb-item" href="{{ url('/dashboard') }}">Dashboard</a>
+                        <span class="breadcrumb-item active">Posts</span>
+                    </nav>
+                    <div class="block">
+                        <div class="block-header block-header-default">
+                            <h3 class="block-title">Posts</h3>
+                            <div class="block-options">
+                                <button type="button" class="btn-block-option">
+                                    <i class="fa fa-plus"></i> New Post
+                                </button>
+                                <button type="button" class="btn-block-option" data-toggle="block-option" data-action="fullscreen_toggle"></button>
+                                <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
+                                    <i class="si si-refresh"></i>
+                                </button>
                             </div>
                         </div>
-                        Posts <small class="d-none d-sm-inline">Overview</small>
-                    </div>
+                        <div class="block-content">
+                            <!-- Topics -->
+                            <table class="table table-striped table-borderless table-vcenter">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th colspan="2">Welcome</th>
+                                        <th class="d-none d-md-table-cell text-center" style="width: 100px;">Replies</th>
+                                        <th class="d-none d-md-table-cell text-center" style="width: 100px;">Views</th>
+                                        <th class="d-none d-md-table-cell" style="width: 200px;">Last Post</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center" style="width: 65px;">
+                                            <i class="si si-pin fa-2x"></i>
+                                        </td>
+                                        <td>
+                                            <a class="font-w600" href="be_pages_forum_discussion.html">Welcome to our forums!</a>
+                                            <div class="font-size-sm text-muted mt-5">
+                                                <a href="be_pages_generic_profile.html">Ralph Murray</a> on <em>June 20, 2017</em>
+                                            </div>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">191</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">248</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell">
+                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Jack Greene</a><br>on <em>January 21, 2017</em></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" style="width: 65px;">
+                                            <i class="si si-pin fa-2x"></i>
+                                        </td>
+                                        <td>
+                                            <a class="font-w600" href="be_pages_forum_discussion.html">Big upgrades are coming soon!</a>
+                                            <div class="font-size-sm text-muted mt-5">
+                                                <a href="be_pages_generic_profile.html">Wayne Garcia</a> on <em>June 25, 2017</em>
+                                            </div>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">231</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">1213</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell">
+                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Jesse Fisher</a><br>on <em>January 18, 2017</em></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" style="width: 65px;">
+                                            <i class="si si-pin fa-2x"></i>
+                                        </td>
+                                        <td>
+                                            <a class="font-w600" href="be_pages_forum_discussion.html">Tips &amp; tricks for staying motivated</a>
+                                            <div class="font-size-sm text-muted mt-5">
+                                                <a href="be_pages_generic_profile.html">Jack Greene</a> on <em>January 15, 2017</em>
+                                            </div>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">131</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">749</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell">
+                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Adam McCoy</a><br>on <em>January 13, 2017</em></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a class="font-w600" href="be_pages_forum_discussion.html">2017, all the new features!</a>
+                                            <div class="font-size-sm text-muted mt-5">
+                                                <a href="be_pages_generic_profile.html">Jose Mills</a> on <em>January 21, 2017</em>
+                                            </div>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">203</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">2186</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell">
+                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Carol White</a><br>on <em>January 13, 2017</em></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a class="font-w600" href="be_pages_forum_discussion.html">Issue when saving a file, can you help me?</a>
+                                            <div class="font-size-sm text-muted mt-5">
+                                                <a href="be_pages_generic_profile.html">Brian Stevens</a> on <em>May 26, 2017</em>
+                                            </div>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">275</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">1912</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell">
+                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Carol Ray</a><br>on <em>January 2, 2017</em></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a class="font-w600" href="be_pages_forum_discussion.html">New Features!</a>
+                                            <div class="font-size-sm text-muted mt-5">
+                                                <a href="be_pages_generic_profile.html">Scott Young</a> on <em>June 29, 2017</em>
+                                            </div>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">145</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">2021</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell">
+                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Ryan Flores</a><br>on <em>January 2, 2017</em></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a class="font-w600" href="be_pages_forum_discussion.html">Question about the new features!</a>
+                                            <div class="font-size-sm text-muted mt-5">
+                                                <a href="be_pages_generic_profile.html">Scott Young</a> on <em>June 28, 2017</em>
+                                            </div>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">230</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">2344</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell">
+                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Jose Parker</a><br>on <em>January 1, 2017</em></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a class="font-w600" href="be_pages_forum_discussion.html">Which plan to choose?</a>
+                                            <div class="font-size-sm text-muted mt-5">
+                                                <a href="be_pages_generic_profile.html">Amber Harvey</a> on <em>March 12, 2017</em>
+                                            </div>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">213</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">1170</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell">
+                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Lisa Jenkins</a><br>on <em>January 1, 2017</em></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a class="font-w600" href="be_pages_forum_discussion.html">Your web app saved me tons of time</a>
+                                            <div class="font-size-sm text-muted mt-5">
+                                                <a href="be_pages_generic_profile.html">Helen Jacobs</a> on <em>January 23, 2017</em>
+                                            </div>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">100</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">1774</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell">
+                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Henry Harrison</a><br>on <em>January 12, 2017</em></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a class="font-w600" href="be_pages_forum_discussion.html">Is it easy to upgrade my plan?</a>
+                                            <div class="font-size-sm text-muted mt-5">
+                                                <a href="be_pages_generic_profile.html">Brian Stevens</a> on <em>May 10, 2017</em>
+                                            </div>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">265</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">1537</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell">
+                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Jesse Fisher</a><br>on <em>January 6, 2017</em></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a class="font-w600" href="be_pages_forum_discussion.html">Check out all those tips &amp; tricks!</a>
+                                            <div class="font-size-sm text-muted mt-5">
+                                                <a href="be_pages_generic_profile.html">Laura Carr</a> on <em>May 5, 2017</em>
+                                            </div>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">296</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">1379</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell">
+                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Lori Grant</a><br>on <em>January 5, 2017</em></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a class="font-w600" href="be_pages_forum_discussion.html">Review needed</a>
+                                            <div class="font-size-sm text-muted mt-5">
+                                                <a href="be_pages_generic_profile.html">Justin Hunt</a> on <em>May 3, 2017</em>
+                                            </div>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">254</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">675</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell">
+                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Melissa Rice</a><br>on <em>January 4, 2017</em></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a class="font-w600" href="be_pages_forum_discussion.html">Testing out the API</a>
+                                            <div class="font-size-sm text-muted mt-5">
+                                                <a href="be_pages_generic_profile.html">Lori Grant</a> on <em>April 25, 2017</em>
+                                            </div>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">118</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell text-center">
+                                            <a class="font-w600" href="javascript:void(0)">888</a>
+                                        </td>
+                                        <td class="d-none d-md-table-cell">
+                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Thomas Riley</a><br>on <em>January 4, 2017</em></span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- END Topics -->
 
-                    <!-- Content Heading #1 -->
-                    <!-- <div class="content-heading">
-                        Posts
-                        <small class="d-none d-sm-inline">This Month</small> 
-                    </div> -->
-                    <div class="row invisible" data-toggle="appear">
-                        <!-- Row #1 -->
-                        <div class="col-md-4">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full">
-                                    <i class="fa fa-file-text-o fa-2x text-primary-light"></i>
-                                    <div class="row pt-10 pb-30 text-center">
-                                        <div class="col-6 border-r">
-                                            <div class="js-appear-enabled animated fadeInLeft" data-toggle="appear" data-class="animated fadeInLeft">
-                                                <div class="font-size-h3 font-w600 text-primary" data-toggle="countTo" data-speed="1000" data-to="2">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Total Posts</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="js-appear-enabled animated fadeInRight" data-toggle="appear" data-class="animated fadeInRight">
-                                                <div class="font-size-h3 font-w600 text-primary" data-toggle="countTo" data-speed="1000" data-to="1">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">New Posts</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
+                            <!-- Pagination -->
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination justify-content-end mr-20">
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript:void(0)" aria-label="Previous">
+                                            <span aria-hidden="true">
+                                                <i class="fa fa-angle-left"></i>
+                                            </span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item active">
+                                        <a class="page-link" href="javascript:void(0)">1</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript:void(0)">2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript:void(0)">3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript:void(0)">4</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript:void(0)" aria-label="Next">
+                                            <span aria-hidden="true">
+                                                <i class="fa fa-angle-right"></i>
+                                            </span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!-- END Pagination -->
                         </div>
-                        <div class="col-md-4">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full">
-                                    <i class="si si-doc fa-2x text-elegance-light"></i>
-                                    <div class="row pt-10 pb-30 text-center">
-                                        <div class="col-6 border-r">
-                                            <div class="js-appear-enabled animated fadeInLeft" data-toggle="appear" data-class="animated fadeInLeft">
-                                                <div class="font-size-h3 font-w600 text-elegance" data-toggle="countTo" data-speed="1000" data-to="8">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Total Pages</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="js-appear-enabled animated fadeInRight" data-toggle="appear" data-class="animated fadeInRight">
-                                                <div class="font-size-h3 font-w600 text-elegance" data-toggle="countTo" data-speed="1000" data-to="1">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">New Pages</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full">
-                                    <i class="si si-bubbles fa-2x text-corporate-light"></i>
-                                    <div class="row pt-10 pb-30 text-center">
-                                        <div class="col-6 border-r">
-                                            <div class="js-appear-enabled animated fadeInLeft" data-toggle="appear" data-class="animated fadeInLeft">
-                                                <div class="font-size-h3 font-w600 text-corporate" data-toggle="countTo" data-speed="1000" data-to="150">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Total Comments</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="js-appear-enabled animated fadeInRight" data-toggle="appear" data-class="animated fadeInRight">
-                                                <div class="font-size-h3 font-w600 text-corporate" data-toggle="countTo" data-speed="1000" data-to="20">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">New Comments</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- END Row #1 -->
                     </div>
-                    <!-- Content Heading #2 -->
-                    <div class="content-heading">
-                        Users <small class="d-none d-sm-inline">Overview</small>
-                    </div>
-                    <div class="row invisible" data-toggle="appear">
-                        <!-- Row #2 -->
-                        <div class="col-6 col-xl-3">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full clearfix">
-                                    <div class="float-right mt-15 d-none d-sm-block">
-                                        <i class="si si-users fa-2x text-pulse-light"></i>
-                                    </div>
-                                    <div class="font-size-h3 font-w600 text-pulse" data-toggle="countTo" data-speed="1000" data-to="94">0</div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Total Users</div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full clearfix">
-                                    <div class="float-right mt-15 d-none d-sm-block">
-                                        <i class="si si-user-follow fa-2x text-pulse-light"></i>
-                                    </div>
-                                    <div class="font-size-h3 font-w600 text-pulse" data-toggle="countTo" data-speed="1000" data-to="15">0</div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">New Users</div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full clearfix">
-                                    <div class="float-right mt-15 d-none d-sm-block">
-                                        <i class="si si-emoticon-smile fa-2x text-earth-light"></i>
-                                    </div>
-                                    <div class="font-size-h3 font-w600 text-earth" data-toggle="countTo" data-speed="1000" data-to="65">0</div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Total Donators</div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full clearfix">
-                                    <div class="float-right mt-15 d-none d-sm-block">
-                                        <i class="fa fa-money fa-2x text-earth-light"></i>
-                                    </div>
-                                    <div class="font-size-h3 font-w600 text-earth">Rp. <span data-toggle="countTo" data-speed="1000" data-to="8504000">0</span></div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Total Donations</div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- END Row #2 -->
-                    </div>
-                    <div class="row invisible" data-toggle="appear">
-                        <!-- Row #3 -->
-                        <div class="col-md-12">
-                            <div class="block block-rounded block-bordered">
-                                <div class="block-header block-header-default border-b">
-                                    <h3 class="block-title">
-                                        Donations <small>This week</small>
-                                    </h3>
-                                    <div class="block-options">
-                                        <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
-                                            <i class="si si-refresh"></i>
-                                        </button>
-                                        <button type="button" class="btn-block-option">
-                                            <i class="si si-wrench"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="block-content block-content-full">
-                                    <div class="pull-all pt-50">
-                                        <!-- Lines Chart Container -->
-                                        <canvas class="js-chartjs-dashboard-lines"></canvas>
-                                    </div>
-                                </div>
-                                <div class="block-content">
-                                    <div class="row items-push text-center">
-                                        <div class="col-6 col-sm-4">
-                                            <div class="font-w600 text-success">
-                                                <i class="fa fa-caret-up"></i> +16%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">Rp. 1.440.000</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Month</div>
-                                        </div>
-                                        <div class="col-6 col-sm-4">
-                                            <div class="font-w600 text-danger">
-                                                <i class="fa fa-caret-down"></i> -3%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">Rp. 320.000</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Week</div>
-                                        </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="font-w600 text-success">
-                                                <i class="fa fa-caret-up"></i> +9%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">Rp. 48.600</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">Average</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="col-md-6">
-                            <div class="block block-rounded block-bordered">
-                                <div class="block-header block-header-default border-b">
-                                    <h3 class="block-title">
-                                        Earnings <small>This week</small>
-                                    </h3>
-                                    <div class="block-options">
-                                        <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
-                                            <i class="si si-refresh"></i>
-                                        </button>
-                                        <button type="button" class="btn-block-option">
-                                            <i class="si si-wrench"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="block-content block-content-full">
-                                    <div class="pull-all pt-50"> -->
-                                        <!-- Lines Chart Container -->
-                                        <!-- <canvas class="js-chartjs-dashboard-lines2"></canvas>
-                                    </div>
-                                </div>
-                                <div class="block-content bg-white">
-                                    <div class="row items-push text-center">
-                                        <div class="col-6 col-sm-4">
-                                            <div class="font-w600 text-success">
-                                                <i class="fa fa-caret-up"></i> +4%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">$ 6,540</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Month</div>
-                                        </div>
-                                        <div class="col-6 col-sm-4">
-                                            <div class="font-w600 text-danger">
-                                                <i class="fa fa-caret-down"></i> -7%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">$ 1,525</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Week</div>
-                                        </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="font-w600 text-success">
-                                                <i class="fa fa-caret-up"></i> +35%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">$ 9,352</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">Balance</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- END Row #3 -->
-                    </div>
-                    
                 </div>
                 <!-- END Page Content -->
             </main>

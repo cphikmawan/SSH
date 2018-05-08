@@ -535,254 +535,224 @@
             <main id="main-container">
                 <!-- Page Content -->
                 <div class="content">
-                    <!-- Donations Overview -->
-                    <div class="content-heading">
-                        <div class="dropdown float-right">
-                            <button type="button" class="btn btn-sm btn-secondary dropdown-toggle" id="ecom-orders-overview-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                This Month
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="ecom-orders-overview-drop">
-                                <a class="dropdown-item active" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-calendar mr-5"></i>This Week
-                                </a>
-                                <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-calendar mr-5"></i>This Month
-                                </a>
-                                <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-calendar mr-5"></i>This Year
-                                </a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-circle-o mr-5"></i>All Time
-                                </a>
-                            </div>
-                        </div>
-                        Posts <small class="d-none d-sm-inline">Overview</small>
-                    </div>
-
                     <!-- Content Heading #1 -->
-                    <!-- <div class="content-heading">
-                        Posts
-                        <small class="d-none d-sm-inline">This Month</small> 
-                    </div> -->
-                    <div class="row invisible" data-toggle="appear">
-                        <!-- Row #1 -->
-                        <div class="col-md-4">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full">
-                                    <i class="fa fa-file-text-o fa-2x text-primary-light"></i>
-                                    <div class="row pt-10 pb-30 text-center">
-                                        <div class="col-6 border-r">
-                                            <div class="js-appear-enabled animated fadeInLeft" data-toggle="appear" data-class="animated fadeInLeft">
-                                                <div class="font-size-h3 font-w600 text-primary" data-toggle="countTo" data-speed="1000" data-to="2">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Total Posts</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="js-appear-enabled animated fadeInRight" data-toggle="appear" data-class="animated fadeInRight">
-                                                <div class="font-size-h3 font-w600 text-primary" data-toggle="countTo" data-speed="1000" data-to="1">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">New Posts</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full">
-                                    <i class="si si-doc fa-2x text-elegance-light"></i>
-                                    <div class="row pt-10 pb-30 text-center">
-                                        <div class="col-6 border-r">
-                                            <div class="js-appear-enabled animated fadeInLeft" data-toggle="appear" data-class="animated fadeInLeft">
-                                                <div class="font-size-h3 font-w600 text-elegance" data-toggle="countTo" data-speed="1000" data-to="8">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Total Pages</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="js-appear-enabled animated fadeInRight" data-toggle="appear" data-class="animated fadeInRight">
-                                                <div class="font-size-h3 font-w600 text-elegance" data-toggle="countTo" data-speed="1000" data-to="1">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">New Pages</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full">
-                                    <i class="si si-bubbles fa-2x text-corporate-light"></i>
-                                    <div class="row pt-10 pb-30 text-center">
-                                        <div class="col-6 border-r">
-                                            <div class="js-appear-enabled animated fadeInLeft" data-toggle="appear" data-class="animated fadeInLeft">
-                                                <div class="font-size-h3 font-w600 text-corporate" data-toggle="countTo" data-speed="1000" data-to="150">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Total Comments</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="js-appear-enabled animated fadeInRight" data-toggle="appear" data-class="animated fadeInRight">
-                                                <div class="font-size-h3 font-w600 text-corporate" data-toggle="countTo" data-speed="1000" data-to="20">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">New Comments</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- END Row #1 -->
-                    </div>
-                    <!-- Content Heading #2 -->
                     <div class="content-heading">
-                        Users <small class="d-none d-sm-inline">Overview</small>
+                        Users
                     </div>
                     <div class="row invisible" data-toggle="appear">
                         <!-- Row #2 -->
-                        <div class="col-6 col-xl-3">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full clearfix">
-                                    <div class="float-right mt-15 d-none d-sm-block">
-                                        <i class="si si-users fa-2x text-pulse-light"></i>
+                        <div class="col-md-6 col-xl-3">
+                            <a class="block block-link-shadow text-center" href="javascript:void(0)">
+                                <div class="block-content block-content-full block-content-sm">
+                                    <div class="font-w600">Djohan Prabowo</div>
+                                </div>
+                                <div class="block-content block-content-full bg-body-light">
+                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar5.jpg')}}" alt="">
+                                </div>
+                                <div class="block-content">
+                                    <div class="row items-push text-center">
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-success-light mx-auto mb-10">
+                                                <i class="fa fa-money text-success"></i>
+                                            </div>
+                                            <div class="text-muted">Rp. 980.000</div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-info-light mx-auto mb-10">
+                                                <i class="si si-bubbles text-info"></i>
+                                            </div>
+                                            <div class="text-muted">4 Comments</div>
+                                        </div>
                                     </div>
-                                    <div class="font-size-h3 font-w600 text-pulse" data-toggle="countTo" data-speed="1000" data-to="94">0</div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Total Users</div>
                                 </div>
                             </a>
                         </div>
-                        <div class="col-6 col-xl-3">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full clearfix">
-                                    <div class="float-right mt-15 d-none d-sm-block">
-                                        <i class="si si-user-follow fa-2x text-pulse-light"></i>
+                        <div class="col-md-6 col-xl-3">
+                            <a class="block block-link-shadow text-center" href="javascript:void(0)">
+                                <div class="block-content block-content-full block-content-sm">
+                                    <div class="font-w600">Tegar Satrio Utomo</div>
+                                </div>
+                                <div class="block-content block-content-full bg-body-light">
+                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar5.jpg')}}" alt="">
+                                </div>
+                                <div class="block-content">
+                                    <div class="row items-push text-center">
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-success-light mx-auto mb-10">
+                                                <i class="fa fa-money text-success"></i>
+                                            </div>
+                                            <div class="text-muted">Rp 90.000</div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-info-light mx-auto mb-10">
+                                                <i class="si si-bubbles text-info"></i>
+                                            </div>
+                                            <div class="text-muted">29 Comments</div>
+                                        </div>
                                     </div>
-                                    <div class="font-size-h3 font-w600 text-pulse" data-toggle="countTo" data-speed="1000" data-to="15">0</div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">New Users</div>
                                 </div>
                             </a>
                         </div>
-                        <div class="col-6 col-xl-3">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full clearfix">
-                                    <div class="float-right mt-15 d-none d-sm-block">
-                                        <i class="si si-emoticon-smile fa-2x text-earth-light"></i>
+                        <div class="col-md-6 col-xl-3">
+                            <a class="block block-link-shadow text-center" href="javascript:void(0)">
+                                <div class="block-content block-content-full block-content-sm">
+                                    <div class="font-w600">Firman Aqil</div>
+                                </div>
+                                <div class="block-content block-content-full bg-body-light">
+                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar5.jpg')}}" alt="">
+                                </div>
+                                <div class="block-content">
+                                    <div class="row items-push text-center">
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-success-light mx-auto mb-10">
+                                                <i class="fa fa-money text-success"></i>
+                                            </div>
+                                            <div class="text-muted">Rp. 209.000</div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-info-light mx-auto mb-10">
+                                                <i class="si si-bubbles text-info"></i>
+                                            </div>
+                                            <div class="text-muted">9 Comments</div>
+                                        </div>
                                     </div>
-                                    <div class="font-size-h3 font-w600 text-earth" data-toggle="countTo" data-speed="1000" data-to="65">0</div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Total Donators</div>
                                 </div>
                             </a>
                         </div>
-                        <div class="col-6 col-xl-3">
-                            <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                                <div class="block-content block-content-full clearfix">
-                                    <div class="float-right mt-15 d-none d-sm-block">
-                                        <i class="fa fa-money fa-2x text-earth-light"></i>
+                        <div class="col-md-6 col-xl-3">
+                            <a class="block block-link-shadow text-center" href="javascript:void(0)">
+                                <div class="block-content block-content-full block-content-sm">
+                                    <div class="font-w600">Illham Hanafi</div>
+                                </div>
+                                <div class="block-content block-content-full bg-body-light">
+                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar5.jpg')}}" alt="">
+                                </div>
+                                <div class="block-content">
+                                    <div class="row items-push text-center">
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-success-light mx-auto mb-10">
+                                                <i class="fa fa-money text-success"></i>
+                                            </div>
+                                            <div class="text-muted">Rp. 260.000</div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-info-light mx-auto mb-10">
+                                                <i class="si si-bubbles text-info"></i>
+                                            </div>
+                                            <div class="text-muted">8 Comments</div>
+                                        </div>
                                     </div>
-                                    <div class="font-size-h3 font-w600 text-earth">Rp. <span data-toggle="countTo" data-speed="1000" data-to="8504000">0</span></div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Total Donations</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xl-3">
+                            <a class="block block-link-shadow text-center" href="javascript:void(0)">
+                                <div class="block-content block-content-full block-content-sm">
+                                    <div class="font-w600">Fuad Dary Rosyadi</div>
+                                </div>
+                                <div class="block-content block-content-full bg-body-light">
+                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar5.jpg')}}" alt="">
+                                </div>
+                                <div class="block-content">
+                                    <div class="row items-push text-center">
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-success-light mx-auto mb-10">
+                                                <i class="fa fa-money text-success"></i>
+                                            </div>
+                                            <div class="text-muted">Rp. 644.000</div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-info-light mx-auto mb-10">
+                                                <i class="si si-bubbles text-info"></i>
+                                            </div>
+                                            <div class="text-muted">14 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xl-3">
+                            <a class="block block-link-shadow text-center" href="javascript:void(0)">
+                                <div class="block-content block-content-full block-content-sm">
+                                    <div class="font-w600">Satria Ariyawan</div>
+                                </div>
+                                <div class="block-content block-content-full bg-body-light">
+                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar5.jpg')}}" alt="">
+                                </div>
+                                <div class="block-content">
+                                    <div class="row items-push text-center">
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-success-light mx-auto mb-10">
+                                                <i class="fa fa-money text-success"></i>
+                                            </div>
+                                            <div class="text-muted">Rp. 80.000</div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-info-light mx-auto mb-10">
+                                                <i class="si si-bubbles text-info"></i>
+                                            </div>
+                                            <div class="text-muted">17 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xl-3">
+                            <a class="block block-link-shadow text-center" href="javascript:void(0)">
+                                <div class="block-content block-content-full block-content-sm">
+                                    <div class="font-w600">Ichsan Sandi</div>
+                                </div>
+                                <div class="block-content block-content-full bg-body-light">
+                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar5.jpg')}}" alt="">
+                                </div>
+                                <div class="block-content">
+                                    <div class="row items-push text-center">
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-success-light mx-auto mb-10">
+                                                <i class="fa fa-money text-success"></i>
+                                            </div>
+                                            <div class="text-muted">Rp. 102.000</div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-info-light mx-auto mb-10">
+                                                <i class="si si-bubbles text-info"></i>
+                                            </div>
+                                            <div class="text-muted">3 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xl-3">
+                            <a class="block block-link-shadow text-center" href="javascript:void(0)">
+                                <div class="block-content block-content-full block-content-sm">
+                                    <div class="font-w600">Azka Yasin</div>
+                                </div>
+                                <div class="block-content block-content-full bg-body-light">
+                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar5.jpg')}}" alt="">
+                                </div>
+                                <div class="block-content">
+                                    <div class="row items-push text-center">
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-success-light mx-auto mb-10">
+                                                <i class="fa fa-money text-success"></i>
+                                            </div>
+                                            <div class="text-muted">Rp. 276.000</div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-info-light mx-auto mb-10">
+                                                <i class="si si-bubbles text-info"></i>
+                                            </div>
+                                            <div class="text-muted">2 Comments</div>
+                                        </div>
+                                    </div>
                                 </div>
                             </a>
                         </div>
                         <!-- END Row #2 -->
                     </div>
                     <div class="row invisible" data-toggle="appear">
-                        <!-- Row #3 -->
-                        <div class="col-md-12">
-                            <div class="block block-rounded block-bordered">
-                                <div class="block-header block-header-default border-b">
-                                    <h3 class="block-title">
-                                        Donations <small>This week</small>
-                                    </h3>
-                                    <div class="block-options">
-                                        <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
-                                            <i class="si si-refresh"></i>
-                                        </button>
-                                        <button type="button" class="btn-block-option">
-                                            <i class="si si-wrench"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="block-content block-content-full">
-                                    <div class="pull-all pt-50">
-                                        <!-- Lines Chart Container -->
-                                        <canvas class="js-chartjs-dashboard-lines"></canvas>
-                                    </div>
-                                </div>
-                                <div class="block-content">
-                                    <div class="row items-push text-center">
-                                        <div class="col-6 col-sm-4">
-                                            <div class="font-w600 text-success">
-                                                <i class="fa fa-caret-up"></i> +16%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">Rp. 1.440.000</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Month</div>
-                                        </div>
-                                        <div class="col-6 col-sm-4">
-                                            <div class="font-w600 text-danger">
-                                                <i class="fa fa-caret-down"></i> -3%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">Rp. 320.000</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Week</div>
-                                        </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="font-w600 text-success">
-                                                <i class="fa fa-caret-up"></i> +9%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">Rp. 48.600</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">Average</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="col-md-6">
-                            <div class="block block-rounded block-bordered">
-                                <div class="block-header block-header-default border-b">
-                                    <h3 class="block-title">
-                                        Earnings <small>This week</small>
-                                    </h3>
-                                    <div class="block-options">
-                                        <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
-                                            <i class="si si-refresh"></i>
-                                        </button>
-                                        <button type="button" class="btn-block-option">
-                                            <i class="si si-wrench"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="block-content block-content-full">
-                                    <div class="pull-all pt-50"> -->
-                                        <!-- Lines Chart Container -->
-                                        <!-- <canvas class="js-chartjs-dashboard-lines2"></canvas>
-                                    </div>
-                                </div>
-                                <div class="block-content bg-white">
-                                    <div class="row items-push text-center">
-                                        <div class="col-6 col-sm-4">
-                                            <div class="font-w600 text-success">
-                                                <i class="fa fa-caret-up"></i> +4%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">$ 6,540</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Month</div>
-                                        </div>
-                                        <div class="col-6 col-sm-4">
-                                            <div class="font-w600 text-danger">
-                                                <i class="fa fa-caret-down"></i> -7%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">$ 1,525</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Week</div>
-                                        </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="font-w600 text-success">
-                                                <i class="fa fa-caret-up"></i> +35%
-                                            </div>
-                                            <div class="font-size-h4 font-w600">$ 9,352</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">Balance</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- END Row #3 -->
+                        
                     </div>
                     
                 </div>
