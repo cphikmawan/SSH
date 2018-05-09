@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
-        <title>SSH | Dashboard</title>
+        <title>SSH | Dasbor</title>
 
         <meta name="description" content="Codebase - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest">
         <meta name="author" content="pixelcave">
@@ -111,7 +111,7 @@
                             <div class="block-content block-content-full block-content-sm bg-body-light">
                                 <form action="be_pages_generic_search.html" method="post">
                                     <div class="input-group">
-                                        <input type="text" class="form-control" id="side-overlay-search" name="side-overlay-search" placeholder="Search..">
+                                        <input type="text" class="form-control" id="side-overlay-search" name="side-overlay-search" placeholder="Pencarian..">
                                         <div class="input-group-append">
                                             <button type="submit" class="btn btn-secondary px-10">
                                                 <i class="fa fa-search"></i>
@@ -128,15 +128,15 @@
                             <div class="block-content block-content-full block-content-sm bg-body-light">
                                 <div class="row">
                                     <div class="col-4">
-                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Posts</div>
+                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Posting</div>
                                         <div class="font-size-h4">0</div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Comments</div>
+                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Komentar</div>
                                         <div class="font-size-h4">28</div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Donations</div>
+                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Donasi</div>
                                         <div class="font-size-h4">Rp. 860.000</div>
                                     </div>
                                 </div>
@@ -144,10 +144,10 @@
                         </div>
                         <!-- END Mini Stats -->
 
-                        <!-- Friends -->
+                        <!-- Teman -->
                         <div class="block pull-r-l">
                             <div class="block-header bg-body-light">
-                                <h3 class="block-title"><i class="fa fa-fw fa-users font-size-default mr-5"></i>Friends</h3>
+                                <h3 class="block-title"><i class="fa fa-fw fa-users font-size-default mr-5"></i>Teman</h3>
                                 <div class="block-options">
                                     <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
                                         <i class="si si-refresh"></i>
@@ -188,13 +188,13 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- END Friends -->
+                        <!-- END Teman -->
 
-                        <!-- Profile -->
+                        <!-- Profil -->
                         <div class="block pull-r-l">
                             <div class="block-header bg-body-light">
                                 <h3 class="block-title">
-                                    <i class="fa fa-fw fa-pencil font-size-default mr-5"></i>Profile
+                                    <i class="fa fa-fw fa-pencil font-size-default mr-5"></i>Profil
                                 </h3>
                                 <div class="block-options">
                                     <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"></button>
@@ -203,7 +203,7 @@
                             <div class="block-content">
                                 <form action="be_pages_dashboard.html" method="post" onsubmit="return false;">
                                     <div class="form-group mb-15">
-                                        <label for="side-overlay-profile-name">Name</label>
+                                        <label for="side-overlay-profile-name">Nama</label>
                                         <div class="input-group">
                                             <input type="text" class="form-control" id="side-overlay-profile-name" name="side-overlay-profile-name" placeholder="Your name.." value="Administrator">
                                             <div class="input-group-append">
@@ -225,9 +225,9 @@
                                         </div>
                                     </div>
                                     <div class="form-group mb-15">
-                                        <label for="side-overlay-profile-password">New Password</label>
+                                        <label for="side-overlay-profile-password">Password Baru</label>
                                         <div class="input-group">
-                                            <input type="password" class="form-control" id="side-overlay-profile-password" name="side-overlay-profile-password" placeholder="New Password..">
+                                            <input type="password" class="form-control" id="side-overlay-profile-password" name="side-overlay-profile-password" placeholder="Password Baru..">
                                             <div class="input-group-append">
                                                 <span class="input-group-text">
                                                     <i class="fa fa-asterisk"></i>
@@ -236,9 +236,9 @@
                                         </div>
                                     </div>
                                     <div class="form-group mb-15">
-                                        <label for="side-overlay-profile-password-confirm">Confirm New Password</label>
+                                        <label for="side-overlay-profile-password-confirm">Konfirmasi Password Baru</label>
                                         <div class="input-group">
-                                            <input type="password" class="form-control" id="side-overlay-profile-password-confirm" name="side-overlay-profile-password-confirm" placeholder="Confirm New Password..">
+                                            <input type="password" class="form-control" id="side-overlay-profile-password-confirm" name="side-overlay-profile-password-confirm" placeholder="Konfirmasi Password Baru..">
                                             <div class="input-group-append">
                                                 <span class="input-group-text">
                                                     <i class="fa fa-asterisk"></i>
@@ -249,20 +249,20 @@
                                     <div class="form-group row">
                                         <div class="col-6">
                                             <button type="submit" class="btn btn-block btn-alt-primary">
-                                                <i class="fa fa-refresh mr-5"></i> Update
+                                                <i class="fa fa-refresh mr-5"></i> Perbarui
                                             </button>
                                         </div>
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        <!-- END Profile -->
+                        <!-- END Profil -->
 
-                        <!-- Settings -->
+                        <!-- Pengaturan -->
                         <div class="block pull-r-l">
                             <div class="block-header bg-body-light">
                                 <h3 class="block-title">
-                                    <i class="fa fa-fw fa-wrench font-size-default mr-5"></i>Settings
+                                    <i class="fa fa-fw fa-wrench font-size-default mr-5"></i>Pengaturan
                                 </h3>
                                 <div class="block-options">
                                     <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"></button>
@@ -273,21 +273,21 @@
                                     <div class="col-6">
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-status" name="side-overlay-settings-status" value="1" checked>
-                                            <label class="custom-control-label" for="side-overlay-settings-status">Online Status</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-status">Status Online</label>
                                         </div>
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-public-profile" name="side-overlay-settings-public-profile" value="1">
-                                            <label class="custom-control-label" for="side-overlay-settings-public-profile">Public Profile</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-public-profile">Profil Publik</label>
                                         </div>
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-notifications" name="side-overlay-settings-notifications" value="1" checked>
-                                            <label class="custom-control-label" for="side-overlay-settings-notifications">Notifications</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-notifications">Pemberitahuan</label>
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-updates" name="side-overlay-settings-updates" value="1">
-                                            <label class="custom-control-label" for="side-overlay-settings-updates">Auto updates</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-updates">Perbarui Otomatis</label>
                                         </div>
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-api-access" name="side-overlay-settings-api-access" value="1" checked>
@@ -301,7 +301,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- END Settings -->
+                        <!-- END Pengaturan -->
                     </div>
                     <!-- END Side Content -->
                 </div>
@@ -398,22 +398,22 @@
                         <div class="content-side content-side-full">
                             <ul class="nav-main">
                                 <li>
-                                    <a href="{{ url('/dashboard') }}"><i class="fa fa-coffee"></i><span class="sidebar-mini-hide">Dashboard</span></a>
+                                    <a href="{{ url('/dashboard') }}"><i class="fa fa-coffee"></i><span class="sidebar-mini-hide">Dasbor</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/post') }}"><i class="fa fa-file-text-o"></i><span class="sidebar-mini-hide">Posts</span></a>
+                                    <a href="{{ url('/post') }}"><i class="fa fa-file-text-o"></i><span class="sidebar-mini-hide">Posting</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/media') }}"><i class="fa fa-photo"></i><span class="sidebar-mini-hide">Medias</span></a>
+                                    <a href="{{ url('/gallery') }}"><i class="fa fa-photo"></i><span class="sidebar-mini-hide">Galeri</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/comment') }}"><i class="si si-bubbles"></i><span class="sidebar-mini-hide">Comments</span></a>
+                                    <a href="{{ url('/comment') }}"><i class="si si-bubbles"></i><span class="sidebar-mini-hide">Komentar</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/user') }}"><i class="si si-users"></i><span class="sidebar-mini-hide">Users</span></a>
+                                    <a href="{{ url('/user') }}"><i class="si si-users"></i><span class="sidebar-mini-hide">Pengguna</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/donation') }}"><i class="fa fa-money"></i><span class="sidebar-mini-hide">Donations</span></a>
+                                    <a href="{{ url('/donation') }}"><i class="fa fa-money"></i><span class="sidebar-mini-hide">Donasi</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -456,27 +456,27 @@
                             </button>
                             <div class="dropdown-menu dropdown-menu-right min-width-150" aria-labelledby="page-header-user-dropdown">
                                 <a class="dropdown-item" href="be_pages_generic_profile.html">
-                                    <i class="si si-user mr-5"></i> Profile
+                                    <i class="si si-user mr-5"></i> Profil
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center justify-content-between" href="be_pages_generic_inbox.html">
                                     <span><i class="si si-envelope-open mr-5"></i> Inbox</span>
                                     <span class="badge badge-primary">3</span>
                                 </a>
                                 <a class="dropdown-item" href="be_pages_generic_invoice.html">
-                                    <i class="si si-note mr-5"></i> Invoices
+                                    <i class="si si-note mr-5"></i> Tagihan
                                 </a>
                                 <div class="dropdown-divider"></div>
 
                                 <!-- Toggle Side Overlay -->
                                 <!-- Layout API, functionality initialized in Codebase() -> uiApiLayout() -->
                                 <a class="dropdown-item" href="javascript:void(0)" data-toggle="layout" data-action="side_overlay_toggle">
-                                    <i class="si si-wrench mr-5"></i> Settings
+                                    <i class="si si-wrench mr-5"></i> Pengaturan
                                 </a>
                                 <!-- END Side Overlay -->
 
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="op_auth_signin.html">
-                                    <i class="si si-logout mr-5"></i> Sign Out
+                                    <i class="si si-logout mr-5"></i> Keluar
                                 </a>
                             </div>
                         </div>
@@ -506,7 +506,7 @@
                                     </button>
                                     <!-- END Close Search Section -->
                                 </div>
-                                <input type="text" class="form-control" placeholder="Search or hit ESC.." id="page-header-search-input" name="page-header-search-input">
+                                <input type="text" class="form-control" placeholder="Cari atau tekan ESC.." id="page-header-search-input" name="page-header-search-input">
                                 <div class="input-group-append">
                                     <button type="submit" class="btn btn-secondary">
                                         <i class="fa fa-search"></i>
@@ -535,35 +535,35 @@
             <main id="main-container">
                 <!-- Page Content -->
                 <div class="content">
-                    <!-- Donations Overview -->
+                    <!-- Donasi Ikhtisar -->
                     <div class="content-heading">
                         <div class="dropdown float-right">
                             <button type="button" class="btn btn-sm btn-secondary dropdown-toggle" id="ecom-orders-overview-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                This Month
+                                Bulan Ini
                             </button>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="ecom-orders-overview-drop">
                                 <a class="dropdown-item active" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-calendar mr-5"></i>This Week
+                                    <i class="fa fa-fw fa-calendar mr-5"></i>Minggu Ini
                                 </a>
                                 <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-calendar mr-5"></i>This Month
+                                    <i class="fa fa-fw fa-calendar mr-5"></i>Bulan Ini
                                 </a>
                                 <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-calendar mr-5"></i>This Year
+                                    <i class="fa fa-fw fa-calendar mr-5"></i>Tahun ini
                                 </a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-circle-o mr-5"></i>All Time
+                                    <i class="fa fa-fw fa-circle-o mr-5"></i>Semua Waktu
                                 </a>
                             </div>
                         </div>
-                        Posts <small class="d-none d-sm-inline">Overview</small>
+                        Posting <small class="d-none d-sm-inline">Ikhtisar</small>
                     </div>
 
                     <!-- Content Heading #1 -->
                     <!-- <div class="content-heading">
-                        Posts
-                        <small class="d-none d-sm-inline">This Month</small> 
+                        Posting
+                        <small class="d-none d-sm-inline">Bulan Ini</small> 
                     </div> -->
                     <div class="row invisible" data-toggle="appear">
                         <!-- Row #1 -->
@@ -575,13 +575,13 @@
                                         <div class="col-6 border-r">
                                             <div class="js-appear-enabled animated fadeInLeft" data-toggle="appear" data-class="animated fadeInLeft">
                                                 <div class="font-size-h3 font-w600 text-primary" data-toggle="countTo" data-speed="1000" data-to="2">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Total Posts</div>
+                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Total Posting</div>
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="js-appear-enabled animated fadeInRight" data-toggle="appear" data-class="animated fadeInRight">
                                                 <div class="font-size-h3 font-w600 text-primary" data-toggle="countTo" data-speed="1000" data-to="1">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">New Posts</div>
+                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Posting Baru</div>
                                             </div>
                                         </div>
                                     </div>
@@ -596,13 +596,13 @@
                                         <div class="col-6 border-r">
                                             <div class="js-appear-enabled animated fadeInLeft" data-toggle="appear" data-class="animated fadeInLeft">
                                                 <div class="font-size-h3 font-w600 text-elegance" data-toggle="countTo" data-speed="1000" data-to="8">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Total Pages</div>
+                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Total Halaman</div>
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="js-appear-enabled animated fadeInRight" data-toggle="appear" data-class="animated fadeInRight">
                                                 <div class="font-size-h3 font-w600 text-elegance" data-toggle="countTo" data-speed="1000" data-to="1">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">New Pages</div>
+                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Halaman Baru</div>
                                             </div>
                                         </div>
                                     </div>
@@ -617,13 +617,13 @@
                                         <div class="col-6 border-r">
                                             <div class="js-appear-enabled animated fadeInLeft" data-toggle="appear" data-class="animated fadeInLeft">
                                                 <div class="font-size-h3 font-w600 text-corporate" data-toggle="countTo" data-speed="1000" data-to="150">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Total Comments</div>
+                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Total Komentar</div>
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="js-appear-enabled animated fadeInRight" data-toggle="appear" data-class="animated fadeInRight">
                                                 <div class="font-size-h3 font-w600 text-corporate" data-toggle="countTo" data-speed="1000" data-to="20">0</div>
-                                                <div class="font-size-sm font-w600 text-uppercase text-muted">New Comments</div>
+                                                <div class="font-size-sm font-w600 text-uppercase text-muted">Komentar Baru</div>
                                             </div>
                                         </div>
                                     </div>
@@ -634,7 +634,7 @@
                     </div>
                     <!-- Content Heading #2 -->
                     <div class="content-heading">
-                        Users <small class="d-none d-sm-inline">Overview</small>
+                        Pengguna <small class="d-none d-sm-inline">Ikhtisar</small>
                     </div>
                     <div class="row invisible" data-toggle="appear">
                         <!-- Row #2 -->
@@ -645,7 +645,7 @@
                                         <i class="si si-users fa-2x text-pulse-light"></i>
                                     </div>
                                     <div class="font-size-h3 font-w600 text-pulse" data-toggle="countTo" data-speed="1000" data-to="94">0</div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Total Users</div>
+                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Total Pengguna</div>
                                 </div>
                             </a>
                         </div>
@@ -656,7 +656,7 @@
                                         <i class="si si-user-follow fa-2x text-pulse-light"></i>
                                     </div>
                                     <div class="font-size-h3 font-w600 text-pulse" data-toggle="countTo" data-speed="1000" data-to="15">0</div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">New Users</div>
+                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Pengguna Baru</div>
                                 </div>
                             </a>
                         </div>
@@ -667,7 +667,7 @@
                                         <i class="si si-emoticon-smile fa-2x text-earth-light"></i>
                                     </div>
                                     <div class="font-size-h3 font-w600 text-earth" data-toggle="countTo" data-speed="1000" data-to="65">0</div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Total Donators</div>
+                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Total Donatur</div>
                                 </div>
                             </a>
                         </div>
@@ -678,7 +678,7 @@
                                         <i class="fa fa-money fa-2x text-earth-light"></i>
                                     </div>
                                     <div class="font-size-h3 font-w600 text-earth">Rp. <span data-toggle="countTo" data-speed="1000" data-to="8504000">0</span></div>
-                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Total Donations</div>
+                                    <div class="font-size-sm font-w600 text-uppercase text-muted">Total Donasi</div>
                                 </div>
                             </a>
                         </div>
@@ -690,7 +690,7 @@
                             <div class="block block-rounded block-bordered">
                                 <div class="block-header block-header-default border-b">
                                     <h3 class="block-title">
-                                        Donations <small>This week</small>
+                                        Donasi <small>Minggu Ini</small>
                                     </h3>
                                     <div class="block-options">
                                         <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
@@ -714,21 +714,21 @@
                                                 <i class="fa fa-caret-up"></i> +16%
                                             </div>
                                             <div class="font-size-h4 font-w600">Rp. 1.440.000</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Month</div>
+                                            <div class="font-size-sm font-w600 text-uppercase text-muted">Bulan Ini</div>
                                         </div>
                                         <div class="col-6 col-sm-4">
                                             <div class="font-w600 text-danger">
                                                 <i class="fa fa-caret-down"></i> -3%
                                             </div>
                                             <div class="font-size-h4 font-w600">Rp. 320.000</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Week</div>
+                                            <div class="font-size-sm font-w600 text-uppercase text-muted">Minggu Ini</div>
                                         </div>
                                         <div class="col-12 col-sm-4">
                                             <div class="font-w600 text-success">
                                                 <i class="fa fa-caret-up"></i> +9%
                                             </div>
                                             <div class="font-size-h4 font-w600">Rp. 48.600</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">Average</div>
+                                            <div class="font-size-sm font-w600 text-uppercase text-muted">Rata - rata</div>
                                         </div>
                                     </div>
                                 </div>
@@ -738,7 +738,7 @@
                             <div class="block block-rounded block-bordered">
                                 <div class="block-header block-header-default border-b">
                                     <h3 class="block-title">
-                                        Earnings <small>This week</small>
+                                        Earnings <small>Minggu Ini</small>
                                     </h3>
                                     <div class="block-options">
                                         <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
@@ -762,14 +762,14 @@
                                                 <i class="fa fa-caret-up"></i> +4%
                                             </div>
                                             <div class="font-size-h4 font-w600">$ 6,540</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Month</div>
+                                            <div class="font-size-sm font-w600 text-uppercase text-muted">Bulan Ini</div>
                                         </div>
                                         <div class="col-6 col-sm-4">
                                             <div class="font-w600 text-danger">
                                                 <i class="fa fa-caret-down"></i> -7%
                                             </div>
                                             <div class="font-size-h4 font-w600">$ 1,525</div>
-                                            <div class="font-size-sm font-w600 text-uppercase text-muted">This Week</div>
+                                            <div class="font-size-sm font-w600 text-uppercase text-muted">Minggu Ini</div>
                                         </div>
                                         <div class="col-12 col-sm-4">
                                             <div class="font-w600 text-success">

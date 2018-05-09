@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
-        <title>SSH | Dashboard</title>
+        <title>SSH | Dasbor</title>
 
         <meta name="description" content="Codebase - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest">
         <meta name="author" content="pixelcave">
@@ -111,7 +111,7 @@
                             <div class="block-content block-content-full block-content-sm bg-body-light">
                                 <form action="be_pages_generic_search.html" method="post">
                                     <div class="input-group">
-                                        <input type="text" class="form-control" id="side-overlay-search" name="side-overlay-search" placeholder="Search..">
+                                        <input type="text" class="form-control" id="side-overlay-search" name="side-overlay-search" placeholder="Pencarian..">
                                         <div class="input-group-append">
                                             <button type="submit" class="btn btn-secondary px-10">
                                                 <i class="fa fa-search"></i>
@@ -128,15 +128,15 @@
                             <div class="block-content block-content-full block-content-sm bg-body-light">
                                 <div class="row">
                                     <div class="col-4">
-                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Posts</div>
+                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Posting</div>
                                         <div class="font-size-h4">0</div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Comments</div>
+                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Komentar</div>
                                         <div class="font-size-h4">28</div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Donations</div>
+                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Donasi</div>
                                         <div class="font-size-h4">Rp. 860.000</div>
                                     </div>
                                 </div>
@@ -144,10 +144,10 @@
                         </div>
                         <!-- END Mini Stats -->
 
-                        <!-- Friends -->
+                        <!-- Teman -->
                         <div class="block pull-r-l">
                             <div class="block-header bg-body-light">
-                                <h3 class="block-title"><i class="fa fa-fw fa-users font-size-default mr-5"></i>Friends</h3>
+                                <h3 class="block-title"><i class="fa fa-fw fa-users font-size-default mr-5"></i>Teman</h3>
                                 <div class="block-options">
                                     <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
                                         <i class="si si-refresh"></i>
@@ -188,13 +188,13 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- END Friends -->
+                        <!-- END Teman -->
 
-                        <!-- Profile -->
+                        <!-- Profil -->
                         <div class="block pull-r-l">
                             <div class="block-header bg-body-light">
                                 <h3 class="block-title">
-                                    <i class="fa fa-fw fa-pencil font-size-default mr-5"></i>Profile
+                                    <i class="fa fa-fw fa-pencil font-size-default mr-5"></i>Profil
                                 </h3>
                                 <div class="block-options">
                                     <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"></button>
@@ -203,7 +203,7 @@
                             <div class="block-content">
                                 <form action="be_pages_dashboard.html" method="post" onsubmit="return false;">
                                     <div class="form-group mb-15">
-                                        <label for="side-overlay-profile-name">Name</label>
+                                        <label for="side-overlay-profile-name">Nama</label>
                                         <div class="input-group">
                                             <input type="text" class="form-control" id="side-overlay-profile-name" name="side-overlay-profile-name" placeholder="Your name.." value="Administrator">
                                             <div class="input-group-append">
@@ -225,9 +225,9 @@
                                         </div>
                                     </div>
                                     <div class="form-group mb-15">
-                                        <label for="side-overlay-profile-password">New Password</label>
+                                        <label for="side-overlay-profile-password">Password Baru</label>
                                         <div class="input-group">
-                                            <input type="password" class="form-control" id="side-overlay-profile-password" name="side-overlay-profile-password" placeholder="New Password..">
+                                            <input type="password" class="form-control" id="side-overlay-profile-password" name="side-overlay-profile-password" placeholder="Password Baru..">
                                             <div class="input-group-append">
                                                 <span class="input-group-text">
                                                     <i class="fa fa-asterisk"></i>
@@ -236,9 +236,9 @@
                                         </div>
                                     </div>
                                     <div class="form-group mb-15">
-                                        <label for="side-overlay-profile-password-confirm">Confirm New Password</label>
+                                        <label for="side-overlay-profile-password-confirm">Konfirmasi Password Baru</label>
                                         <div class="input-group">
-                                            <input type="password" class="form-control" id="side-overlay-profile-password-confirm" name="side-overlay-profile-password-confirm" placeholder="Confirm New Password..">
+                                            <input type="password" class="form-control" id="side-overlay-profile-password-confirm" name="side-overlay-profile-password-confirm" placeholder="Konfirmasi Password Baru..">
                                             <div class="input-group-append">
                                                 <span class="input-group-text">
                                                     <i class="fa fa-asterisk"></i>
@@ -249,20 +249,20 @@
                                     <div class="form-group row">
                                         <div class="col-6">
                                             <button type="submit" class="btn btn-block btn-alt-primary">
-                                                <i class="fa fa-refresh mr-5"></i> Update
+                                                <i class="fa fa-refresh mr-5"></i> Perbarui
                                             </button>
                                         </div>
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        <!-- END Profile -->
+                        <!-- END Profil -->
 
-                        <!-- Settings -->
+                        <!-- Pengaturan -->
                         <div class="block pull-r-l">
                             <div class="block-header bg-body-light">
                                 <h3 class="block-title">
-                                    <i class="fa fa-fw fa-wrench font-size-default mr-5"></i>Settings
+                                    <i class="fa fa-fw fa-wrench font-size-default mr-5"></i>Pengaturan
                                 </h3>
                                 <div class="block-options">
                                     <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"></button>
@@ -273,21 +273,21 @@
                                     <div class="col-6">
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-status" name="side-overlay-settings-status" value="1" checked>
-                                            <label class="custom-control-label" for="side-overlay-settings-status">Online Status</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-status">Status Online</label>
                                         </div>
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-public-profile" name="side-overlay-settings-public-profile" value="1">
-                                            <label class="custom-control-label" for="side-overlay-settings-public-profile">Public Profile</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-public-profile">Profil Publik</label>
                                         </div>
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-notifications" name="side-overlay-settings-notifications" value="1" checked>
-                                            <label class="custom-control-label" for="side-overlay-settings-notifications">Notifications</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-notifications">Pemberitahuan</label>
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-updates" name="side-overlay-settings-updates" value="1">
-                                            <label class="custom-control-label" for="side-overlay-settings-updates">Auto updates</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-updates">Perbarui Otomatis</label>
                                         </div>
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-api-access" name="side-overlay-settings-api-access" value="1" checked>
@@ -301,7 +301,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- END Settings -->
+                        <!-- END Pengaturan -->
                     </div>
                     <!-- END Side Content -->
                 </div>
@@ -398,22 +398,22 @@
                         <div class="content-side content-side-full">
                             <ul class="nav-main">
                                 <li>
-                                    <a href="{{ url('/dashboard') }}"><i class="fa fa-coffee"></i><span class="sidebar-mini-hide">Dashboard</span></a>
+                                    <a href="{{ url('/dashboard') }}"><i class="fa fa-coffee"></i><span class="sidebar-mini-hide">Dasbor</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/post') }}"><i class="fa fa-file-text-o"></i><span class="sidebar-mini-hide">Posts</span></a>
+                                    <a href="{{ url('/post') }}"><i class="fa fa-file-text-o"></i><span class="sidebar-mini-hide">Posting</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/media') }}"><i class="fa fa-photo"></i><span class="sidebar-mini-hide">Medias</span></a>
+                                    <a href="{{ url('/gallery') }}"><i class="fa fa-photo"></i><span class="sidebar-mini-hide">Galeri</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/comment') }}"><i class="si si-bubbles"></i><span class="sidebar-mini-hide">Comments</span></a>
+                                    <a href="{{ url('/comment') }}"><i class="si si-bubbles"></i><span class="sidebar-mini-hide">Komentar</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/user') }}"><i class="si si-users"></i><span class="sidebar-mini-hide">Users</span></a>
+                                    <a href="{{ url('/user') }}"><i class="si si-users"></i><span class="sidebar-mini-hide">Pengguna</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/donation') }}"><i class="fa fa-money"></i><span class="sidebar-mini-hide">Donations</span></a>
+                                    <a href="{{ url('/donation') }}"><i class="fa fa-money"></i><span class="sidebar-mini-hide">Donasi</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -456,27 +456,27 @@
                             </button>
                             <div class="dropdown-menu dropdown-menu-right min-width-150" aria-labelledby="page-header-user-dropdown">
                                 <a class="dropdown-item" href="be_pages_generic_profile.html">
-                                    <i class="si si-user mr-5"></i> Profile
+                                    <i class="si si-user mr-5"></i> Profil
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center justify-content-between" href="be_pages_generic_inbox.html">
                                     <span><i class="si si-envelope-open mr-5"></i> Inbox</span>
                                     <span class="badge badge-primary">3</span>
                                 </a>
                                 <a class="dropdown-item" href="be_pages_generic_invoice.html">
-                                    <i class="si si-note mr-5"></i> Invoices
+                                    <i class="si si-note mr-5"></i> Tagihan
                                 </a>
                                 <div class="dropdown-divider"></div>
 
                                 <!-- Toggle Side Overlay -->
                                 <!-- Layout API, functionality initialized in Codebase() -> uiApiLayout() -->
                                 <a class="dropdown-item" href="javascript:void(0)" data-toggle="layout" data-action="side_overlay_toggle">
-                                    <i class="si si-wrench mr-5"></i> Settings
+                                    <i class="si si-wrench mr-5"></i> Pengaturan
                                 </a>
                                 <!-- END Side Overlay -->
 
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="op_auth_signin.html">
-                                    <i class="si si-logout mr-5"></i> Sign Out
+                                    <i class="si si-logout mr-5"></i> Keluar
                                 </a>
                             </div>
                         </div>
@@ -506,7 +506,7 @@
                                     </button>
                                     <!-- END Close Search Section -->
                                 </div>
-                                <input type="text" class="form-control" placeholder="Search or hit ESC.." id="page-header-search-input" name="page-header-search-input">
+                                <input type="text" class="form-control" placeholder="Cari atau tekan ESC.." id="page-header-search-input" name="page-header-search-input">
                                 <div class="input-group-append">
                                     <button type="submit" class="btn btn-secondary">
                                         <i class="fa fa-search"></i>
@@ -537,7 +537,7 @@
                 <div class="content">
                     <!-- Content Heading #1 -->
                     <div class="content-heading">
-                        Users
+                        Users <small class="d-none d-sm-inline">Ikhtisar</small>
                     </div>
                     <div class="row invisible" data-toggle="appear">
                         <!-- Row #2 -->
@@ -561,7 +561,7 @@
                                             <div class="item item-circle bg-info-light mx-auto mb-10">
                                                 <i class="si si-bubbles text-info"></i>
                                             </div>
-                                            <div class="text-muted">4 Comments</div>
+                                            <div class="text-muted">4 Komentar</div>
                                         </div>
                                     </div>
                                 </div>
@@ -587,7 +587,7 @@
                                             <div class="item item-circle bg-info-light mx-auto mb-10">
                                                 <i class="si si-bubbles text-info"></i>
                                             </div>
-                                            <div class="text-muted">29 Comments</div>
+                                            <div class="text-muted">29 Komentar</div>
                                         </div>
                                     </div>
                                 </div>
@@ -613,7 +613,7 @@
                                             <div class="item item-circle bg-info-light mx-auto mb-10">
                                                 <i class="si si-bubbles text-info"></i>
                                             </div>
-                                            <div class="text-muted">9 Comments</div>
+                                            <div class="text-muted">9 Komentar</div>
                                         </div>
                                     </div>
                                 </div>
@@ -639,7 +639,7 @@
                                             <div class="item item-circle bg-info-light mx-auto mb-10">
                                                 <i class="si si-bubbles text-info"></i>
                                             </div>
-                                            <div class="text-muted">8 Comments</div>
+                                            <div class="text-muted">8 Komentar</div>
                                         </div>
                                     </div>
                                 </div>
@@ -665,7 +665,7 @@
                                             <div class="item item-circle bg-info-light mx-auto mb-10">
                                                 <i class="si si-bubbles text-info"></i>
                                             </div>
-                                            <div class="text-muted">14 Comments</div>
+                                            <div class="text-muted">14 Komentar</div>
                                         </div>
                                     </div>
                                 </div>
@@ -691,7 +691,7 @@
                                             <div class="item item-circle bg-info-light mx-auto mb-10">
                                                 <i class="si si-bubbles text-info"></i>
                                             </div>
-                                            <div class="text-muted">17 Comments</div>
+                                            <div class="text-muted">17 Komentar</div>
                                         </div>
                                     </div>
                                 </div>
@@ -717,7 +717,7 @@
                                             <div class="item item-circle bg-info-light mx-auto mb-10">
                                                 <i class="si si-bubbles text-info"></i>
                                             </div>
-                                            <div class="text-muted">3 Comments</div>
+                                            <div class="text-muted">3 Komentar</div>
                                         </div>
                                     </div>
                                 </div>
@@ -743,7 +743,111 @@
                                             <div class="item item-circle bg-info-light mx-auto mb-10">
                                                 <i class="si si-bubbles text-info"></i>
                                             </div>
-                                            <div class="text-muted">2 Comments</div>
+                                            <div class="text-muted">2 Komentar</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xl-3">
+                            <a class="block block-link-shadow text-center" href="javascript:void(0)">
+                                <div class="block-content block-content-full block-content-sm">
+                                    <div class="font-w600">Faris Didin A.</div>
+                                </div>
+                                <div class="block-content block-content-full bg-body-light">
+                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar5.jpg')}}" alt="">
+                                </div>
+                                <div class="block-content">
+                                    <div class="row items-push text-center">
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-success-light mx-auto mb-10">
+                                                <i class="fa fa-money text-success"></i>
+                                            </div>
+                                            <div class="text-muted">Rp. 134.000</div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-info-light mx-auto mb-10">
+                                                <i class="si si-bubbles text-info"></i>
+                                            </div>
+                                            <div class="text-muted">0 Komentar</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xl-3">
+                            <a class="block block-link-shadow text-center" href="javascript:void(0)">
+                                <div class="block-content block-content-full block-content-sm">
+                                    <div class="font-w600">Rohana Qudus</div>
+                                </div>
+                                <div class="block-content block-content-full bg-body-light">
+                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar5.jpg')}}" alt="">
+                                </div>
+                                <div class="block-content">
+                                    <div class="row items-push text-center">
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-success-light mx-auto mb-10">
+                                                <i class="fa fa-money text-success"></i>
+                                            </div>
+                                            <div class="text-muted">Rp 512.000</div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-info-light mx-auto mb-10">
+                                                <i class="si si-bubbles text-info"></i>
+                                            </div>
+                                            <div class="text-muted">4 Komentar</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xl-3">
+                            <a class="block block-link-shadow text-center" href="javascript:void(0)">
+                                <div class="block-content block-content-full block-content-sm">
+                                    <div class="font-w600">Aguel Satria</div>
+                                </div>
+                                <div class="block-content block-content-full bg-body-light">
+                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar5.jpg')}}" alt="">
+                                </div>
+                                <div class="block-content">
+                                    <div class="row items-push text-center">
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-success-light mx-auto mb-10">
+                                                <i class="fa fa-money text-success"></i>
+                                            </div>
+                                            <div class="text-muted">Rp. 26.000</div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-info-light mx-auto mb-10">
+                                                <i class="si si-bubbles text-info"></i>
+                                            </div>
+                                            <div class="text-muted">3 Komentar</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xl-3">
+                            <a class="block block-link-shadow text-center" href="javascript:void(0)">
+                                <div class="block-content block-content-full block-content-sm">
+                                    <div class="font-w600">Khawari Muhammad Dzakwan</div>
+                                </div>
+                                <div class="block-content block-content-full bg-body-light">
+                                    <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar5.jpg')}}" alt="">
+                                </div>
+                                <div class="block-content">
+                                    <div class="row items-push text-center">
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-success-light mx-auto mb-10">
+                                                <i class="fa fa-money text-success"></i>
+                                            </div>
+                                            <div class="text-muted">Rp. 0</div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="item item-circle bg-info-light mx-auto mb-10">
+                                                <i class="si si-bubbles text-info"></i>
+                                            </div>
+                                            <div class="text-muted">0 Komentar</div>
                                         </div>
                                     </div>
                                 </div>

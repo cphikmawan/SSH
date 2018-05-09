@@ -5,22 +5,22 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
-        <title>SSH | Dashboard</title>
+        <title>SSH | Dasbor</title>
 
-        <meta name="description" content="Codebase - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest">
+        <meta name="description" content="Codebase - Bootstrap 4 Admin Template &amp; UI Framework created oleh pixelcave and published on Themeforest">
         <meta name="author" content="pixelcave">
         <meta name="robots" content="noindex, nofollow">
 
         <!-- Open Graph Meta -->
         <meta property="og:title" content="Codebase - Bootstrap 4 Admin Template &amp; UI Framework">
         <meta property="og:site_name" content="Codebase">
-        <meta property="og:description" content="Codebase - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest">
+        <meta property="og:description" content="Codebase - Bootstrap 4 Admin Template &amp; UI Framework created oleh pixelcave and published on Themeforest">
         <meta property="og:type" content="website">
         <meta property="og:url" content="">
         <meta property="og:image" content="">
 
         <!-- Icons -->
-        <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+        <!-- The following icons can be replaced with your own, they are used oleh desktop and mobile browsers -->
         <link rel="shortcut icon" href="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/favicons/favicon.png')}}">
         <link rel="icon" type="image/png" sizes="192x192" href="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/favicons/favicon-192x192.png')}}">
         <link rel="apple-touch-icon" sizes="180x180" href="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/favicons/apple-touch-icon-180x180.png')}}">
@@ -47,12 +47,12 @@
 
             'sidebar-r'                                 Right Sidebar and left Side Overlay (default is left Sidebar and right Side Overlay)
             'sidebar-mini'                              Mini hoverable Sidebar (screen width > 991px)
-            'sidebar-o'                                 Visible Sidebar by default (screen width > 991px)
-            'sidebar-o-xs'                              Visible Sidebar by default (screen width < 992px)
+            'sidebar-o'                                 Visible Sidebar oleh default (screen width > 991px)
+            'sidebar-o-xs'                              Visible Sidebar oleh default (screen width < 992px)
             'sidebar-inverse'                           Dark themed sidebar
 
             'side-overlay-hover'                        Hoverable Side Overlay (screen width > 991px)
-            'side-overlay-o'                            Visible Side Overlay by default
+            'side-overlay-o'                            Visible Side Overlay oleh default
 
             'side-scroll'                               Enables custom scrolling on Sidebar and Side Overlay instead of native scrolling (screen width > 991px)
 
@@ -66,9 +66,9 @@
             ''                                          Classic Header style if no class is added
             'page-header-modern'                        Modern Header style
             'page-header-inverse'                       Dark themed Header (works only with classic Header style)
-            'page-header-glass'                         Light themed Header with transparency by default
+            'page-header-glass'                         Light themed Header with transparency oleh default
                                                         (absolute position, perfect for light images underneath - solid light background on scroll if the Header is also set as fixed)
-            'page-header-glass page-header-inverse'     Dark themed Header with transparency by default
+            'page-header-glass page-header-inverse'     Dark themed Header with transparency oleh default
                                                         (absolute position, perfect for dark images underneath - solid dark background on scroll if the Header is also set as fixed)
 
         MAIN CONTENT LAYOUT
@@ -111,7 +111,7 @@
                             <div class="block-content block-content-full block-content-sm bg-body-light">
                                 <form action="be_pages_generic_search.html" method="post">
                                     <div class="input-group">
-                                        <input type="text" class="form-control" id="side-overlay-search" name="side-overlay-search" placeholder="Search..">
+                                        <input type="text" class="form-control" id="side-overlay-search" name="side-overlay-search" placeholder="Pencarian..">
                                         <div class="input-group-append">
                                             <button type="submit" class="btn btn-secondary px-10">
                                                 <i class="fa fa-search"></i>
@@ -128,15 +128,15 @@
                             <div class="block-content block-content-full block-content-sm bg-body-light">
                                 <div class="row">
                                     <div class="col-4">
-                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Posts</div>
+                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Posting</div>
                                         <div class="font-size-h4">0</div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Comments</div>
+                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Komentar</div>
                                         <div class="font-size-h4">28</div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Donations</div>
+                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Donasi</div>
                                         <div class="font-size-h4">Rp. 860.000</div>
                                     </div>
                                 </div>
@@ -144,10 +144,10 @@
                         </div>
                         <!-- END Mini Stats -->
 
-                        <!-- Friends -->
+                        <!-- Teman -->
                         <div class="block pull-r-l">
                             <div class="block-header bg-body-light">
-                                <h3 class="block-title"><i class="fa fa-fw fa-users font-size-default mr-5"></i>Friends</h3>
+                                <h3 class="block-title"><i class="fa fa-fw fa-users font-size-default mr-5"></i>Teman</h3>
                                 <div class="block-options">
                                     <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
                                         <i class="si si-refresh"></i>
@@ -188,13 +188,13 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- END Friends -->
+                        <!-- END Teman -->
 
-                        <!-- Profile -->
+                        <!-- Profil -->
                         <div class="block pull-r-l">
                             <div class="block-header bg-body-light">
                                 <h3 class="block-title">
-                                    <i class="fa fa-fw fa-pencil font-size-default mr-5"></i>Profile
+                                    <i class="fa fa-fw fa-pencil font-size-default mr-5"></i>Profil
                                 </h3>
                                 <div class="block-options">
                                     <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"></button>
@@ -203,7 +203,7 @@
                             <div class="block-content">
                                 <form action="be_pages_dashboard.html" method="post" onsubmit="return false;">
                                     <div class="form-group mb-15">
-                                        <label for="side-overlay-profile-name">Name</label>
+                                        <label for="side-overlay-profile-name">Nama</label>
                                         <div class="input-group">
                                             <input type="text" class="form-control" id="side-overlay-profile-name" name="side-overlay-profile-name" placeholder="Your name.." value="Administrator">
                                             <div class="input-group-append">
@@ -225,9 +225,9 @@
                                         </div>
                                     </div>
                                     <div class="form-group mb-15">
-                                        <label for="side-overlay-profile-password">New Password</label>
+                                        <label for="side-overlay-profile-password">Password Baru</label>
                                         <div class="input-group">
-                                            <input type="password" class="form-control" id="side-overlay-profile-password" name="side-overlay-profile-password" placeholder="New Password..">
+                                            <input type="password" class="form-control" id="side-overlay-profile-password" name="side-overlay-profile-password" placeholder="Password Baru..">
                                             <div class="input-group-append">
                                                 <span class="input-group-text">
                                                     <i class="fa fa-asterisk"></i>
@@ -236,9 +236,9 @@
                                         </div>
                                     </div>
                                     <div class="form-group mb-15">
-                                        <label for="side-overlay-profile-password-confirm">Confirm New Password</label>
+                                        <label for="side-overlay-profile-password-confirm">Konfirmasi Password Baru</label>
                                         <div class="input-group">
-                                            <input type="password" class="form-control" id="side-overlay-profile-password-confirm" name="side-overlay-profile-password-confirm" placeholder="Confirm New Password..">
+                                            <input type="password" class="form-control" id="side-overlay-profile-password-confirm" name="side-overlay-profile-password-confirm" placeholder="Konfirmasi Password Baru..">
                                             <div class="input-group-append">
                                                 <span class="input-group-text">
                                                     <i class="fa fa-asterisk"></i>
@@ -249,20 +249,20 @@
                                     <div class="form-group row">
                                         <div class="col-6">
                                             <button type="submit" class="btn btn-block btn-alt-primary">
-                                                <i class="fa fa-refresh mr-5"></i> Update
+                                                <i class="fa fa-refresh mr-5"></i> Perbarui
                                             </button>
                                         </div>
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        <!-- END Profile -->
+                        <!-- END Profil -->
 
-                        <!-- Settings -->
+                        <!-- Pengaturan -->
                         <div class="block pull-r-l">
                             <div class="block-header bg-body-light">
                                 <h3 class="block-title">
-                                    <i class="fa fa-fw fa-wrench font-size-default mr-5"></i>Settings
+                                    <i class="fa fa-fw fa-wrench font-size-default mr-5"></i>Pengaturan
                                 </h3>
                                 <div class="block-options">
                                     <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"></button>
@@ -273,21 +273,21 @@
                                     <div class="col-6">
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-status" name="side-overlay-settings-status" value="1" checked>
-                                            <label class="custom-control-label" for="side-overlay-settings-status">Online Status</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-status">Status Online</label>
                                         </div>
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-public-profile" name="side-overlay-settings-public-profile" value="1">
-                                            <label class="custom-control-label" for="side-overlay-settings-public-profile">Public Profile</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-public-profile">Profil Publik</label>
                                         </div>
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-notifications" name="side-overlay-settings-notifications" value="1" checked>
-                                            <label class="custom-control-label" for="side-overlay-settings-notifications">Notifications</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-notifications">Pemberitahuan</label>
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-updates" name="side-overlay-settings-updates" value="1">
-                                            <label class="custom-control-label" for="side-overlay-settings-updates">Auto updates</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-updates">Perbarui Otomatis</label>
                                         </div>
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-api-access" name="side-overlay-settings-api-access" value="1" checked>
@@ -301,7 +301,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- END Settings -->
+                        <!-- END Pengaturan -->
                     </div>
                     <!-- END Side Content -->
                 </div>
@@ -398,22 +398,22 @@
                         <div class="content-side content-side-full">
                             <ul class="nav-main">
                                 <li>
-                                    <a href="{{ url('/dashboard') }}"><i class="fa fa-coffee"></i><span class="sidebar-mini-hide">Dashboard</span></a>
+                                    <a href="{{ url('/dashboard') }}"><i class="fa fa-coffee"></i><span class="sidebar-mini-hide">Dasbor</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/post') }}"><i class="fa fa-file-text-o"></i><span class="sidebar-mini-hide">Posts</span></a>
+                                    <a href="{{ url('/post') }}"><i class="fa fa-file-text-o"></i><span class="sidebar-mini-hide">Posting</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/media') }}"><i class="fa fa-photo"></i><span class="sidebar-mini-hide">Medias</span></a>
+                                    <a href="{{ url('/gallery') }}"><i class="fa fa-photo"></i><span class="sidebar-mini-hide">Galeri</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/comment') }}"><i class="si si-bubbles"></i><span class="sidebar-mini-hide">Comments</span></a>
+                                    <a href="{{ url('/comment') }}"><i class="si si-bubbles"></i><span class="sidebar-mini-hide">Komentar</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/user') }}"><i class="si si-users"></i><span class="sidebar-mini-hide">Users</span></a>
+                                    <a href="{{ url('/user') }}"><i class="si si-users"></i><span class="sidebar-mini-hide">Pengguna</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/donation') }}"><i class="fa fa-money"></i><span class="sidebar-mini-hide">Donations</span></a>
+                                    <a href="{{ url('/donation') }}"><i class="fa fa-money"></i><span class="sidebar-mini-hide">Donasi</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -456,27 +456,27 @@
                             </button>
                             <div class="dropdown-menu dropdown-menu-right min-width-150" aria-labelledby="page-header-user-dropdown">
                                 <a class="dropdown-item" href="be_pages_generic_profile.html">
-                                    <i class="si si-user mr-5"></i> Profile
+                                    <i class="si si-user mr-5"></i> Profil
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center justify-content-between" href="be_pages_generic_inbox.html">
                                     <span><i class="si si-envelope-open mr-5"></i> Inbox</span>
                                     <span class="badge badge-primary">3</span>
                                 </a>
                                 <a class="dropdown-item" href="be_pages_generic_invoice.html">
-                                    <i class="si si-note mr-5"></i> Invoices
+                                    <i class="si si-note mr-5"></i> Tagihan
                                 </a>
                                 <div class="dropdown-divider"></div>
 
                                 <!-- Toggle Side Overlay -->
                                 <!-- Layout API, functionality initialized in Codebase() -> uiApiLayout() -->
                                 <a class="dropdown-item" href="javascript:void(0)" data-toggle="layout" data-action="side_overlay_toggle">
-                                    <i class="si si-wrench mr-5"></i> Settings
+                                    <i class="si si-wrench mr-5"></i> Pengaturan
                                 </a>
                                 <!-- END Side Overlay -->
 
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="op_auth_signin.html">
-                                    <i class="si si-logout mr-5"></i> Sign Out
+                                    <i class="si si-logout mr-5"></i> Keluar
                                 </a>
                             </div>
                         </div>
@@ -506,7 +506,7 @@
                                     </button>
                                     <!-- END Close Search Section -->
                                 </div>
-                                <input type="text" class="form-control" placeholder="Search or hit ESC.." id="page-header-search-input" name="page-header-search-input">
+                                <input type="text" class="form-control" placeholder="Cari atau tekan ESC.." id="page-header-search-input" name="page-header-search-input">
                                 <div class="input-group-append">
                                     <button type="submit" class="btn btn-secondary">
                                         <i class="fa fa-search"></i>
@@ -536,15 +536,15 @@
                 <!-- Page Content -->
                 <div class="content">
                     <nav class="breadcrumb bg-white push">
-                        <a class="breadcrumb-item" href="{{ url('/dashboard') }}">Dashboard</a>
-                        <span class="breadcrumb-item active">Posts</span>
+                        <a class="breadcrumb-item" href="{{ url('/dashboard') }}">Dasbor</a>
+                        <span class="breadcrumb-item active">Posting</span>
                     </nav>
                     <div class="block">
                         <div class="block-header block-header-default">
-                            <h3 class="block-title">Posts</h3>
+                            <h3 class="block-title">Posting</h3>
                             <div class="block-options">
                                 <button type="button" class="btn-block-option">
-                                    <i class="fa fa-plus"></i> New Post
+                                    <i class="fa fa-plus"></i> Posting Baru
                                 </button>
                                 <button type="button" class="btn-block-option" data-toggle="block-option" data-action="fullscreen_toggle"></button>
                                 <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
@@ -557,10 +557,10 @@
                             <table class="table table-striped table-borderless table-vcenter">
                                 <thead class="thead-light">
                                     <tr>
-                                        <th colspan="2">Welcome</th>
-                                        <th class="d-none d-md-table-cell text-center" style="width: 100px;">Replies</th>
-                                        <th class="d-none d-md-table-cell text-center" style="width: 100px;">Views</th>
-                                        <th class="d-none d-md-table-cell" style="width: 200px;">Last Post</th>
+                                        <th colspan="2">Judul Posting</th>
+                                        <th class="d-none d-md-table-cell text-center" style="width: 100px;">Balasan</th>
+                                        <th class="d-none d-md-table-cell text-center" style="width: 100px;">Dilihat</th>
+                                        <th class="d-none d-md-table-cell" style="width: 200px;">Komentar Terakhir</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -571,7 +571,7 @@
                                         <td>
                                             <a class="font-w600" href="be_pages_forum_discussion.html">Welcome to our forums!</a>
                                             <div class="font-size-sm text-muted mt-5">
-                                                <a href="be_pages_generic_profile.html">Ralph Murray</a> on <em>June 20, 2017</em>
+                                                <a href="be_pages_generic_profile.html">Ralph Murray</a> pada <em>June 20, 2017</em>
                                             </div>
                                         </td>
                                         <td class="d-none d-md-table-cell text-center">
@@ -581,7 +581,7 @@
                                             <a class="font-w600" href="javascript:void(0)">248</a>
                                         </td>
                                         <td class="d-none d-md-table-cell">
-                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Jack Greene</a><br>on <em>January 21, 2017</em></span>
+                                            <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Jack Greene</a><br>pada <em>January 21, 2017</em></span>
                                         </td>
                                     </tr>
                                     <tr>
@@ -591,7 +591,7 @@
                                         <td>
                                             <a class="font-w600" href="be_pages_forum_discussion.html">Big upgrades are coming soon!</a>
                                             <div class="font-size-sm text-muted mt-5">
-                                                <a href="be_pages_generic_profile.html">Wayne Garcia</a> on <em>June 25, 2017</em>
+                                                <a href="be_pages_generic_profile.html">Wayne Garcia</a> pada <em>June 25, 2017</em>
                                             </div>
                                         </td>
                                         <td class="d-none d-md-table-cell text-center">
@@ -601,7 +601,7 @@
                                             <a class="font-w600" href="javascript:void(0)">1213</a>
                                         </td>
                                         <td class="d-none d-md-table-cell">
-                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Jesse Fisher</a><br>on <em>January 18, 2017</em></span>
+                                            <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Jesse Fisher</a><br>pada <em>January 18, 2017</em></span>
                                         </td>
                                     </tr>
                                     <tr>
@@ -611,7 +611,7 @@
                                         <td>
                                             <a class="font-w600" href="be_pages_forum_discussion.html">Tips &amp; tricks for staying motivated</a>
                                             <div class="font-size-sm text-muted mt-5">
-                                                <a href="be_pages_generic_profile.html">Jack Greene</a> on <em>January 15, 2017</em>
+                                                <a href="be_pages_generic_profile.html">Jack Greene</a> pada <em>January 15, 2017</em>
                                             </div>
                                         </td>
                                         <td class="d-none d-md-table-cell text-center">
@@ -621,14 +621,14 @@
                                             <a class="font-w600" href="javascript:void(0)">749</a>
                                         </td>
                                         <td class="d-none d-md-table-cell">
-                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Adam McCoy</a><br>on <em>January 13, 2017</em></span>
+                                            <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Adam McCoy</a><br>pada <em>January 13, 2017</em></span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
                                             <a class="font-w600" href="be_pages_forum_discussion.html">2017, all the new features!</a>
                                             <div class="font-size-sm text-muted mt-5">
-                                                <a href="be_pages_generic_profile.html">Jose Mills</a> on <em>January 21, 2017</em>
+                                                <a href="be_pages_generic_profile.html">Jose Mills</a> pada <em>January 21, 2017</em>
                                             </div>
                                         </td>
                                         <td class="d-none d-md-table-cell text-center">
@@ -638,14 +638,14 @@
                                             <a class="font-w600" href="javascript:void(0)">2186</a>
                                         </td>
                                         <td class="d-none d-md-table-cell">
-                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Carol White</a><br>on <em>January 13, 2017</em></span>
+                                            <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Carol White</a><br>pada <em>January 13, 2017</em></span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
                                             <a class="font-w600" href="be_pages_forum_discussion.html">Issue when saving a file, can you help me?</a>
                                             <div class="font-size-sm text-muted mt-5">
-                                                <a href="be_pages_generic_profile.html">Brian Stevens</a> on <em>May 26, 2017</em>
+                                                <a href="be_pages_generic_profile.html">Brian Stevens</a> pada <em>May 26, 2017</em>
                                             </div>
                                         </td>
                                         <td class="d-none d-md-table-cell text-center">
@@ -655,14 +655,14 @@
                                             <a class="font-w600" href="javascript:void(0)">1912</a>
                                         </td>
                                         <td class="d-none d-md-table-cell">
-                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Carol Ray</a><br>on <em>January 2, 2017</em></span>
+                                            <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Carol Ray</a><br>pada <em>January 2, 2017</em></span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
                                             <a class="font-w600" href="be_pages_forum_discussion.html">New Features!</a>
                                             <div class="font-size-sm text-muted mt-5">
-                                                <a href="be_pages_generic_profile.html">Scott Young</a> on <em>June 29, 2017</em>
+                                                <a href="be_pages_generic_profile.html">Scott Young</a> pada <em>June 29, 2017</em>
                                             </div>
                                         </td>
                                         <td class="d-none d-md-table-cell text-center">
@@ -672,14 +672,14 @@
                                             <a class="font-w600" href="javascript:void(0)">2021</a>
                                         </td>
                                         <td class="d-none d-md-table-cell">
-                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Ryan Flores</a><br>on <em>January 2, 2017</em></span>
+                                            <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Ryan Flores</a><br>pada <em>January 2, 2017</em></span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
                                             <a class="font-w600" href="be_pages_forum_discussion.html">Question about the new features!</a>
                                             <div class="font-size-sm text-muted mt-5">
-                                                <a href="be_pages_generic_profile.html">Scott Young</a> on <em>June 28, 2017</em>
+                                                <a href="be_pages_generic_profile.html">Scott Young</a> pada <em>June 28, 2017</em>
                                             </div>
                                         </td>
                                         <td class="d-none d-md-table-cell text-center">
@@ -689,14 +689,14 @@
                                             <a class="font-w600" href="javascript:void(0)">2344</a>
                                         </td>
                                         <td class="d-none d-md-table-cell">
-                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Jose Parker</a><br>on <em>January 1, 2017</em></span>
+                                            <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Jose Parker</a><br>pada <em>January 1, 2017</em></span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
                                             <a class="font-w600" href="be_pages_forum_discussion.html">Which plan to choose?</a>
                                             <div class="font-size-sm text-muted mt-5">
-                                                <a href="be_pages_generic_profile.html">Amber Harvey</a> on <em>March 12, 2017</em>
+                                                <a href="be_pages_generic_profile.html">Amber Harvey</a> pada <em>March 12, 2017</em>
                                             </div>
                                         </td>
                                         <td class="d-none d-md-table-cell text-center">
@@ -706,14 +706,14 @@
                                             <a class="font-w600" href="javascript:void(0)">1170</a>
                                         </td>
                                         <td class="d-none d-md-table-cell">
-                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Lisa Jenkins</a><br>on <em>January 1, 2017</em></span>
+                                            <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Lisa Jenkins</a><br>pada <em>January 1, 2017</em></span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
                                             <a class="font-w600" href="be_pages_forum_discussion.html">Your web app saved me tons of time</a>
                                             <div class="font-size-sm text-muted mt-5">
-                                                <a href="be_pages_generic_profile.html">Helen Jacobs</a> on <em>January 23, 2017</em>
+                                                <a href="be_pages_generic_profile.html">Helen Jacobs</a> pada <em>January 23, 2017</em>
                                             </div>
                                         </td>
                                         <td class="d-none d-md-table-cell text-center">
@@ -723,14 +723,14 @@
                                             <a class="font-w600" href="javascript:void(0)">1774</a>
                                         </td>
                                         <td class="d-none d-md-table-cell">
-                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Henry Harrison</a><br>on <em>January 12, 2017</em></span>
+                                            <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Henry Harrison</a><br>pada <em>January 12, 2017</em></span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
                                             <a class="font-w600" href="be_pages_forum_discussion.html">Is it easy to upgrade my plan?</a>
                                             <div class="font-size-sm text-muted mt-5">
-                                                <a href="be_pages_generic_profile.html">Brian Stevens</a> on <em>May 10, 2017</em>
+                                                <a href="be_pages_generic_profile.html">Brian Stevens</a> pada <em>May 10, 2017</em>
                                             </div>
                                         </td>
                                         <td class="d-none d-md-table-cell text-center">
@@ -740,14 +740,14 @@
                                             <a class="font-w600" href="javascript:void(0)">1537</a>
                                         </td>
                                         <td class="d-none d-md-table-cell">
-                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Jesse Fisher</a><br>on <em>January 6, 2017</em></span>
+                                            <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Jesse Fisher</a><br>pada <em>January 6, 2017</em></span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
                                             <a class="font-w600" href="be_pages_forum_discussion.html">Check out all those tips &amp; tricks!</a>
                                             <div class="font-size-sm text-muted mt-5">
-                                                <a href="be_pages_generic_profile.html">Laura Carr</a> on <em>May 5, 2017</em>
+                                                <a href="be_pages_generic_profile.html">Laura Carr</a> pada <em>May 5, 2017</em>
                                             </div>
                                         </td>
                                         <td class="d-none d-md-table-cell text-center">
@@ -757,14 +757,14 @@
                                             <a class="font-w600" href="javascript:void(0)">1379</a>
                                         </td>
                                         <td class="d-none d-md-table-cell">
-                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Lori Grant</a><br>on <em>January 5, 2017</em></span>
+                                            <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Lori Grant</a><br>pada <em>January 5, 2017</em></span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
                                             <a class="font-w600" href="be_pages_forum_discussion.html">Review needed</a>
                                             <div class="font-size-sm text-muted mt-5">
-                                                <a href="be_pages_generic_profile.html">Justin Hunt</a> on <em>May 3, 2017</em>
+                                                <a href="be_pages_generic_profile.html">Justin Hunt</a> pada <em>May 3, 2017</em>
                                             </div>
                                         </td>
                                         <td class="d-none d-md-table-cell text-center">
@@ -774,14 +774,14 @@
                                             <a class="font-w600" href="javascript:void(0)">675</a>
                                         </td>
                                         <td class="d-none d-md-table-cell">
-                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Melissa Rice</a><br>on <em>January 4, 2017</em></span>
+                                            <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Melissa Rice</a><br>pada <em>January 4, 2017</em></span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
                                             <a class="font-w600" href="be_pages_forum_discussion.html">Testing out the API</a>
                                             <div class="font-size-sm text-muted mt-5">
-                                                <a href="be_pages_generic_profile.html">Lori Grant</a> on <em>April 25, 2017</em>
+                                                <a href="be_pages_generic_profile.html">Lori Grant</a> pada <em>April 25, 2017</em>
                                             </div>
                                         </td>
                                         <td class="d-none d-md-table-cell text-center">
@@ -791,7 +791,7 @@
                                             <a class="font-w600" href="javascript:void(0)">888</a>
                                         </td>
                                         <td class="d-none d-md-table-cell">
-                                            <span class="font-size-sm">by <a href="be_pages_generic_profile.html">Thomas Riley</a><br>on <em>January 4, 2017</em></span>
+                                            <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Thomas Riley</a><br>pada <em>January 4, 2017</em></span>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -843,7 +843,7 @@
             <footer id="page-footer" class="opacity-0">
                 <div class="content py-20 font-size-xs clearfix">
                     <div class="float-right">
-                        Coded with <i class="fa fa-heart text-pulse"></i> by <a class="font-w600" href="https://github.com/fuaddary/SSH" target="_blank">Kelompok IMK</a>
+                        Coded with <i class="fa fa-heart text-pulse"></i> oleh <a class="font-w600" href="https://github.com/fuaddary/SSH" target="_blank">Kelompok IMK</a>
                     </div>
                     <div class="float-left">
                         <a class="font-w600" href="https://github.com/fuaddary/SSH" target="_blank">SSH</a> &copy; <span class="js-year-copy">2017</span>

@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
-        <title>SSH | Dashboard</title>
+        <title>SSH | Dasbor</title>
 
         <meta name="description" content="Codebase - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest">
         <meta name="author" content="pixelcave">
@@ -111,7 +111,7 @@
                             <div class="block-content block-content-full block-content-sm bg-body-light">
                                 <form action="be_pages_generic_search.html" method="post">
                                     <div class="input-group">
-                                        <input type="text" class="form-control" id="side-overlay-search" name="side-overlay-search" placeholder="Search..">
+                                        <input type="text" class="form-control" id="side-overlay-search" name="side-overlay-search" placeholder="Pencarian..">
                                         <div class="input-group-append">
                                             <button type="submit" class="btn btn-secondary px-10">
                                                 <i class="fa fa-search"></i>
@@ -128,15 +128,15 @@
                             <div class="block-content block-content-full block-content-sm bg-body-light">
                                 <div class="row">
                                     <div class="col-4">
-                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Posts</div>
+                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Posting</div>
                                         <div class="font-size-h4">0</div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Comments</div>
+                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Komentar</div>
                                         <div class="font-size-h4">28</div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Donations</div>
+                                        <div class="font-size-sm font-w600 text-uppercase text-muted">Donasi</div>
                                         <div class="font-size-h4">Rp. 860.000</div>
                                     </div>
                                 </div>
@@ -144,10 +144,10 @@
                         </div>
                         <!-- END Mini Stats -->
 
-                        <!-- Friends -->
+                        <!-- Teman -->
                         <div class="block pull-r-l">
                             <div class="block-header bg-body-light">
-                                <h3 class="block-title"><i class="fa fa-fw fa-users font-size-default mr-5"></i>Friends</h3>
+                                <h3 class="block-title"><i class="fa fa-fw fa-users font-size-default mr-5"></i>Teman</h3>
                                 <div class="block-options">
                                     <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
                                         <i class="si si-refresh"></i>
@@ -188,13 +188,13 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- END Friends -->
+                        <!-- END Teman -->
 
-                        <!-- Profile -->
+                        <!-- Profil -->
                         <div class="block pull-r-l">
                             <div class="block-header bg-body-light">
                                 <h3 class="block-title">
-                                    <i class="fa fa-fw fa-pencil font-size-default mr-5"></i>Profile
+                                    <i class="fa fa-fw fa-pencil font-size-default mr-5"></i>Profil
                                 </h3>
                                 <div class="block-options">
                                     <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"></button>
@@ -203,7 +203,7 @@
                             <div class="block-content">
                                 <form action="be_pages_dashboard.html" method="post" onsubmit="return false;">
                                     <div class="form-group mb-15">
-                                        <label for="side-overlay-profile-name">Name</label>
+                                        <label for="side-overlay-profile-name">Nama</label>
                                         <div class="input-group">
                                             <input type="text" class="form-control" id="side-overlay-profile-name" name="side-overlay-profile-name" placeholder="Your name.." value="Administrator">
                                             <div class="input-group-append">
@@ -225,9 +225,9 @@
                                         </div>
                                     </div>
                                     <div class="form-group mb-15">
-                                        <label for="side-overlay-profile-password">New Password</label>
+                                        <label for="side-overlay-profile-password">Password Baru</label>
                                         <div class="input-group">
-                                            <input type="password" class="form-control" id="side-overlay-profile-password" name="side-overlay-profile-password" placeholder="New Password..">
+                                            <input type="password" class="form-control" id="side-overlay-profile-password" name="side-overlay-profile-password" placeholder="Password Baru..">
                                             <div class="input-group-append">
                                                 <span class="input-group-text">
                                                     <i class="fa fa-asterisk"></i>
@@ -236,9 +236,9 @@
                                         </div>
                                     </div>
                                     <div class="form-group mb-15">
-                                        <label for="side-overlay-profile-password-confirm">Confirm New Password</label>
+                                        <label for="side-overlay-profile-password-confirm">Konfirmasi Password Baru</label>
                                         <div class="input-group">
-                                            <input type="password" class="form-control" id="side-overlay-profile-password-confirm" name="side-overlay-profile-password-confirm" placeholder="Confirm New Password..">
+                                            <input type="password" class="form-control" id="side-overlay-profile-password-confirm" name="side-overlay-profile-password-confirm" placeholder="Konfirmasi Password Baru..">
                                             <div class="input-group-append">
                                                 <span class="input-group-text">
                                                     <i class="fa fa-asterisk"></i>
@@ -249,20 +249,20 @@
                                     <div class="form-group row">
                                         <div class="col-6">
                                             <button type="submit" class="btn btn-block btn-alt-primary">
-                                                <i class="fa fa-refresh mr-5"></i> Update
+                                                <i class="fa fa-refresh mr-5"></i> Perbarui
                                             </button>
                                         </div>
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        <!-- END Profile -->
+                        <!-- END Profil -->
 
-                        <!-- Settings -->
+                        <!-- Pengaturan -->
                         <div class="block pull-r-l">
                             <div class="block-header bg-body-light">
                                 <h3 class="block-title">
-                                    <i class="fa fa-fw fa-wrench font-size-default mr-5"></i>Settings
+                                    <i class="fa fa-fw fa-wrench font-size-default mr-5"></i>Pengaturan
                                 </h3>
                                 <div class="block-options">
                                     <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"></button>
@@ -273,21 +273,21 @@
                                     <div class="col-6">
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-status" name="side-overlay-settings-status" value="1" checked>
-                                            <label class="custom-control-label" for="side-overlay-settings-status">Online Status</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-status">Status Online</label>
                                         </div>
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-public-profile" name="side-overlay-settings-public-profile" value="1">
-                                            <label class="custom-control-label" for="side-overlay-settings-public-profile">Public Profile</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-public-profile">Profil Publik</label>
                                         </div>
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-notifications" name="side-overlay-settings-notifications" value="1" checked>
-                                            <label class="custom-control-label" for="side-overlay-settings-notifications">Notifications</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-notifications">Pemberitahuan</label>
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-updates" name="side-overlay-settings-updates" value="1">
-                                            <label class="custom-control-label" for="side-overlay-settings-updates">Auto updates</label>
+                                            <label class="custom-control-label" for="side-overlay-settings-updates">Perbarui Otomatis</label>
                                         </div>
                                         <div class="custom-control custom-checkbox mb-5">
                                             <input type="checkbox" class="custom-control-input" id="side-overlay-settings-api-access" name="side-overlay-settings-api-access" value="1" checked>
@@ -301,7 +301,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- END Settings -->
+                        <!-- END Pengaturan -->
                     </div>
                     <!-- END Side Content -->
                 </div>
@@ -398,22 +398,22 @@
                         <div class="content-side content-side-full">
                             <ul class="nav-main">
                                 <li>
-                                    <a href="{{ url('/dashboard') }}"><i class="fa fa-coffee"></i><span class="sidebar-mini-hide">Dashboard</span></a>
+                                    <a href="{{ url('/dashboard') }}"><i class="fa fa-coffee"></i><span class="sidebar-mini-hide">Dasbor</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/post') }}"><i class="fa fa-file-text-o"></i><span class="sidebar-mini-hide">Posts</span></a>
+                                    <a href="{{ url('/post') }}"><i class="fa fa-file-text-o"></i><span class="sidebar-mini-hide">Posting</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/media') }}"><i class="fa fa-photo"></i><span class="sidebar-mini-hide">Medias</span></a>
+                                    <a href="{{ url('/gallery') }}"><i class="fa fa-photo"></i><span class="sidebar-mini-hide">Galeri</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/comment') }}"><i class="si si-bubbles"></i><span class="sidebar-mini-hide">Comments</span></a>
+                                    <a href="{{ url('/comment') }}"><i class="si si-bubbles"></i><span class="sidebar-mini-hide">Komentar</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/user') }}"><i class="si si-users"></i><span class="sidebar-mini-hide">Users</span></a>
+                                    <a href="{{ url('/user') }}"><i class="si si-users"></i><span class="sidebar-mini-hide">Pengguna</span></a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/donation') }}"><i class="fa fa-money"></i><span class="sidebar-mini-hide">Donations</span></a>
+                                    <a href="{{ url('/donation') }}"><i class="fa fa-money"></i><span class="sidebar-mini-hide">Donasi</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -456,27 +456,27 @@
                             </button>
                             <div class="dropdown-menu dropdown-menu-right min-width-150" aria-labelledby="page-header-user-dropdown">
                                 <a class="dropdown-item" href="be_pages_generic_profile.html">
-                                    <i class="si si-user mr-5"></i> Profile
+                                    <i class="si si-user mr-5"></i> Profil
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center justify-content-between" href="be_pages_generic_inbox.html">
                                     <span><i class="si si-envelope-open mr-5"></i> Inbox</span>
                                     <span class="badge badge-primary">3</span>
                                 </a>
                                 <a class="dropdown-item" href="be_pages_generic_invoice.html">
-                                    <i class="si si-note mr-5"></i> Invoices
+                                    <i class="si si-note mr-5"></i> Tagihan
                                 </a>
                                 <div class="dropdown-divider"></div>
 
                                 <!-- Toggle Side Overlay -->
                                 <!-- Layout API, functionality initialized in Codebase() -> uiApiLayout() -->
                                 <a class="dropdown-item" href="javascript:void(0)" data-toggle="layout" data-action="side_overlay_toggle">
-                                    <i class="si si-wrench mr-5"></i> Settings
+                                    <i class="si si-wrench mr-5"></i> Pengaturan
                                 </a>
                                 <!-- END Side Overlay -->
 
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="op_auth_signin.html">
-                                    <i class="si si-logout mr-5"></i> Sign Out
+                                    <i class="si si-logout mr-5"></i> Keluar
                                 </a>
                             </div>
                         </div>
@@ -506,7 +506,7 @@
                                     </button>
                                     <!-- END Close Search Section -->
                                 </div>
-                                <input type="text" class="form-control" placeholder="Search or hit ESC.." id="page-header-search-input" name="page-header-search-input">
+                                <input type="text" class="form-control" placeholder="Cari atau tekan ESC.." id="page-header-search-input" name="page-header-search-input">
                                 <div class="input-group-append">
                                     <button type="submit" class="btn btn-secondary">
                                         <i class="fa fa-search"></i>
@@ -536,8 +536,8 @@
                 <!-- Page Content -->
                 <div class="content">
                     <nav class="breadcrumb bg-white push">
-                        <a class="breadcrumb-item" href="{{ url('/dashboard') }}">Dashboard</a>
-                        <a class="breadcrumb-item" href="{{ url('/post') }}">Posts</a>
+                        <a class="breadcrumb-item" href="{{ url('/dashboard') }}">Dasbor</a>
+                        <a class="breadcrumb-item" href="{{ url('/post') }}">Posting</a>
                         <span class="breadcrumb-item active">Just a small question!</span>
                     </nav>
                     <div class="block">
@@ -545,7 +545,7 @@
                             <h3 class="block-title">Just a small question!</h3>
                             <div class="block-options">
                                 <a class="btn-block-option" href="#forum-reply-form" data-toggle="scroll-to">
-                                    <i class="fa fa-reply"></i> Reply
+                                    <i class="fa fa-reply"></i> Balas
                                 </a>
                                 <button type="button" class="btn-block-option" data-toggle="block-option" data-action="fullscreen_toggle"></button>
                                 <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
@@ -570,7 +570,7 @@
                                                     <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar8.jpg')}}" alt="">
                                                 </a>
                                             </div>
-                                            <small>488 Posts<br>Level 10</small>
+                                            <small>488 Posting<br>Level 10</small>
                                         </td>
                                         <td>
                                             <p>Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.</p>
@@ -591,7 +591,7 @@
                                                     <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar16.jpg')}}" alt="">
                                                 </a>
                                             </div>
-                                            <small>300 Posts<br>Level 10</small>
+                                            <small>300 Posting<br>Level 10</small>
                                         </td>
                                         <td>
                                             <p>Felis ullamcorper curae erat nulla luctus sociosqu phasellus posuere habitasse sollicitudin, libero sit potenti leo ultricies etiam blandit id platea augue, erat habitant fermentum lorem commodo taciti tristique etiam curabitur suscipit lacinia habitasse amet mauris eu eget ipsum nec magna in, adipiscing risus aenean turpis proin duis fringilla praesent ornare lorem eros malesuada vitae nullam diam velit potenti consectetur, vehicula accumsan risus lectus tortor etiam facilisis tempus sapien tortor, mi vestibulum taciti dapibus viverra ac justo vivamus erat phasellus turpis nisi class praesent duis ligula, vel ornare faucibus potenti nibh turpis, at id semper nunc dui blandit. Enim et nec habitasse ultricies id tortor curabitur, consectetur eu inceptos ante conubia tempor platea odio, sed sem integer lacinia cras non risus euismod turpis platea erat ultrices iaculis rutrum taciti, fusce lobortis adipiscing dapibus habitant sodales gravida pulvinar, elementum mi tempus ut commodo congue ipsum justo nec dui cursus scelerisque elementum volutpat tellus nulla laoreet taciti, nibh suspendisse primis arcu integer vulputate etiam ligula lobortis nunc, interdum commodo libero aliquam suscipit phasellus sollicitudin arcu varius venenatis erat ornare tempor nullam donec vitae etiam tellus.</p>
@@ -613,7 +613,7 @@
                                                     <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar12.jpg')}}" alt="">
                                                 </a>
                                             </div>
-                                            <small>464 Posts<br>Level 1</small>
+                                            <small>464 Posting<br>Level 1</small>
                                         </td>
                                         <td>
                                             <p>Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.</p>
@@ -637,7 +637,7 @@
                                                     <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar4.jpg')}}" alt="">
                                                 </a>
                                             </div>
-                                            <small>418 Posts<br>Level 8</small>
+                                            <small>418 Posting<br>Level 8</small>
                                         </td>
                                         <td>
                                             <p>Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.</p>
@@ -660,7 +660,7 @@
                                                     <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar10.jpg')}}" alt="">
                                                 </a>
                                             </div>
-                                            <small>199 Posts<br>Level 6</small>
+                                            <small>199 Posting<br>Level 6</small>
                                         </td>
                                         <td>
                                             <form action="be_pages_forum_discussion.html" method="post" onsubmit="return false;">
@@ -673,7 +673,7 @@
                                                 </div>
                                                 <div class="form-group">
                                                     <button type="submit" class="btn btn-alt-primary">
-                                                        <i class="fa fa-reply"></i> Reply
+                                                        <i class="fa fa-reply"></i> Balas
                                                     </button>
                                                 </div>
                                             </form>
@@ -720,4 +720,4 @@
         <!-- Page JS Code -->
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/pages/be_pages_dashboard.js')}}"></script>
     </body>
-</html> 
+</html>

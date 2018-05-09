@@ -31,8 +31,8 @@ Route::get('/post', function () {
     return view('Dashboard.post');
 });
 
-Route::get('/media', function () {
-    return view('Dashboard.media');
+Route::get('/gallery', function () {
+    return view('Dashboard.gallery');
 });
 
 Route::get('/comment', function () {
