@@ -50,3 +50,15 @@ Route::get('/donation', function () {
 Route::get('/readmore', function () {
     return view('Front.readmore');
 });
+
+Route::get('/masuk', function () {
+    return view('Auth.login');
+});
+
+Route::get('/daftar', function () {
+    return view('Auth.register');
+});
+
+Route::get('/lupa_password', function () {
+    return view('Auth.forgot');
+});
