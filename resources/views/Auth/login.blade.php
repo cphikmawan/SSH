@@ -30,20 +30,20 @@
                         <h2 class="h5 font-w400 text-muted mb-0">Silahkan Masuk Untuk Lanjut</h2>
                     </div>
 
-                    <form class="js-validation-signin px-30" action="be_pages_auth_all.html" method="post">
+                    <form class="js-validation-signup px-30" action="/dashboard">
                         <div class="form-group row">
                             <div class="col-12">
-                                <div class="form-material floating">
-                                    <input type="text" class="form-control" id="login-username" name="login-username">
-                                    <label for="login-username">Username</label>
+                                <div class="form-material form-material-primary floating">
+                                    <input type="text" class="form-control" id="signup-username" name="signup-username">
+                                    <label for="signup-username">Username</label>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group row">
                             <div class="col-12">
-                                <div class="form-material floating">
-                                    <input type="password" class="form-control" id="login-password" name="login-password">
-                                    <label for="login-password">Password</label>
+                                <div class="form-material form-material-primary floating">
+                                    <input type="password" class="form-control" id="signup-password" name="signup-password">
+                                    <label for="signup-password">Password</label>
                                 </div>
                             </div>
                         </div>

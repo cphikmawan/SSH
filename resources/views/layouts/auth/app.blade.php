@@ -30,33 +30,7 @@
             {{-- <!-- END Main Container --> --}}
         </div>
         {{-- <!-- END Page Container --> --}}
-
-        <div class="modal fade" id="modal-terms" tabindex="-1" role="dialog" aria-labelledby="modal-terms" aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-dialog-slidedown" role="document">
-                    <div class="modal-content">
-                        <div class="block block-themed block-transparent mb-0">
-                            <div class="block-header bg-primary-dark">
-                                <h3 class="block-title">Terms &amp; Conditions</h3>
-                                <div class="block-options">
-                                    <button type="button" class="btn-block-option" data-dismiss="modal" aria-label="Close">
-                                        <i class="si si-close"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="block-content">
-                                <p>Konfirmasi Lupa Password Terkirim!</p>
-                                <p>Silahkan Cek Email</p>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-alt-success" data-dismiss="modal">
-                                <i class="fa fa-check"></i> Close
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+        
         {{-- <!-- Codebase Core JS --> --}}
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/core/jquery.min.js') }}"></script>
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/core/bootstrap.bundle.min.js') }}"></script>

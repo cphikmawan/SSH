@@ -62,3 +62,7 @@ Route::get('/daftar', function () {
 Route::get('/lupa_password', function () {
     return view('Auth.forgot');
 });
+
+Route::get('/info', function () {
+    return view('Auth.info');
+});

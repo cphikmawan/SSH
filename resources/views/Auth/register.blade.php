@@ -29,10 +29,10 @@
                         <h1 class="h3 font-w700 mt-30 mb-10">Daftar Akun Baru</h1>
                         <h2 class="h5 font-w400 text-muted mb-0">Mohon Isi Data Akun</h2>
                     </div>
-                    <form class="js-validation-signup px-30" action="be_pages_auth_all.html" method="post">
+                    <form class="js-validation-signup px-30" action="/dashboard">
                         <div class="form-group row">
                             <div class="col-12">
-                                <div class="form-material floating">
+                                <div class="form-material form-material-primary floating">
                                     <input type="text" class="form-control" id="signup-username" name="signup-username">
                                     <label for="signup-username">Username</label>
                                 </div>
@@ -40,7 +40,7 @@
                         </div>
                         <div class="form-group row">
                             <div class="col-12">
-                                <div class="form-material floating">
+                                <div class="form-material form-material-primary floating">
                                     <input type="email" class="form-control" id="signup-email" name="signup-email">
                                     <label for="signup-email">Email</label>
                                 </div>
@@ -48,7 +48,7 @@
                         </div>
                         <div class="form-group row">
                             <div class="col-12">
-                                <div class="form-material floating">
+                                <div class="form-material form-material-primary floating">
                                     <input type="password" class="form-control" id="signup-password" name="signup-password">
                                     <label for="signup-password">Password</label>
                                 </div>
@@ -56,7 +56,7 @@
                         </div>
                         <div class="form-group row">
                             <div class="col-12">
-                                <div class="form-material floating">
+                                <div class="form-material form-material-primary floating">
                                     <input type="password" class="form-control" id="signup-password-confirm" name="signup-password-confirm">
                                     <label for="signup-password-confirm">Konfirmasi Password</label>
                                 </div>
