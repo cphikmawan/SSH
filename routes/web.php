@@ -66,3 +66,7 @@ Route::get('/lupa_password', function () {
 Route::get('/info', function () {
     return view('Auth.info');
 });
+
+Route::get('/contact', function () {
+    return view('Front.contact');
+});

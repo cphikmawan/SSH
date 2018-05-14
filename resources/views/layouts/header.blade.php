@@ -27,19 +27,33 @@
         <!-- END Right Section -->
 
         <!-- Middle Section -->
+
         <div class="content-header-section d-none d-lg-block">
             <ul class="nav-main-header">
                 <li>
-                    <a class="active" href="/"><i class="si si-compass"></i>Home</a>
+                    <a class="{{ request()->is('/') ? 'active' : '' }}" href="/">
+                        <i class="si si-home"></i>Home
+                    </a>
                 </li>
                 <li>
-                    <a class="active" href="/about"><i class="si si-compass"></i>About</a>
+                    <a class="{{ request()->is('about') ? 'active' : '' }}" href="/about">
+                        <i class="si si-info"></i>Tentang Kami
+                    </a>
                 </li>
                 <li>
-                    <a class="active" href="/"><i class="si si-compass"></i>Contact</a>
+                    <a class="{{ request()->is('contact') ? 'active' : '' }}" href="/contact">
+                        <i class="si si-phone"></i>Hubungi Kami
+                    </a>
                 </li>
                 <li>
-                    <a class="active" href="/dashboard"><i class="si si-compass"></i>Login</a>
+                    <a class="{{ request()->is('donasi') ? 'active' : '' }}" href="/donasi">
+                        <i class="fa fa-dollar"></i>Donasi
+                    </a>
+                </li>
+                <li>
+                    <a class="{{ request()->is('masuk') ? 'active' : '' }}" href="/masuk">
+                        <i class="si si-user"></i>Masuk
+                    </a>
                 </li>
             </ul>
             <!-- END Header Navigation -->

@@ -71,7 +71,7 @@
                             <div class="mb-50">
                                 <div class="overflow-hidden rounded mb-20" style="height: 200px;">
                                     <a class="img-link" href="/readmore">
-                                        <img class="img-fluid" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/photos/photo3@2x.jpg')}}"" alt="">
+                                        <img class="img-fluid" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/photos/photo3@2x.jpg')}}" alt="">
                                     </a>
                                 </div>
                                 <h3 class="h4 font-w700 text-uppercase mb-5">Sunday Sharing Homeless Expedisi 4</h3>

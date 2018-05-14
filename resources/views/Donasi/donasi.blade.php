@@ -44,40 +44,43 @@
                         {{--  <!-- Step 1 -->  --}}
                         <div class="tab-pane active" id="wizard-progress2-step1" role="tabpanel">
                             <div class="form-group">
-                                <div class="form-material floating">
+                                <div class="form-material form-material-primary floating">
                                     <input class="form-control" type="text" id="wizard-progress2-firstname" name="firstname">
                                     <label for="wizard-progress2-firstname">Nama</label>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="form-material floating">
+                                <div class="form-material form-material-primary floating">
                                     <input class="form-control" type="text" id="wizard-progress2-lastname" name="lastname">
                                     <label for="wizard-progress2-lastname">Alamat</label>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="form-material floating">
+                                <div class="form-material form-material-primary floating">
                                     <input class="form-control" type="email" id="wizard-progress2-email" name="email">
                                     <label for="wizard-progress2-email">Email</label>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="form-material floating">
+                                <div class="form-material form-material-primary floating">
                                     <input class="form-control" type="number" id="wizard-progress2-nominal" name="nominal">
                                     <label for="wizard-progress2-nominal">Jumlah donasi</label>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-12">
-                                    <div class="form-material floating">
+                                    <div class="form-material form-material-primary floating">
                                         <textarea class="form-control" id="material-textarea-small2" name="material-textarea-small2" rows="3"></textarea>
                                         <label for="material-textarea-small2">Catatan</label>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <i class="si si-question fa-2x float-right"></i><br>
+                                <a class="link-effect" href="#" data-toggle="modal" data-target="#modal-terms">
+                                    <i class="si si-question fa-2x float-right"></i><br>
+                                </a>
                             </div>
+                            
                         </div>
                         {{--  <!-- END Step 1 -->  --}}
 
