@@ -42,5 +42,6 @@
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/codebase.js') }}"></script>
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/plugins/jquery-validation/jquery.validate.min.js') }}"></script>
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/pages/op_auth_signup.js') }}"></script>
+        <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/pages/op_auth_signin.js') }}"></script>
     </body>
 </html>

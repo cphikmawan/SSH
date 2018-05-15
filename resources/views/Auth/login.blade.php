@@ -30,20 +30,20 @@
                         <h2 class="h5 font-w400 text-muted mb-0">Silahkan Masuk Untuk Lanjut</h2>
                     </div>
 
-                    <form class="js-validation-signup px-30" action="/dashboard">
+                    <form class="js-validation-signin px-30" action="/dashboard">
                         <div class="form-group row">
                             <div class="col-12">
                                 <div class="form-material form-material-primary floating">
-                                    <input type="text" class="form-control" id="signup-username" name="signup-username">
-                                    <label for="signup-username">Username</label>
+                                    <input type="text" class="form-control" id="login-username" name="login-username">
+                                    <label for="login-username">Username</label>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group row">
                             <div class="col-12">
                                 <div class="form-material form-material-primary floating">
-                                    <input type="password" class="form-control" id="signup-password" name="signup-password">
-                                    <label for="signup-password">Password</label>
+                                    <input type="password" class="form-control" id="login-password" name="login-password">
+                                    <label for="login-password">Password</label>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-sm btn-hero btn-alt-primary">
+                            <button onclick="check(this.form)" type="submit" class="btn btn-sm btn-hero btn-alt-primary">
                                 <i class="si si-login mr-10"></i> Masuk
                             </button>
                             <div class="mt-30">

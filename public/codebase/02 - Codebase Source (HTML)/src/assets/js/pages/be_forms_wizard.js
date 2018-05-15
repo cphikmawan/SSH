@@ -146,6 +146,26 @@ var BeFormWizard = function() {
                 },
                 'wizard-validation-material-terms': {
                     required: true
+                },
+                'wizard-nama': {
+                    required: true,
+                    minlength: 3
+                },
+                'wizard-alamat': {
+                    required: true,
+                    minlength: 3
+                },
+                'wizard-email': {
+                    required: true,
+                    email: true
+                },
+                'wizard-nominal': {
+                    required: true,
+                    minlength: 6             
+                },
+                'wizard-catatan': {
+                    required: true,
+                    minlength: 5
                 }
             },
             messages: {
@@ -153,9 +173,27 @@ var BeFormWizard = function() {
                     required: 'Please enter a firstname',
                     minlength: 'Your firtname must consist of at least 2 characters'
                 },
+                
                 'wizard-validation-material-lastname': {
                     required: 'Please enter a lastname',
                     minlength: 'Your lastname must consist of at least 2 characters'
+                },
+                'wizard-nama': {
+                    required: 'Nama Wajib Diisi',
+                    minlength: 'Nama Minimal 3 Karakter'
+                },
+                'wizard-alamat': {
+                    required: 'Alamat Wajib Diisi',
+                    minlength: 'Alamat Terlalu Pendek'
+                },
+                'wizard-email': 'Masukkan Alamat Email Yang Valid',
+                'wizard-nominal': {
+                    required: 'Jumlah Donasi Wajib Diisi',
+                    minlength: 'Jumlah Donasi Minimal Rp. 100.000'
+                },
+                'wizard-catatan': {
+                    required: 'Catatan Wajib Diisi',
+                    minlength: 'Catatan Terlalu Pendek'
                 },
                 'wizard-validation-material-email': 'Please enter a valid email address',
                 'wizard-validation-material-bio': 'Let us know a few thing about yourself',

@@ -25,6 +25,14 @@ var OpAuthSignUp = function() {
                     required: true,
                     minlength: 3
                 },
+                'signup-pesan': {
+                    required: true,
+                    minlength: 10
+                },
+                'signup-nama': {
+                    required: true,
+                    minlength: 1
+                },
                 'signup-email': {
                     required: true,
                     email: true
@@ -43,18 +51,26 @@ var OpAuthSignUp = function() {
             },
             messages: {
                 'signup-username': {
-                    required: 'Please enter a username',
-                    minlength: 'Your username must consist of at least 3 characters'
+                    required: 'Masukkan Username',
+                    minlength: 'Username minimal 3 karakter'
                 },
-                'signup-email': 'Please enter a valid email address',
+                'signup-pesan': {
+                    required: 'Masukkan Pesan',
+                    minlength: 'Pesan terlalu singkat'
+                },
+                'signup-nama': {
+                    required: 'Masukkan Nama Anda',
+                    minlength: 'Nama terlalu singkat'
+                },
+                'signup-email': 'Masukkan alamat email yang valid',
                 'signup-password': {
-                    required: 'Please provide a password',
-                    minlength: 'Your password must be at least 5 characters long'
+                    required: 'Masukkan Password Dengan Benar',
+                    minlength: 'Password minimal 5 karakter'
                 },
                 'signup-password-confirm': {
-                    required: 'Please provide a password',
-                    minlength: 'Your password must be at least 5 characters long',
-                    equalTo: 'Please enter the same password as above'
+                    required: 'Masukkan Password Dengan Benar',
+                    minlength: 'Password minimal 5 karakter',
+                    equalTo: 'Password tidak sesuai'
                 },
                 'signup-terms': 'You must agree to the service terms!'
             }

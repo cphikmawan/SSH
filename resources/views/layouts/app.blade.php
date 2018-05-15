@@ -87,6 +87,7 @@
         {{--  <!-- Page JS Code -->  --}}
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/pages/be_forms_wizard.js')}}"></script>
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/plugins/slick/slick.min.js')}}"></script>
+        <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/pages/op_auth_signup.js') }}"></script>
 
         <!-- Page JS Code -->
         <script>

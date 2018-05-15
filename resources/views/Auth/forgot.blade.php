@@ -22,7 +22,7 @@
                 <div class="content content-full">
                     {{-- <!-- Header --> --}}
                     <div class="px-30 py-10">
-                        <a class="link-effect font-w700" action="/dashboard">
+                        <a class="link-effect font-w700" href="/">
                             <i class="si si-fire"></i>
                             <span class="font-size-xl text-primary-dark">SSH</span>
                         </a>

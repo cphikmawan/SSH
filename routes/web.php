@@ -70,3 +70,27 @@ Route::get('/info', function () {
 Route::get('/contact', function () {
     return view('Front.contact');
 });
+
+Route::get('/pesan', function () {
+    return view('Front.info');
+});
+
+Route::get('/pesan_donasi', function () {
+    return view('Donasi.info');
+});
+
+Route::get('/readmore1', function () {
+    return view('Front.readmore1');
+});
+
+Route::get('/readmore2', function () {
+    return view('Front.readmore2');
+});
+
+Route::get('/readmore3', function () {
+    return view('Front.readmore3');
+});
+
+Route::get('/readmore4', function () {
+    return view('Front.readmore4');
+});

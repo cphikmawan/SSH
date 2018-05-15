@@ -7,6 +7,8 @@
 var OpAuthSignIn = function() {
     // Init Sign In Form Validation, for more examples you can check out https://github.com/jzaefferer/jquery-validation
     var initValidationSignIn = function(){
+        // var aaa = "qwerty";
+        // var bbb = "asdfghjkl";
         jQuery('.js-validation-signin').validate({
             errorClass: 'invalid-feedback animated fadeInDown',
             errorElement: 'div',
@@ -23,21 +25,23 @@ var OpAuthSignIn = function() {
             rules: {
                 'login-username': {
                     required: true,
-                    minlength: 3
+                    minlength: 3,
                 },
                 'login-password': {
                     required: true,
-                    minlength: 5
+                    minlength: 5,
                 }
             },
             messages: {
                 'login-username': {
-                    required: 'Please enter a username',
-                    minlength: 'Your username must consist of at least 3 characters'
+                    required: 'Masukkan Username',
+                    minlength: 'Username Minimal 3 Karakter',
+                    equalTo: 'Username Tidak Sesuai'
                 },
                 'login-password': {
-                    required: 'Please provide a password',
-                    minlength: 'Your password must be at least 5 characters long'
+                    required: 'Masukkan Password',
+                    minlength: 'Password Minimal 5 Karakter',
+                    equalTo: 'Password Tidak Sesuai'
                 }
             }
         });
