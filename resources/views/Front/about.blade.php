@@ -70,7 +70,7 @@
                                             <div class="mb-20">
                                                 <i class="si si-wallet fa-3x text-primary"></i>
                                             </div>
-                                            <div class="font-size-h1 font-w700 text-black mb-5" data-toggle="countTo" data-to="5" data-after=".000.000+">0</div>
+                                            <div class="font-size-h1 font-w700 text-black mb-5" data-toggle="countTo" data-to="8" data-after=".504.000+">0</div>
                                             <div class="font-w600 text-muted text-uppercase">Total Donasi (Rupiah)</div>
                                         </div>
                                         <div class="col-sm-6 col-md-3 py-30">

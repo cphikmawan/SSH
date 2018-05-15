@@ -23,9 +23,10 @@
     </head>
     <body>
         <div id="page-container" class="sidebar-inverse side-scroll page-header-fixed page-header-inverse main-content-boxed">
-            @yield('sidebar')
-            @yield('header')
             
+            @yield('sidebar')
+
+            @yield('header')
 
             {{--  <!-- Main Container -->  --}}
             <main id="main-container">
