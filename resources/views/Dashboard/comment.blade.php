@@ -40,14 +40,14 @@
                 <tr class="table-active">
                     <td class="d-none d-sm-table-cell"></td>
                     <td class="font-size-sm text-muted">
-                        <a href="be_pages_generic_profile.html">Penyok</a> pada <em>13 Mei 2018 16:15</em>
+                        <a>Penyok</a> pada <em>13 Mei 2018 16:15</em>
                     </td>
                 </tr>
                 <tr>
                     <td class="d-none d-sm-table-cell text-center" style="width: 140px;">
                         <div class="mb-10">
-                            <a href="be_pages_generic_profile.html">
-                                <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar8.jpg')}}" alt="">
+                            <a>
+                                <img class="img-avatar" src="/image/penyok.jpg" alt="">
                             </a>
                         </div>
                         <small>1 Posting<br>Level 6</small>
@@ -61,14 +61,14 @@
                 <tr class="table-active">
                     <td class="d-none d-sm-table-cell"></td>
                     <td class="font-size-sm text-muted">
-                        <a href="be_pages_generic_profile.html">Fuad</a> pada <em>14 Mei 2018 10:09</em>
+                        <a>Fuad</a> pada <em>14 Mei 2018 10:09</em>
                     </td>
                 </tr>
                 <tr>
                     <td class="d-none d-sm-table-cell text-center" style="width: 140px;">
                         <div class="mb-10">
-                            <a href="be_pages_generic_profile.html">
-                                <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar16.jpg')}}" alt="">
+                            <a>
+                                <img class="img-avatar" src="/image/fuad.jpg" alt="">
                             </a>
                         </div>
                         <small>1 Posting<br>Level 10</small>
@@ -82,14 +82,14 @@
                 <tr class="table-active">
                     <td class="d-none d-sm-table-cell"></td>
                     <td class="font-size-sm text-muted">
-                        <a href="be_pages_generic_profile.html">Hikmawan</a> on <em>14 Mei 2018 20:17</em>
+                        <a>Hikmawan</a> on <em>14 Mei 2018 20:17</em>
                     </td>
                 </tr>
                 <tr>
                     <td class="d-none d-sm-table-cell text-center" style="width: 140px;">
                         <div class="mb-10">
-                            <a href="be_pages_generic_profile.html">
-                                <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar12.jpg')}}" alt="">
+                            <a>
+                                <img class="img-avatar" src="/image/awan.jpeg" alt="">
                             </a>
                         </div>
                         <small>1 Posting<br>Level 1</small>
@@ -103,8 +103,8 @@
                 <tr>
                     <td class="d-none d-sm-table-cell text-center">
                         <div class="mb-10">
-                            <a href="be_pages_generic_profile.html">
-                                <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar10.jpg')}}" alt="">
+                            <a>
+                                <img class="img-avatar" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar16.jpg')}}" alt="">
                             </a>
                         </div>
                         <small>0 Posting<br>Level 10</small>

@@ -212,7 +212,7 @@
 
     <script>
     function check() {
-        var donasi = document.getElementById("wizard-progress2-nominal").value;
+        var donasi = document.getElementById("wizard-nominal").value;
         console.log (donasi)
         if (donasi == null) {
             alert("nominal donasi harus diisi");
