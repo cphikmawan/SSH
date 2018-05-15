@@ -53,13 +53,13 @@
                 <div class="row pt-10 pb-30 text-center">
                     <div class="col-6 border-r">
                         <div class="js-appear-enabled animated fadeInLeft" data-toggle="appear" data-class="animated fadeInLeft">
-                            <div class="font-size-h3 font-w600 text-primary" data-toggle="countTo" data-speed="1000" data-to="2">0</div>
+                            <div class="font-size-h3 font-w600 text-primary" data-toggle="countTo" data-speed="1000" data-to="4">0</div>
                             <div class="font-size-sm font-w600 text-uppercase text-muted">Total Posting</div>
                         </div>
                     </div>
                     <div class="col-6">
                         <div class="js-appear-enabled animated fadeInRight" data-toggle="appear" data-class="animated fadeInRight">
-                            <div class="font-size-h3 font-w600 text-primary" data-toggle="countTo" data-speed="1000" data-to="1">0</div>
+                            <div class="font-size-h3 font-w600 text-primary" data-toggle="countTo" data-speed="1000" data-to="2">0</div>
                             <div class="font-size-sm font-w600 text-uppercase text-muted">Posting Baru</div>
                         </div>
                     </div>

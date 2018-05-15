@@ -49,19 +49,19 @@
                         <i class="si si-pin fa-2x"></i>
                     </td>
                     <td>
-                        <a class="font-w600" href="be_pages_forum_discussion.html">Welcome to our forums!</a>
+                        <a class="font-w600" href="#">Sunday Sharing Homeless Ekspedisi Ke 4</a>
                         <div class="font-size-sm text-muted mt-5">
-                            <a href="be_pages_generic_profile.html">Ralph Murray</a> pada <em>June 20, 2017</em>
+                            <a href="be_pages_generic_profile.html">Fuad Dary</a> pada <em>16 Juli 2017</em>
                         </div>
                     </td>
                     <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">191</a>
+                        <a class="font-w600" href="javascript:void(0)">45</a>
                     </td>
                     <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">248</a>
+                        <a class="font-w600" href="javascript:void(0)">25</a>
                     </td>
                     <td class="d-none d-md-table-cell">
-                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Jack Greene</a><br>pada <em>January 21, 2017</em></span>
+                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Hikmawan</a><br>pada <em>14 Mei 2018</em></span>
                     </td>
                 </tr>
                 <tr>
@@ -69,19 +69,19 @@
                         <i class="si si-pin fa-2x"></i>
                     </td>
                     <td>
-                        <a class="font-w600" href="be_pages_forum_discussion.html">Big upgrades are coming soon!</a>
+                        <a class="font-w600" href="#">Sunday Sharing Homeless Ekspedisi Ke 3</a>
                         <div class="font-size-sm text-muted mt-5">
-                            <a href="be_pages_generic_profile.html">Wayne Garcia</a> pada <em>June 25, 2017</em>
+                            <a href="be_pages_generic_profile.html">Ilham Penyok</a> pada <em>10 Juli 2017</em>
                         </div>
                     </td>
                     <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">231</a>
+                        <a class="font-w600" href="javascript:void(0)">39</a>
                     </td>
                     <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">1213</a>
+                        <a class="font-w600" href="javascript:void(0)">91</a>
                     </td>
                     <td class="d-none d-md-table-cell">
-                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Jesse Fisher</a><br>pada <em>January 18, 2017</em></span>
+                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Hikmawan</a><br>pada <em>14 Mei 2018</em></span>
                     </td>
                 </tr>
                 <tr>
@@ -89,189 +89,36 @@
                         <i class="si si-pin fa-2x"></i>
                     </td>
                     <td>
-                        <a class="font-w600" href="be_pages_forum_discussion.html">Tips &amp; tricks for staying motivated</a>
+                        <a class="font-w600" href="#">Sunday Sharing Homeless Ekspedisi Ke 2</a>
                         <div class="font-size-sm text-muted mt-5">
-                            <a href="be_pages_generic_profile.html">Jack Greene</a> pada <em>January 15, 2017</em>
+                            <a href="be_pages_generic_profile.html">Cahya Putra</a> pada <em>5 Juli 2017</em>
                         </div>
                     </td>
                     <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">131</a>
+                        <a class="font-w600" href="javascript:void(0)">30</a>
                     </td>
                     <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">749</a>
+                        <a class="font-w600" href="javascript:void(0)">75</a>
                     </td>
                     <td class="d-none d-md-table-cell">
-                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Adam McCoy</a><br>pada <em>January 13, 2017</em></span>
+                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Hikmawan</a><br>pada <em>14 Mei 2018</em></span>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <a class="font-w600" href="be_pages_forum_discussion.html">2017, all the new features!</a>
+                        <a class="font-w600" href="#">Sunday Sharing Homeless Ekspedisi Ke 1</a>
                         <div class="font-size-sm text-muted mt-5">
-                            <a href="be_pages_generic_profile.html">Jose Mills</a> pada <em>January 21, 2017</em>
+                            <a href="be_pages_generic_profile.html">Hikmawan</a> pada <em>1 Juli 2017</em>
                         </div>
                     </td>
                     <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">203</a>
+                        <a class="font-w600" href="javascript:void(0)">36</a>
                     </td>
                     <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">2186</a>
+                        <a class="font-w600" href="javascript:void(0)">43</a>
                     </td>
                     <td class="d-none d-md-table-cell">
-                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Carol White</a><br>pada <em>January 13, 2017</em></span>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <a class="font-w600" href="be_pages_forum_discussion.html">Issue when saving a file, can you help me?</a>
-                        <div class="font-size-sm text-muted mt-5">
-                            <a href="be_pages_generic_profile.html">Brian Stevens</a> pada <em>May 26, 2017</em>
-                        </div>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">275</a>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">1912</a>
-                    </td>
-                    <td class="d-none d-md-table-cell">
-                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Carol Ray</a><br>pada <em>January 2, 2017</em></span>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <a class="font-w600" href="be_pages_forum_discussion.html">New Features!</a>
-                        <div class="font-size-sm text-muted mt-5">
-                            <a href="be_pages_generic_profile.html">Scott Young</a> pada <em>June 29, 2017</em>
-                        </div>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">145</a>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">2021</a>
-                    </td>
-                    <td class="d-none d-md-table-cell">
-                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Ryan Flores</a><br>pada <em>January 2, 2017</em></span>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <a class="font-w600" href="be_pages_forum_discussion.html">Question about the new features!</a>
-                        <div class="font-size-sm text-muted mt-5">
-                            <a href="be_pages_generic_profile.html">Scott Young</a> pada <em>June 28, 2017</em>
-                        </div>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">230</a>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">2344</a>
-                    </td>
-                    <td class="d-none d-md-table-cell">
-                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Jose Parker</a><br>pada <em>January 1, 2017</em></span>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <a class="font-w600" href="be_pages_forum_discussion.html">Which plan to choose?</a>
-                        <div class="font-size-sm text-muted mt-5">
-                            <a href="be_pages_generic_profile.html">Amber Harvey</a> pada <em>March 12, 2017</em>
-                        </div>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">213</a>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">1170</a>
-                    </td>
-                    <td class="d-none d-md-table-cell">
-                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Lisa Jenkins</a><br>pada <em>January 1, 2017</em></span>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <a class="font-w600" href="be_pages_forum_discussion.html">Your web app saved me tons of time</a>
-                        <div class="font-size-sm text-muted mt-5">
-                            <a href="be_pages_generic_profile.html">Helen Jacobs</a> pada <em>January 23, 2017</em>
-                        </div>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">100</a>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">1774</a>
-                    </td>
-                    <td class="d-none d-md-table-cell">
-                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Henry Harrison</a><br>pada <em>January 12, 2017</em></span>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <a class="font-w600" href="be_pages_forum_discussion.html">Is it easy to upgrade my plan?</a>
-                        <div class="font-size-sm text-muted mt-5">
-                            <a href="be_pages_generic_profile.html">Brian Stevens</a> pada <em>May 10, 2017</em>
-                        </div>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">265</a>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">1537</a>
-                    </td>
-                    <td class="d-none d-md-table-cell">
-                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Jesse Fisher</a><br>pada <em>January 6, 2017</em></span>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <a class="font-w600" href="be_pages_forum_discussion.html">Check out all those tips &amp; tricks!</a>
-                        <div class="font-size-sm text-muted mt-5">
-                            <a href="be_pages_generic_profile.html">Laura Carr</a> pada <em>May 5, 2017</em>
-                        </div>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">296</a>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">1379</a>
-                    </td>
-                    <td class="d-none d-md-table-cell">
-                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Lori Grant</a><br>pada <em>January 5, 2017</em></span>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <a class="font-w600" href="be_pages_forum_discussion.html">Review needed</a>
-                        <div class="font-size-sm text-muted mt-5">
-                            <a href="be_pages_generic_profile.html">Justin Hunt</a> pada <em>May 3, 2017</em>
-                        </div>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">254</a>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">675</a>
-                    </td>
-                    <td class="d-none d-md-table-cell">
-                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Melissa Rice</a><br>pada <em>January 4, 2017</em></span>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <a class="font-w600" href="be_pages_forum_discussion.html">Testing out the API</a>
-                        <div class="font-size-sm text-muted mt-5">
-                            <a href="be_pages_generic_profile.html">Lori Grant</a> pada <em>April 25, 2017</em>
-                        </div>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">118</a>
-                    </td>
-                    <td class="d-none d-md-table-cell text-center">
-                        <a class="font-w600" href="javascript:void(0)">888</a>
-                    </td>
-                    <td class="d-none d-md-table-cell">
-                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Thomas Riley</a><br>pada <em>January 4, 2017</em></span>
+                        <span class="font-size-sm">oleh <a href="be_pages_generic_profile.html">Hikmawan</a><br>pada <em>14 Mei 2018</em></span>
                     </td>
                 </tr>
             </tbody>
@@ -291,15 +138,6 @@
                 </li>
                 <li class="page-item active">
                     <a class="page-link" href="javascript:void(0)">1</a>
-                </li>
-                <li class="page-item">
-                    <a class="page-link" href="javascript:void(0)">2</a>
-                </li>
-                <li class="page-item">
-                    <a class="page-link" href="javascript:void(0)">3</a>
-                </li>
-                <li class="page-item">
-                    <a class="page-link" href="javascript:void(0)">4</a>
                 </li>
                 <li class="page-item">
                     <a class="page-link" href="javascript:void(0)" aria-label="Next">
