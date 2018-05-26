@@ -18,22 +18,22 @@
 <div class="content-heading">
     <div class="dropdown float-right">
         <button type="button" class="btn btn-sm btn-secondary dropdown-toggle" id="ecom-orders-overview-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Semua Waktu
+            Minggu Ini
         </button>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="ecom-orders-overview-drop">
-            <a class="dropdown-item active" href="javascript:void(0)">
+            <a class="dropdown-item active" >
                 <i class="fa fa-fw fa-calendar mr-5"></i>Minggu Ini
             </a>
-            <a class="dropdown-item" href="javascript:void(0)">
+            <a class="dropdown-item" >
                 <i class="fa fa-fw fa-calendar mr-5"></i>Bulan Ini
             </a>
-            <a class="dropdown-item" href="javascript:void(0)">
+            <a class="dropdown-item" >
                 <i class="fa fa-fw fa-calendar mr-5"></i>Tahun ini
             </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="javascript:void(0)">
+            {{-- <div class="dropdown-divider"></div>
+            <a class="dropdown-item" >
                 <i class="fa fa-fw fa-circle-o mr-5"></i>Semua Waktu
-            </a>
+            </a> --}}
         </div>
     </div>
     Posting <small class="d-none d-sm-inline">Ikhtisar</small>
@@ -47,7 +47,7 @@
 <div class="row invisible" data-toggle="appear">
     <!-- Row #1 -->
     <div class="col-md-4">
-        <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
+        <a class="block block-rounded block-bordered block-link-shadow" >
             <div class="block-content block-content-full">
                 <i class="fa fa-file-text-o fa-2x text-primary-light"></i>
                 <div class="row pt-10 pb-30 text-center">
@@ -68,7 +68,7 @@
         </a>
     </div>
     <div class="col-md-4">
-        <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
+        <a class="block block-rounded block-bordered block-link-shadow" >
             <div class="block-content block-content-full">
                 <i class="si si-doc fa-2x text-elegance-light"></i>
                 <div class="row pt-10 pb-30 text-center">
@@ -89,7 +89,7 @@
         </a>
     </div>
     <div class="col-md-4">
-        <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
+        <a class="block block-rounded block-bordered block-link-shadow" >
             <div class="block-content block-content-full">
                 <i class="si si-bubbles fa-2x text-corporate-light"></i>
                 <div class="row pt-10 pb-30 text-center">
@@ -118,7 +118,7 @@
 <div class="row invisible" data-toggle="appear">
     <!-- Row #2 -->
     <div class="col-6 col-xl-3">
-        <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
+        <a class="block block-rounded block-bordered block-link-shadow" >
             <div class="block-content block-content-full clearfix">
                 <div class="float-right mt-15 d-none d-sm-block">
                     <i class="si si-users fa-2x text-pulse-light"></i>
@@ -129,7 +129,7 @@
         </a>
     </div>
     <div class="col-6 col-xl-3">
-        <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
+        <a class="block block-rounded block-bordered block-link-shadow" >
             <div class="block-content block-content-full clearfix">
                 <div class="float-right mt-15 d-none d-sm-block">
                     <i class="si si-user-follow fa-2x text-pulse-light"></i>
@@ -140,7 +140,7 @@
         </a>
     </div>
     <div class="col-6 col-xl-3">
-        <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
+        <a class="block block-rounded block-bordered block-link-shadow" >
             <div class="block-content block-content-full clearfix">
                 <div class="float-right mt-15 d-none d-sm-block">
                     <i class="si si-emoticon-smile fa-2x text-earth-light"></i>
@@ -151,7 +151,7 @@
         </a>
     </div>
     <div class="col-6 col-xl-3">
-        <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
+        <a class="block block-rounded block-bordered block-link-shadow" >
             <div class="block-content block-content-full clearfix">
                 <div class="float-right mt-15 d-none d-sm-block">
                     <i class="fa fa-money fa-2x text-earth-light"></i>
@@ -175,9 +175,9 @@
                     <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
                         <i class="si si-refresh"></i>
                     </button>
-                    <button type="button" class="btn-block-option">
+                    {{-- <button type="button" class="btn-block-option">
                         <i class="si si-wrench"></i>
-                    </button>
+                    </button> --}}
                 </div>
             </div>
             <div class="block-content block-content-full">

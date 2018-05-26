@@ -162,10 +162,6 @@ var BeFormWizard = function() {
                 'wizard-nominal': {
                     required: true,
                     minlength: 6             
-                },
-                'wizard-catatan': {
-                    required: true,
-                    minlength: 5
                 }
             },
             messages: {
@@ -190,10 +186,6 @@ var BeFormWizard = function() {
                 'wizard-nominal': {
                     required: 'Jumlah Donasi Wajib Diisi',
                     minlength: 'Jumlah Donasi Minimal Rp. 100.000'
-                },
-                'wizard-catatan': {
-                    required: 'Catatan Wajib Diisi',
-                    minlength: 'Catatan Terlalu Pendek'
                 },
                 'wizard-validation-material-email': 'Please enter a valid email address',
                 'wizard-validation-material-bio': 'Let us know a few thing about yourself',

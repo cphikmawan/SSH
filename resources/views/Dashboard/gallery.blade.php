@@ -32,7 +32,7 @@
                     <a class="btn btn-sm btn-rounded btn-noborder btn-alt-primary min-width-75 img-lightbox" href="{{('image/front1.jpg')}}">
                         <i class="fa fa-search-plus"></i> Lihat
                     </a>
-                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" href="javascript:void(0)"><i class="fa fa-pencil"></i> Ubah</a>
+                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" ><i class="fa fa-pencil"></i> Ubah</a>
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
                     <a class="btn btn-sm btn-rounded btn-noborder btn-alt-primary min-width-75 img-lightbox" href="{{('image/front2.jpg')}}">
                         <i class="fa fa-search-plus"></i> Lihat
                     </a>
-                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" href="javascript:void(0)"><i class="fa fa-pencil"></i> Ubah</a>
+                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" ><i class="fa fa-pencil"></i> Ubah</a>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
                     <a class="btn btn-sm btn-rounded btn-noborder btn-alt-primary min-width-75 img-lightbox" href="{{('image/front5.jpg')}}">
                         <i class="fa fa-search-plus"></i> Lihat
                     </a>
-                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" href="javascript:void(0)"><i class="fa fa-pencil"></i> Ubah</a>
+                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" ><i class="fa fa-pencil"></i> Ubah</a>
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@
                     <a class="btn btn-sm btn-rounded btn-noborder btn-alt-primary min-width-75 img-lightbox" href="{{('image/front8.jpg.jpg')}}">
                         <i class="fa fa-search-plus"></i> Lihat
                     </a>
-                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" href="javascript:void(0)"><i class="fa fa-pencil"></i> Ubah</a>
+                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" ><i class="fa fa-pencil"></i> Ubah</a>
                 </div>
             </div>
         </div>
@@ -92,7 +92,7 @@
                     <a class="btn btn-sm btn-rounded btn-noborder btn-alt-primary min-width-75 img-lightbox" href="{{('image/front3.jpg')}}">
                         <i class="fa fa-search-plus"></i> Lihat
                     </a>
-                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" href="javascript:void(0)"><i class="fa fa-pencil"></i> Ubah</a>
+                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" ><i class="fa fa-pencil"></i> Ubah</a>
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@
                     <a class="btn btn-sm btn-rounded btn-noborder btn-alt-primary min-width-75 img-lightbox" href="{{('image/front6.jpg')}}">
                         <i class="fa fa-search-plus"></i> Lihat
                     </a>
-                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" href="javascript:void(0)"><i class="fa fa-pencil"></i> Ubah</a>
+                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" ><i class="fa fa-pencil"></i> Ubah</a>
                 </div>
             </div>
         </div>
@@ -122,7 +122,7 @@
                     <a class="btn btn-sm btn-rounded btn-noborder btn-alt-primary min-width-75 img-lightbox" href="{{('image/front9.jpg')}}">
                         <i class="fa fa-search-plus"></i> Lihat
                     </a>
-                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" href="javascript:void(0)"><i class="fa fa-pencil"></i> Ubah</a>
+                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" ><i class="fa fa-pencil"></i> Ubah</a>
                 </div>
             </div>
         </div>
@@ -137,7 +137,7 @@
                     <a class="btn btn-sm btn-rounded btn-noborder btn-alt-primary min-width-75 img-lightbox" href="{{('image/front4.jpg')}}">
                         <i class="fa fa-search-plus"></i> Lihat
                     </a>
-                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" href="javascript:void(0)"><i class="fa fa-pencil"></i> Ubah</a>
+                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" ><i class="fa fa-pencil"></i> Ubah</a>
                 </div>
             </div>
         </div>
@@ -152,7 +152,7 @@
                     <a class="btn btn-sm btn-rounded btn-noborder btn-alt-primary min-width-75 img-lightbox" href="{{('image/front7.jpg')}}">
                         <i class="fa fa-search-plus"></i> Lihat
                     </a>
-                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" href="javascript:void(0)"><i class="fa fa-pencil"></i> Ubah</a>
+                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" ><i class="fa fa-pencil"></i> Ubah</a>
                 </div>
             </div>
         </div>
@@ -167,7 +167,7 @@
                     <a class="btn btn-sm btn-rounded btn-noborder btn-alt-primary min-width-75 img-lightbox" href="{{('image/front10.jpg')}}">
                         <i class="fa fa-search-plus"></i> Lihat
                     </a>
-                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" href="javascript:void(0)"><i class="fa fa-pencil"></i> Ubah</a>
+                    <a class="btn btn-sm btn-rounded btn-noborder btn-alt-success min-width-75" ><i class="fa fa-pencil"></i> Ubah</a>
                 </div>
             </div>
         </div>

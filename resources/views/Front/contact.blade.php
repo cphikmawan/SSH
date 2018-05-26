@@ -14,7 +14,7 @@
     <main id="main-container">
         <!-- Hero -->
         <div class="bg-primary">
-            <div class="bg-pattern bg-black-op-25" style="background-image: url('assets/img/various/bg-pattern.png');">
+            <div class="bg-pattern bg-black-op-25" style="background-image: url('codebase/02 - Codebase Source (HTML)/src/assets/img/various/bg-pattern.png');">
                 <div class="content content-top text-center">
                     <div class="py-50">
                         <h1 class="font-w700 text-white mb-10">Hubungi Kami</h1>
@@ -28,7 +28,7 @@
         <!-- Contact Form -->
         <div class="content content-full">
             <div class="row justify-content-center py-30">
-                <div class="col-lg-8 col-xl-6">
+                <div class="col-lg-8 col-xl-6" style="background-color: white">
                     <form class="js-validation-signup" action="/pesan">
                         <div class="form-group row">
                             <div class="col-12">

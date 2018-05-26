@@ -18,7 +18,7 @@
 <nav class="breadcrumb bg-white push">
     <a class="breadcrumb-item" href="{{ url('/dashboard') }}">Dasbor</a>
     <a class="breadcrumb-item" href="{{ url('/post') }}">Posting</a>
-    <span class="breadcrumb-item active">Just a small question!</span>
+    <span class="breadcrumb-item active">Sunday Sharing Homeless Ekspedisi Ke 4</span>
 </nav>
 <div class="block">
     <div class="block-header block-header-default">

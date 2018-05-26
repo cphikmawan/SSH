@@ -21,7 +21,7 @@
 <div class="row invisible" data-toggle="appear">
     <!-- Row #2 -->
     <div class="col-md-6 col-xl-3">
-        <a class="block block-link-shadow text-center" href="javascript:void(0)">
+        <a class="block block-link-shadow text-center" >
             <div class="block-content block-content-full block-content-sm">
                 <div class="font-w600">Djohan Prabowo</div>
             </div>
@@ -47,7 +47,7 @@
         </a>
     </div>
     <div class="col-md-6 col-xl-3">
-        <a class="block block-link-shadow text-center" href="javascript:void(0)">
+        <a class="block block-link-shadow text-center" >
             <div class="block-content block-content-full block-content-sm">
                 <div class="font-w600">Tegar Satrio Utomo</div>
             </div>
@@ -73,7 +73,7 @@
         </a>
     </div>
     <div class="col-md-6 col-xl-3">
-        <a class="block block-link-shadow text-center" href="javascript:void(0)">
+        <a class="block block-link-shadow text-center" >
             <div class="block-content block-content-full block-content-sm">
                 <div class="font-w600">Firman Aqil</div>
             </div>
@@ -99,7 +99,7 @@
         </a>
     </div>
     <div class="col-md-6 col-xl-3">
-        <a class="block block-link-shadow text-center" href="javascript:void(0)">
+        <a class="block block-link-shadow text-center" >
             <div class="block-content block-content-full block-content-sm">
                 <div class="font-w600">Illham Hanafi</div>
             </div>
@@ -125,7 +125,7 @@
         </a>
     </div>
     <div class="col-md-6 col-xl-3">
-        <a class="block block-link-shadow text-center" href="javascript:void(0)">
+        <a class="block block-link-shadow text-center" >
             <div class="block-content block-content-full block-content-sm">
                 <div class="font-w600">Fuad Dary Rosyadi</div>
             </div>
@@ -151,7 +151,7 @@
         </a>
     </div>
     <div class="col-md-6 col-xl-3">
-        <a class="block block-link-shadow text-center" href="javascript:void(0)">
+        <a class="block block-link-shadow text-center" >
             <div class="block-content block-content-full block-content-sm">
                 <div class="font-w600">Satria Ariyawan</div>
             </div>
@@ -177,7 +177,7 @@
         </a>
     </div>
     <div class="col-md-6 col-xl-3">
-        <a class="block block-link-shadow text-center" href="javascript:void(0)">
+        <a class="block block-link-shadow text-center" >
             <div class="block-content block-content-full block-content-sm">
                 <div class="font-w600">Ichsan Sandi</div>
             </div>
@@ -203,7 +203,7 @@
         </a>
     </div>
     <div class="col-md-6 col-xl-3">
-        <a class="block block-link-shadow text-center" href="javascript:void(0)">
+        <a class="block block-link-shadow text-center" >
             <div class="block-content block-content-full block-content-sm">
                 <div class="font-w600">Azka Yasin</div>
             </div>
@@ -229,7 +229,7 @@
         </a>
     </div>
     <div class="col-md-6 col-xl-3">
-        <a class="block block-link-shadow text-center" href="javascript:void(0)">
+        <a class="block block-link-shadow text-center" >
             <div class="block-content block-content-full block-content-sm">
                 <div class="font-w600">Faris Didin A.</div>
             </div>
@@ -255,7 +255,7 @@
         </a>
     </div>
     <div class="col-md-6 col-xl-3">
-        <a class="block block-link-shadow text-center" href="javascript:void(0)">
+        <a class="block block-link-shadow text-center" >
             <div class="block-content block-content-full block-content-sm">
                 <div class="font-w600">Rohana Qudus</div>
             </div>
@@ -281,7 +281,7 @@
         </a>
     </div>
     <div class="col-md-6 col-xl-3">
-        <a class="block block-link-shadow text-center" href="javascript:void(0)">
+        <a class="block block-link-shadow text-center" >
             <div class="block-content block-content-full block-content-sm">
                 <div class="font-w600">Aguel Satria</div>
             </div>
@@ -307,7 +307,7 @@
         </a>
     </div>
     <div class="col-md-6 col-xl-3">
-        <a class="block block-link-shadow text-center" href="javascript:void(0)">
+        <a class="block block-link-shadow text-center" >
             <div class="block-content block-content-full block-content-sm">
                 <div class="font-w600">Khawari Muhammad Dzakwan</div>
             </div>

@@ -19,7 +19,7 @@
 <div class="content-heading">
     <div class="dropdown float-right">
         <button type="button" class="btn btn-sm btn-secondary dropdown-toggle" id="ecom-orders-overview-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Semua Waktu
+            Minggu Ini
         </button>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="ecom-orders-overview-drop">
             <a class="dropdown-item active" href="javascript:void(0)">
@@ -31,10 +31,10 @@
             <a class="dropdown-item" href="javascript:void(0)">
                 <i class="fa fa-fw fa-calendar mr-5"></i>Tahun Ini
             </a>
-            <div class="dropdown-divider"></div>
+            {{-- <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="javascript:void(0)">
                 <i class="fa fa-fw fa-circle-o mr-5"></i>Semua
-            </a>
+            </a> --}}
         </div>
     </div>
     Donasi
@@ -53,9 +53,9 @@
                     <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
                         <i class="si si-refresh"></i>
                     </button>
-                    <button type="button" class="btn-block-option">
+                    {{-- <button type="button" class="btn-block-option">
                         <i class="si si-wrench"></i>
-                    </button>
+                    </button> --}}
                 </div>
             </div>
             <div class="block-content block-content-full bg-body-light text-center">

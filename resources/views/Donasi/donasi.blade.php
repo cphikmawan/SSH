@@ -26,13 +26,13 @@
                 {{--  <!-- Step Tabs -->  --}}
                 <ul class="nav nav-tabs nav-tabs-alt nav-fill" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" onclick="check()" href="#wizard-validation-material-step1" data-toggle="tab">Step 1</a>
+                        <a class="nav-link active" onclick="check()" style="pointer-events: none;" href="#wizard-validation-material-step1" data-toggle="tab">Step 1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="check()" href="#wizard-validation-material-step2" data-toggle="tab">Step 2</a>
+                        <a class="nav-link" onclick="check()" style="pointer-events: none;" href="#wizard-validation-material-step2" data-toggle="tab">Step 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="check()" href="#wizard-validation-material-step3" data-toggle="tab">Step 3</a>
+                        <a class="nav-link" onclick="check()"  style="pointer-events: none;" href="#wizard-validation-material-step3" data-toggle="tab">Step 3</a>
                     </li>
                 </ul>
                 {{--  <!-- END Step Tabs -->  --}}
@@ -99,7 +99,7 @@
                                 <label class="css-control css-control-primary css-radio">
                                     <input type="radio" class="css-control-input" id="bni" name="radio-group2" checked>
                                     <span class="css-control-indicator"></span> 
-                                    <img src="/image/bni.jpg" alt="BNI syariah" width="150px"/>
+                                    <img src="/image/syariah" alt="BNI syariah" width="150px"/>
                                 </label>
                             </div>
                             <div class="col-3" style="padding: 50px">
