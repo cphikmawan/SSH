@@ -135,6 +135,7 @@
                                         <div class="font-size-h4 font-w600 text-uppercase text-muted" id="nomorrekening">rekening</div>
                                         <div class="font-size-sm font-w600 text-muted" id="atasnama">atas nama</div>
                                     </div>
+                                    <p style="color:red;">Harap transfer sampai 3 digit terakhir agar donasi kamu otomatis terverifikasi</p>
                                 </div>
                                 <a class="d-block bg-success font-w600 text-uppercase py-5" data-toggle="modal">
                                 <span class="text-white"></span>
@@ -211,9 +212,15 @@
         <!-- END Pop Out Modal -->
 
     <script>
+    function rupiah(x){
+        return x.toLocaleString('id-ID');
+}
     function check() {
-        var donasi = document.getElementById("wizard-nominal").value;
-        console.log (donasi)
+        var donasi = parseInt(document.getElementById("wizard-nominal").value);
+        var kodeunik = parseInt(Math.random() * (999 - 20) + 20);
+        donasi = donasi + kodeunik;
+        console.log (donasi + kodeunik);
+        
         if (donasi == null) {
             alert("nominal donasi harus diisi");
         }
@@ -224,7 +231,7 @@
         var transfer = document.getElementById("transfer");
         if (mandiri.checked == true){
                 final.style.display = "block";
-                document.getElementById("nominal").innerHTML = "Rp " + donasi;
+                document.getElementById("nominal").innerHTML = "Rp " + rupiah(donasi);
                 document.getElementById("bank").innerHTML = "Tranfer Bank Mandiri";
                 document.getElementById("nomorrekening").innerHTML = "13000-1499-4464";
                 document.getElementById("atasnama").innerHTML = "atas nama Udin IMM";
@@ -233,7 +240,7 @@
         }
         if (bni.checked == true){
                 final.style.display = "block";
-                document.getElementById("nominal").innerHTML = "Rp " + donasi;
+                document.getElementById("nominal").innerHTML = "Rp " + rupiah(donasi);
                 document.getElementById("bank").innerHTML = "Tranfer Bank BNI";
                 document.getElementById("nomorrekening").innerHTML = "150-81-2726";
                 document.getElementById("atasnama").innerHTML = "atas nama DR Fu";
@@ -242,7 +249,7 @@
         }
         if (bca.checked == true){
                 final.style.display = "block";
-                document.getElementById("nominal").innerHTML = "Rp " + donasi;
+                document.getElementById("nominal").innerHTML = "Rp " + rupiah(donasi);
                 document.getElementById("bank").innerHTML = "Tranfer Bank BCA";
                 document.getElementById("nomorrekening").innerHTML = "7750-314-613";
                 document.getElementById("atasnama").innerHTML = "atas nama Cloud";
@@ -251,7 +258,7 @@
         }
         if (bri.checked == true){
                 final.style.display = "block";
-                document.getElementById("nominal").innerHTML = "Rp " + donasi;
+                document.getElementById("nominal").innerHTML = "Rp " + rupiah(donasi);
                 document.getElementById("bank").innerHTML = "Tranfer Bank BRI";
                 document.getElementById("nomorrekening").innerHTML = "037 701 000 435 301";
                 document.getElementById("atasnama").innerHTML = "atas nama Kelompok IMK";

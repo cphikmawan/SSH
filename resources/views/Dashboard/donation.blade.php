@@ -3,15 +3,15 @@
 @section('title', 'Dashboard')
 
 @section('aside')
-    @include('layouts.dashboard.aside')
+@include('layouts.dashboard.aside')
 @endsection
 
 @section('sidebar')
-    @include('layouts.dashboard.sidebar')
+@include('layouts.dashboard.sidebar')
 @endsection
 
 @section('header')
-    @include('layouts.dashboard.header')    
+@include('layouts.dashboard.header')    
 @endsection
 
 @section('content')
@@ -41,6 +41,7 @@
 </div>
 
 <!-- Chart.js Chart (initialized in js/pages/be_pages_ecom_dashboard.js), for more examples you can check out http://www.chartjs.org/docs/ -->
+
 <div class="row gutters-tiny">
     <!-- Orders Earnings Chart -->
     <div class="col-md">
@@ -85,6 +86,130 @@
     <!-- END Orders Earnings Chart -->
 </div>
 
+
+<!-- Latest Transactions -->
+<div class="row gutters-tiny">
+    <!-- Latest Transactions -->
+    <div class="col-xl">
+        <h2 class="content-heading">Donasi Masuk</h2>
+        <div class="block block-rounded">
+            <div class="block-content">
+                <table class="table table-borderless table-striped">
+                    <thead>
+                        <tr>
+                            <th style="width: 100px;">ID</th>
+                            <th>Status</th>
+                            <th class="d-none d-sm-table-cell">Donatur</th>
+                            <th class="text-right">Jumlah</th>
+                            <th class="text-center">Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a class="font-w600" href="#">DON.151</a>
+                            </td>
+                            <td>
+                                <span class="badge badge-info">Menunggu verivikasi</span>
+                            </td>
+                            <td class="d-none d-sm-table-cell">
+                                <a href="#">Satria Ariyawan</a>
+                            </td>
+                            <td class="text-right">
+                                <span class="text-black">Rp. 443.000</span>
+                            </td>
+                            <td class="text-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-secondary" data-toggle="tooltip" title="verifikasi">
+                                        <i class="fa fa-thumbs-o-up"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-secondary" data-toggle="tooltip" title="Hapus">
+                                        <i class="fa fa-times"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="font-w600" href="#">DON.150</a>
+                            </td>
+                            <td>
+                                <span class="badge badge-info">Menunggu verivikasi</span>
+                            </td>
+                            <td class="d-none d-sm-table-cell">
+                                <a href="#">Wahyu Pujiono</a>
+                            </td>
+                            <td class="text-right">
+                                <span class="text-black">Rp. 130.000</span>
+                            </td>
+                            <td class="text-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-secondary" data-toggle="tooltip" title="verifikasi">
+                                        <i class="fa fa-thumbs-o-up"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-secondary" data-toggle="tooltip" title="Hapus">
+                                        <i class="fa fa-times"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="font-w600" href="#">DON.148</a>
+                            </td>
+                            <td>
+                                <span class="badge badge-info">Menunggu verivikasi</span>
+                            </td>
+                            <td class="d-none d-sm-table-cell">
+                                <a href="#">Fuad Dary Rosyadi</a>
+                            </td>
+                            <td class="text-right">
+                                <span class="text-black">Rp. 534.000</span>
+                            </td>
+                            <td class="text-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-secondary" data-toggle="tooltip" title="verifikasi">
+                                        <i class="fa fa-thumbs-o-up"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-secondary" data-toggle="tooltip" title="Hapus">
+                                        <i class="fa fa-times"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="font-w600" href="#">DON.147</a>
+                            </td>
+                            <td>
+                                <span class="badge badge-info">Menunggu verivikasi</span>
+                            </td>
+                            <td class="d-none d-sm-table-cell">
+                                <a href="#">Afif Ridho Kamal P.</a>
+                            </td>
+                            <td class="text-right">
+                                <span class="text-black">Rp. 968.000</span>
+                            </td>
+                            <td class="text-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-secondary" data-toggle="tooltip" title="verifikasi">
+                                        <i class="fa fa-thumbs-o-up"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-secondary" data-toggle="tooltip" title="Hapus">
+                                        <i class="fa fa-times"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- END Latest Orders -->
+</div>
+
+
 <!-- Latest Transactions -->
 <div class="row gutters-tiny">
     <!-- Latest Transactions -->
@@ -97,45 +222,17 @@
                         <tr>
                             <th style="width: 100px;">ID</th>
                             <th>Status</th>
-                            <th class="d-none d-sm-table-cell">Pelanggan</th>
+                            <th class="d-none d-sm-table-cell">Donatur</th>
                             <th class="text-right">Jumlah</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>
-                                <a class="font-w600" href="#">DON.151</a>
-                            </td>
-                            <td>
-                                <span class="badge badge-info">Proses</span>
-                            </td>
-                            <td class="d-none d-sm-table-cell">
-                                <a href="#">Satria Ariyawan</a>
-                            </td>
-                            <td class="text-right">
-                                <span class="text-black">Rp. 443.000</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a class="font-w600" href="#">DON.150</a>
-                            </td>
-                            <td>
-                                <span class="badge badge-info">Proses</span>
-                            </td>
-                            <td class="d-none d-sm-table-cell">
-                                <a href="#">Wahyu Pujiono</a>
-                            </td>
-                            <td class="text-right">
-                                <span class="text-black">Rp. 130.000</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
                                 <a class="font-w600" href="#">DON.149</a>
                             </td>
                             <td>
-                                <span class="badge badge-danger">Gagal</span>
+                                <span class="badge badge-danger">Batal Transfer</span>
                             </td>
                             <td class="d-none d-sm-table-cell">
                                 <a href="#">Ilham M. Misbahuddin</a>
@@ -146,38 +243,10 @@
                         </tr>
                         <tr>
                             <td>
-                                <a class="font-w600" href="#">DON.148</a>
-                            </td>
-                            <td>
-                                <span class="badge badge-info">Proses</span>
-                            </td>
-                            <td class="d-none d-sm-table-cell">
-                                <a href="#">Fuad Dary Rosyadi</a>
-                            </td>
-                            <td class="text-right">
-                                <span class="text-black">Rp. 534.000</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a class="font-w600" href="#">DON.147</a>
-                            </td>
-                            <td>
-                                <span class="badge badge-info">Proses</span>
-                            </td>
-                            <td class="d-none d-sm-table-cell">
-                                <a href="#">Afif Ridho Kamal P.</a>
-                            </td>
-                            <td class="text-right">
-                                <span class="text-black">Rp. 968.000</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
                                 <a class="font-w600" href="#">DON.146</a>
                             </td>
                             <td>
-                                <span class="badge badge-success">Sukses</span>
+                                <span class="badge badge-success">Sukses Terverivikasi</span>
                             </td>
                             <td class="d-none d-sm-table-cell">
                                 <a href="#">Afif Ridho Kamal P.</a>
@@ -191,7 +260,7 @@
                                 <a class="font-w600" href="#">DON.145</a>
                             </td>
                             <td>
-                                <span class="badge badge-success">Sukses</span>
+                                <span class="badge badge-success">Sukses Terverivikasi</span>
                             </td>
                             <td class="d-none d-sm-table-cell">
                                 <a href="#">Hafara Firdausy</a>
@@ -205,7 +274,7 @@
                                 <a class="font-w600" href="#">DON.144</a>
                             </td>
                             <td>
-                                <span class="badge badge-warning">Tunda</span>
+                                <span class="badge badge-success">Sukses Terverivikasi</span>
                             </td>
                             <td class="d-none d-sm-table-cell">
                                 <a href="#">Cahya Putra Hikmawan</a>
@@ -219,7 +288,7 @@
                                 <a class="font-w600" href="#">DON.143</a>
                             </td>
                             <td>
-                                <span class="badge badge-danger">Gagal</span>
+                                <span class="badge badge-danger">Batal Transfer</span>
                             </td>
                             <td class="d-none d-sm-table-cell">
                                 <a href="#">Dinda Kharisma F.</a>
@@ -233,10 +302,66 @@
                                 <a class="font-w600" href="#">DON.142</a>
                             </td>
                             <td>
-                                <span class="badge badge-success">Sukses</span>
+                                <span class="badge badge-success">Sukses Terverivikasi</span>
                             </td>
                             <td class="d-none d-sm-table-cell">
                                 <a href="#">Rizky Fenaldo</a>
+                            </td>
+                            <td class="text-right">
+                                <span class="text-black">Rp. 75.000</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="font-w600" href="#">DON.148</a>
+                            </td>
+                            <td>
+                                <span class="badge badge-danger">Batal Transfer</span>
+                            </td>
+                            <td class="d-none d-sm-table-cell">
+                                <a href="#">Dinda F.</a>
+                            </td>
+                            <td class="text-right">
+                                <span class="text-black">Rp. 678.000</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="font-w600" href="#">DON.163</a>
+                            </td>
+                            <td>
+                                <span class="badge badge-success">Sukses Terverivikasi</span>
+                            </td>
+                            <td class="d-none d-sm-table-cell">
+                                <a href="#">Rizky Maulana</a>
+                            </td>
+                            <td class="text-right">
+                                <span class="text-black">Rp. 75.000</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="font-w600" href="#">DON.173</a>
+                            </td>
+                            <td>
+                                <span class="badge badge-danger">Batal Transfer</span>
+                            </td>
+                            <td class="d-none d-sm-table-cell">
+                                <a href="#">Fara Naila.</a>
+                            </td>
+                            <td class="text-right">
+                                <span class="text-black">Rp. 678.000</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="font-w600" href="#">DON.162</a>
+                            </td>
+                            <td>
+                                <span class="badge badge-success">Sukses Terverivikasi</span>
+                            </td>
+                            <td class="d-none d-sm-table-cell">
+                                <a href="#">Raldo</a>
                             </td>
                             <td class="text-right">
                                 <span class="text-black">Rp. 75.000</span>
