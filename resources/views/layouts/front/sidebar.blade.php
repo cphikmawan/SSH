@@ -34,9 +34,14 @@
                 If you would like to use the same navigation in both mobiles and desktops, you can use exactly the same markup inside sidebar and header navigation ul lists
                 -->
                 <ul class="nav-main">
-                    <li>
+                   <li>
                         <a class="{{ request()->is('/') ? 'active' : '' }}" href="/">
                             <i class="si si-home"></i>Home
+                        </a>
+                    </li>
+                    <li>
+                        <a class="{{ request()->is('harga') || request()->is('formulir') || request()->is('pembayaran') || request()->is('informasi') ? 'active' : '' }}" href="/harga">
+                            <i class="fa fa-dollar"></i>Harga
                         </a>
                     </li>
                     <li>
@@ -47,11 +52,6 @@
                     <li>
                         <a class="{{ request()->is('contact') ? 'active' : '' }}" href="/contact">
                             <i class="si si-phone"></i>Hubungi Kami
-                        </a>
-                    </li>
-                    <li>
-                        <a class="{{ request()->is('harga') || request()->is('formulir') || request()->is('pembayaran') || request()->is('informasi') ? 'active' : '' }}" href="/harga">
-                            <i class="fa fa-dollar"></i>Harga
                         </a>
                     </li>
                     <li>

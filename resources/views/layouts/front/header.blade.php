@@ -36,6 +36,11 @@
                     </a>
                 </li>
                 <li>
+                    <a class="{{ request()->is('harga') || request()->is('formulir') || request()->is('pembayaran') || request()->is('informasi') ? 'active' : '' }}" href="/harga">
+                        <i class="fa fa-dollar"></i>Harga
+                    </a>
+                </li>
+                <li>
                     <a class="{{ request()->is('about') ? 'active' : '' }}" href="/about">
                         <i class="si si-info"></i>Tentang Kami
                     </a>
@@ -43,11 +48,6 @@
                 <li>
                     <a class="{{ request()->is('contact') ? 'active' : '' }}" href="/contact">
                         <i class="si si-phone"></i>Hubungi Kami
-                    </a>
-                </li>
-                <li>
-                    <a class="{{ request()->is('harga') || request()->is('formulir') || request()->is('pembayaran') || request()->is('informasi') ? 'active' : '' }}" href="/harga">
-                        <i class="fa fa-dollar"></i>Harga
                     </a>
                 </li>
                 <li>
