@@ -15,11 +15,9 @@
         <!-- Hero -->
         <div class="bg-primary">
             <div class="bg-pattern bg-black-op-25" style="background-image: url('codebase/02 - Codebase Source (HTML)/src/assets/img/various/bg-pattern.png');">
-                <div class="content content-top text-center">
-                    <div class="py-50">
-                        <h1 class="font-w700 text-white mb-10">Hubungi Kami</h1>
-                        <h2 class="h4 font-w400 text-white-op">Apa yang ada dipikiran anda?</h2>
-                    </div>
+                <div class="content text-center">
+                    <h1 class="font-w700 text-white mb-10">Hubungi Kami</h1>
+                    <h2 class="h4 font-w400 text-white-op">Apa yang ada dipikiran anda?</h2>
                 </div>
             </div>
         </div>
@@ -65,6 +63,30 @@
                 </div>
             </div>
         </div>
-        <!-- END Contact Form -->
+
+        <div class="row">
+            <div class="col-md-8">
+                <div id="js-map-be-contact" style="height: 380px;"></div>
+            </div>
+            <div class="col-md-4">
+                <div class="block block-rounded">
+                    <div class="block-header block-header-default">
+                        <div class="font-size-lg text-black mb-5">Hubungi Kami :</div>
+                    </div>
+                    <div class="block-content">
+                        <address>
+                            <div class="font-size-lg text-black mb-5">Alamat</div>                            
+                            Jl. Teknik Kimia, Institut Teknologi Sepuluh Nopember<br>
+                            Sukolilo 60111<br>
+                            Surabaya, Jawa Timur<br><br>
+                            <div class="font-size-lg text-black mb-5">Customer Service</div>
+                            <i class="fa fa-phone mr-5"></i> 03183018310<br>
+                            <i class="fa fa-whatsapp mr-5"></i> 08383018310<br>
+                            <i class="fa fa-envelope-o mr-5"></i> <a href="javascript:void(0)">customerservis@resik.co.id</a>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 @endsection

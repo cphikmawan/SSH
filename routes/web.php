@@ -24,10 +24,24 @@ Route::get('/contact', function () {
     return view('front.contact');
 });
 
-
-//
 Route::get('/harga', function () {
-    return view('harga.harga');
+    return view('front.order.harga');
+});
+
+Route::get('/formulir', function () {
+    return view('front.order.formulir');
+});
+
+Route::get('/pembayaran', function () {
+    return view('front.order.pembayaran');
+});
+
+Route::get('/invoice', function () {
+    return view('front.order.invoice');
+});
+
+Route::get('/faq', function () {
+    return view('front.order.faq');
 });
 
 //dashboard

@@ -85,11 +85,14 @@
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/plugins/bootstrap-wizard/jquery.bootstrap.wizard.js')}}"></script>
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/plugins/jquery-validation/jquery.validate.min.js')}}"></script>
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/plugins/jquery-validation/additional-methods.min.js')}}"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key="></script>
+        <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/plugins/gmapsjs/gmaps.min.js')}}"></script>
+        <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/plugins/jquery-validation/jquery.validate.min.js')}}"></script>
         {{--  <!-- Page JS Code -->  --}}
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/pages/be_forms_wizard.js')}}"></script>
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/plugins/slick/slick.min.js')}}"></script>
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/pages/op_auth_signup.js') }}"></script>
-
+        <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/pages/be_pages_generic_contact.js')}}"></script>
         <!-- Page JS Code -->
         <script>
             jQuery(function () {

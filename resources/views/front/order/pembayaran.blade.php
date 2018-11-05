@@ -1,6 +1,6 @@
 @extends('layouts.front.app')
 
-@section('title', 'Donation')
+@section('title', 'Pembayaran')
 
 @section('sidebar')
     @include('layouts.front.sidebar')

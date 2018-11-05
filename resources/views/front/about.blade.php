@@ -50,126 +50,62 @@
                     </div>
                     <!-- END Info -->
 
-                    <!-- Team -->
-                    <div class="row gutters-tiny py-20">
-                        <div class="col-md-6 col-xl-4">
-                            <div class="block text-center">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="block">
+                                <div class="block-header block-header-default">
+                                    <h3 class="block-title"><i class="fa fa-users fa-fw text-primary"></i> Profil Tim</h3>
+                                </div>
                                 <div class="block-content">
-                                    <img class="img-avatar img-avatar96" src="/image/fikri.jpg" alt="">
-                                </div>
-                                <div class="block-content block-content-full">
-                                    <div class="font-size-h4 font-w600 mb-0">Fikri S.</div>
-                                    <div class="font-size-h5 text-muted">Pendiri</div>
-                                </div>
-                                <div class="block-content block-content-full bg-body-light">
-                                    <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                    <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                    <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
+                                    <div class="js-slider text-center" data-autoplay="true" data-dots="true" data-arrows="true" data-slides-to-show="3">
+                                        <div class="py-20">
+                                            <img class="img-avatar" src="image/fikri.jpg" alt="">
+                                            <div class="mt-10 font-w600">Fikri S.</div>
+                                            <div class="font-size-sm text-muted">Pendiri</div>
+                                        </div>
+                                        <div class="py-20">
+                                            <img class="img-avatar" src="image/ayis.jpeg" alt="">
+                                            <div class="mt-10 font-w600">Fitria N.</div>
+                                            <div class="font-size-sm text-muted">Sekretaris</div>
+                                        </div>
+                                        <div class="py-20">
+                                            <img class="img-avatar" src="image/dini.jpg" alt="">
+                                            <div class="mt-10 font-w600">Dini R.</div>
+                                            <div class="font-size-sm text-muted">Manajer</div>
+                                        </div>
+                                        <div class="py-20">
+                                            <img class="img-avatar" src="image/wisnu.jpg" alt="">
+                                            <div class="mt-10 font-w600">Wisnu R.</div>
+                                            <div class="font-size-sm text-muted">Desainer</div>
+                                        </div>
+                                        <div class="py-20">
+                                            <img class="img-avatar" src="image/awan.jpeg" alt="">
+                                            <div class="mt-10 font-w600">Cahya H.</div>
+                                            <div class="font-size-sm text-muted">Developer</div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-xl-4">
-                            <div class="block text-center">
+                        <div class="col-md-4">
+                            <div class="block block-rounded">
+                                <div class="block-header block-header-default">
+                                    <h3 class="block-title">Alamat Kantor</h3>
+                                </div>
                                 <div class="block-content">
-                                    <img class="img-avatar img-avatar96" src="/image/ayis.jpeg" alt="">
-                                </div>
-                                <div class="block-content block-content-full">
-                                    <div class="font-size-h4 font-w600 mb-0">Fitria N.</div>
-                                    <div class="font-size-h5 text-muted">Sekretaris</div>
-                                </div>
-                                <div class="block-content block-content-full bg-body-light">
-                                    <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                    <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                    <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-4">
-                            <div class="block text-center">
-                                <div class="block-content">
-                                    <img class="img-avatar img-avatar96" src="/image/dini.jpg" alt="">
-                                </div>
-                                <div class="block-content block-content-full">
-                                    <div class="font-size-h4 font-w600 mb-0">Dini R.</div>
-                                    <div class="font-size-h5 text-muted">Manajer</div>
-                                </div>
-                                <div class="block-content block-content-full bg-body-light">
-                                    <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                    <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                    <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
+                                    {{-- <div class="font-size-lg text-black mb-5">John Smith</div> --}}
+                                    <address>
+                                        Jl. Teknik Kimia, Institut Teknologi Sepuluh Nopember<br>
+                                        Sukolilo 60111<br>
+                                        Surabaya, Jawa Timur<br><br>
+                                        <i class="fa fa-phone mr-5"></i> 03183018310<br>
+                                        <i class="fa fa-whatsapp mr-5"></i> 08383018310<br>
+                                        <i class="fa fa-envelope-o mr-5"></i> <a href="javascript:void(0)">customerservis@resik.co.id</a>
+                                    </address>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="row gutters-tiny py-20">
-                        <div class="col-md-6 col-xl-2"></div>
-                        <div class="col-md-6 col-xl-4">
-                            <div class="block text-center">
-                                <div class="block-content">
-                                    <img class="img-avatar img-avatar96" src="/image/wisnu.jpg" alt="">
-                                </div>
-                                <div class="block-content block-content-full">
-                                    <div class="font-size-h4 font-w600 mb-0">Wisnu R.</div>
-                                    <div class="font-size-h5 text-muted">Desainer</div>
-                                </div>
-                                <div class="block-content block-content-full bg-body-light">
-                                    <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                    <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                    <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-4">
-                            <div class="block text-center">
-                                <div class="block-content">
-                                    <img class="img-avatar img-avatar96" src="/image/awan.jpeg" alt="">
-                                </div>
-                                <div class="block-content block-content-full">
-                                    <div class="font-size-h4 font-w600 mb-0">Cahya P.</div>
-                                    <div class="font-size-h5 text-muted">Developer</div>
-                                </div>
-                                <div class="block-content block-content-full bg-body-light">
-                                    <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                    <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                    <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-2"></div>
-                    </div>
-                    <!-- END Team -->
-
                 </div>
                 <!-- END Page Content -->
             </main>
