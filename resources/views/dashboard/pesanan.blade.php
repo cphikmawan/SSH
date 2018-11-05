@@ -1,6 +1,6 @@
 @extends('layouts.dashboard.app')
 
-@section('title', 'Dashboard')
+@section('title', 'Pesanan')
 
 @section('aside')
     @include('layouts.dashboard.aside')
@@ -20,7 +20,7 @@
         <div class="content content-top content-full text-center">
             <div class="py-20">
                 <h1 class="h2 font-w700 text-white mb-10">RESIK @yield('title')</h1>
-                <h2 class="h4 font-w400 text-white-op mb-0">Selamat Datang Admin, cek <a class="text-primary-light link-effect" href="/pesanan">12 pesanan yang tertunda</a>.</h2>
+                <h2 class="h4 font-w400 text-white-op mb-0">Orderan Banyak Alhamdulillah!</h2>
             </div>
         </div>
     </div>
@@ -32,22 +32,19 @@
     <div class="content py-5 text-center">
         <nav class="breadcrumb bg-body-light mb-0">
             <a class="breadcrumb-item" href="/dashboard">RESIK</a>
-            <span class="breadcrumb-item active">Dashboard</span>
+            <span class="breadcrumb-item active">Pesanan</span>
         </nav>
     </div>
 </div>
 
-<!-- Page Content -->
 <div class="content">
-    <!-- Statistics -->
-    <!-- CountTo ([data-toggle="countTo"] is initialized in Codebase() -> uiHelperCoreAppearCountTo()) -->
-    <!-- For more info and examples you can check out https://github.com/mhuggins/jquery-countTo -->
     <div class="content-heading">
         <div class="dropdown float-right">
-            <button type="button" class="btn btn-sm btn-secondary dropdown-toggle" id="ecom-dashboard-stats-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button type="button" class="btn btn-sm btn-secondary dropdown-toggle" id="ecom-orders-stats-drop" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
                 Today
             </button>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="ecom-dashboard-stats-drop">
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="ecom-orders-stats-drop">
                 <a class="dropdown-item active" href="javascript:void(0)">
                     <i class="fa fa-fw fa-calendar mr-5"></i>Today
                 </a>
@@ -69,45 +66,63 @@
         Statistik
     </div>
     <div class="row gutters-tiny">
-        <!-- Earnings -->
+        <!-- Pending -->
         <div class="col-md-6 col-xl-3">
-            <a class="block block-rounded block-transparent bg-gd-elegance" href="javascript:void(0)">
+            <a class="block block-rounded block-transparent bg-gd-sun" href="javascript:void(0)">
                 <div class="block-content block-content-full block-sticky-options">
                     <div class="block-options">
                         <div class="block-options-item">
-                            <i class="fa fa-area-chart text-white-op"></i>
+                            <i class="fa fa-spinner fa-spin text-white-op"></i>
                         </div>
                     </div>
                     <div class="py-20 text-center">
-                        <div class="font-size-h2 font-w700 mb-0 text-white" data-toggle="countTo" data-to="87350000" data-before="Rp.">0</div>
-                        <div class="font-size-sm font-w600 text-uppercase text-white-op">Pendapatan</div>
+                        <div class="font-size-h2 font-w700 mb-0 text-white" data-toggle="countTo" data-to="12">0</div>
+                        <div class="font-size-sm font-w600 text-uppercase text-white-op">Pending</div>
                     </div>
                 </div>
             </a>
         </div>
-        <!-- END Earnings -->
+        <!-- END Pending -->
 
-         <!-- Earnings -->
+        <!-- Canceled -->
         <div class="col-md-6 col-xl-3">
-            <a class="block block-rounded block-transparent bg-gd-aqua" href="javascript:void(0)">
+            <a class="block block-rounded block-transparent bg-gd-cherry" href="javascript:void(0)">
                 <div class="block-content block-content-full block-sticky-options">
                     <div class="block-options">
                         <div class="block-options-item">
-                            <i class="fa fa-area-chart text-white-op"></i>
+                            <i class="fa fa-times text-white-op"></i>
                         </div>
                     </div>
                     <div class="py-20 text-center">
-                        <div class="font-size-h2 font-w700 mb-0 text-white" data-toggle="countTo" data-to="21245267" data-before="Rp.">0</div>
-                        <div class="font-size-sm font-w600 text-uppercase text-white-op">Pengeluaran</div>
+                        <div class="font-size-h2 font-w700 mb-0 text-white" data-toggle="countTo" data-to="2">0</div>
+                        <div class="font-size-sm font-w600 text-uppercase text-white-op">Batal</div>
                     </div>
                 </div>
             </a>
         </div>
-        <!-- END Earnings -->
+        <!-- END Canceled -->
 
-        <!-- Orders -->
+        <!-- Completed -->
         <div class="col-md-6 col-xl-3">
-            <a class="block block-rounded block-transparent bg-gd-dusk" href="/pesanan">
+            <a class="block block-rounded block-transparent bg-gd-lake" href="javascript:void(0)">
+                <div class="block-content block-content-full block-sticky-options">
+                    <div class="block-options">
+                        <div class="block-options-item">
+                            <i class="fa fa-check text-white-op"></i>
+                        </div>
+                    </div>
+                    <div class="py-20 text-center">
+                        <div class="font-size-h2 font-w700 mb-0 text-white" data-toggle="countTo" data-to="21">0</div>
+                        <div class="font-size-sm font-w600 text-uppercase text-white-op">Selesai</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- END Completed -->
+
+        <!-- All -->
+        <div class="col-md-6 col-xl-3">
+            <a class="block block-rounded block-transparent bg-gd-dusk" href="javascript:void(0)">
                 <div class="block-content block-content-full block-sticky-options">
                     <div class="block-options">
                         <div class="block-options-item">
@@ -115,39 +130,18 @@
                         </div>
                     </div>
                     <div class="py-20 text-center">
-                        <div class="font-size-h2 font-w700 mb-0 text-white" data-toggle="countTo" data-to="223">0</div>
-                        <div class="font-size-sm font-w600 text-uppercase text-white-op">Pesanan</div>
+                        <div class="font-size-h2 font-w700 mb-0 text-white" data-toggle="countTo" data-to="35">0</div>
+                        <div class="font-size-sm font-w600 text-uppercase text-white-op">Semua</div>
                     </div>
                 </div>
             </a>
         </div>
-        <!-- END Orders -->
-
-        <!-- New Customers -->
-        <div class="col-md-6 col-xl-3">
-            <a class="block block-rounded block-transparent bg-gd-sea" href="/pelanggan">
-                <div class="block-content block-content-full block-sticky-options">
-                    <div class="block-options">
-                        <div class="block-options-item">
-                            <i class="fa fa-users text-white-op"></i>
-                        </div>
-                    </div>
-                    <div class="py-20 text-center">
-                        <div class="font-size-h2 font-w700 mb-0 text-white" data-toggle="countTo" data-to="189">0</div>
-                        <div class="font-size-sm font-w600 text-uppercase text-white-op">Pelanggan</div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <!-- END New Customers -->
+        <!-- END All -->
     </div>
-    <!-- END Statistics -->
-
-    <!-- Latest Orders and Top Products -->
     <div class="row gutters-tiny">
         <!-- Latest Orders -->
         <div class="col-xl-12">
-            <h2 class="content-heading">Pesanan Terbaru</h2>
+            <h2 class="content-heading">Semua Pesanan</h2>
             <div class="block block-rounded">
                 <div class="block-content">
                     <table class="table table-borderless table-striped">
@@ -156,6 +150,7 @@
                                 <th class="d-none d-sm-table-cell">ID</th>
                                 <th class="d-none d-sm-table-cell">Status</th>
                                 <th class="d-none d-sm-table-cell">Pelanggan</th>
+                                <th class="d-none d-sm-table-cell">Tanggal Pesanan</th>
                                 <th class="text-center d-none d-sm-table-cell">Kode Penyimpanan</th>
                                 <th class="text-center d-none d-sm-table-cell">Kode Pesanan</th>
                                 <th class="text-center d-none d-sm-table-cell">Tagihan</th>
@@ -171,6 +166,9 @@
                                 </td>
                                 <td class="d-none d-sm-table-cell">
                                     <a href="/detail_pelanggan">Cahya P.</a>
+                                </td>
+                                <td class="">
+                                    <span class="text-black">09-10-2018</span>
                                 </td>
                                 <td class="text-center">
                                     <span class="text-black">PES.1845</span>
@@ -192,6 +190,9 @@
                                 <td class="d-none d-sm-table-cell">
                                     <a href="/detail_pelanggan">Wisnu R.</a>
                                 </td>
+                                <td class="">
+                                    <span class="text-black">09-10-2018</span>
+                                </td>
                                 <td class="text-center">
                                     <span class="text-black">PES.1845</span>
                                 </td>
@@ -211,6 +212,9 @@
                                 </td>
                                 <td class="d-none d-sm-table-cell">
                                     <a href="/detail_pelanggan">Fitria N.</a>
+                                </td>
+                                <td class="">
+                                    <span class="text-black">09-10-2018</span>
                                 </td>
                                 <td class="text-center">
                                     <span class="text-black">PES.1845</span>
@@ -232,6 +236,9 @@
                                 <td class="d-none d-sm-table-cell">
                                     <a href="/detail_pelanggan">Fikri S.</a>
                                 </td>
+                                <td class="">
+                                    <span class="text-black">09-10-2018</span>
+                                </td>
                                 <td class="text-center">
                                     <span class="text-black">PES.1845</span>
                                 </td>
@@ -252,6 +259,9 @@
                                 <td class="d-none d-sm-table-cell">
                                     <a href="/detail_pelanggan">Dini R.</a>
                                 </td>
+                                <td class="">
+                                    <span class="text-black">09-10-2018</span>
+                                </td>
                                 <td class="text-center">
                                     <span class="text-black">PES.1845</span>
                                 </td>
@@ -269,7 +279,6 @@
         </div>
         <!-- END Latest Orders -->
     </div>
-    <!-- END Latest Orders and Top Products -->
 </div>
-<!-- END Page Content -->
+<!-- END Statistics -->
 @endsection

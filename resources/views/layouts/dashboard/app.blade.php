@@ -21,7 +21,7 @@
 
     </head>
     <body>
-        <div id="page-container" class="sidebar-o sidebar-inverse side-scroll page-header-fixed page-header-modern main-content-boxed">
+        <div id="page-container" class="sidebar-o sidebar-inverse side-scroll page-header-glass page-header-inverse main-content-boxed">
             
             @yield('aside')
 
@@ -31,12 +31,7 @@
 
             <!-- Main Container -->
             <main id="main-container">
-                <!-- Page Content -->
-                <div class="content">
-                    <!-- Donasi Ikhtisar -->
-                    @yield('content')
-                </div>
-                <!-- END Page Content -->
+                @yield('content')
             </main>
             <!-- END Main Container -->
 
@@ -59,6 +54,7 @@
         <!-- Page JS Plugins -->
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/plugins/chartjs/Chart.bundle.min.js')}}"></script>
         <!-- Page JS Code -->
+        <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/pages/be_pages_ecom_dashboard.js')}}"></script>
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/pages/be_pages_dashboard.js')}}"></script>
     </body>
 </html> 

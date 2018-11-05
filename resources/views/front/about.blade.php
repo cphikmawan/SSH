@@ -64,7 +64,7 @@
                                             <div class="font-size-sm text-muted">Pendiri</div>
                                         </div>
                                         <div class="py-20">
-                                            <img class="img-avatar" src="image/ayis.jpeg" alt="">
+                                            <img class="img-avatar" src="image/ayis.jpg" alt="">
                                             <div class="mt-10 font-w600">Fitria N.</div>
                                             <div class="font-size-sm text-muted">Sekretaris</div>
                                         </div>

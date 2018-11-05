@@ -32,10 +32,6 @@ Route::get('/formulir', function () {
     return view('front.order.formulir');
 });
 
-Route::get('/pembayaran', function () {
-    return view('front.order.pembayaran');
-});
-
 Route::get('/invoice', function () {
     return view('front.order.invoice');
 });
@@ -47,6 +43,22 @@ Route::get('/faq', function () {
 //dashboard
 Route::get('/dashboard', function () {
     return view('dashboard.index');
+});
+
+Route::get('/pesanan', function () {
+    return view('dashboard.pesanan');
+});
+
+Route::get('/detail_pesanan', function () {
+    return view('dashboard.detail_pesanan');
+});
+
+Route::get('/pelanggan', function () {
+    return view('dashboard.pelanggan');
+});
+
+Route::get('/detail_pelanggan', function () {
+    return view('dashboard.detail_pelanggan');
 });
 
 //auth

@@ -42,7 +42,7 @@
             <div class="content-side content-side-full content-side-user px-10 align-parent">
                 <!-- Visible only in mini mode -->
                 <div class="sidebar-mini-visible-b align-v animated fadeIn">
-                    <img class="img-avatar img-avatar32" src="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/avatars/avatar15.jpg')}}" alt="">
+                    <img class="img-avatar img-avatar32" src="/image/penyok.jpg" alt="">
                 </div>
                 <!-- END Visible only in mini mode -->
 
@@ -76,10 +76,13 @@
             <div class="content-side content-side-full">
                 <ul class="nav-main">
                     <li>
-                        <a class="{{ request()->is('dashboard') ? 'active' : '' }}" href="{{ url('/dashboard') }}"><i class="fa fa-coffee"></i><span class="sidebar-mini-hide">Dasbor</span></a>
+                        <a class="{{ request()->is('dashboard') ? 'active' : '' }}" href="{{ url('/dashboard') }}"><i class="fa fa-home"></i><span class="sidebar-mini-hide">Dasboard</span></a>
                     </li>
                     <li>
-                        <a class="{{ request()->is('post') ? 'active' : '' }}" href="{{ url('/') }}"><i class="fa fa-file-text-o"></i><span class="sidebar-mini-hide">Menu Lainnya</span></a>
+                        <a class="{{ request()->is('pesanan') ? 'active' : '' }}" href="{{ url('/pesanan') }}"><i class="fa fa-list-ul"></i><span class="sidebar-mini-hide">Pesanan</span></a>
+                    </li>
+                    <li>
+                        <a class="{{ request()->is('pelanggan') ? 'active' : '' }}" href="{{ url('/pelanggan') }}"><i class="fa fa-users"></i><span class="sidebar-mini-hide">Pelanggan</span></a>
                     </li>
                 </ul>
             </div>
