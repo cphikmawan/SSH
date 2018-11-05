@@ -46,7 +46,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="{{ request()->is('harga') ? 'active' : '' }}" href="/harga">
+                    <a class="{{ request()->is('harga') || request()->is('formulir') || request()->is('pembayaran') || request()->is('informasi') ? 'active' : '' }}" href="/harga">
                         <i class="fa fa-dollar"></i>Harga
                     </a>
                 </li>

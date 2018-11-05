@@ -42,7 +42,7 @@
         </div>
         {{--  <!-- END Page Container -->  --}}
         
-        {{--  <div class="modal fade" id="modal-terms" tabindex="-1" role="dialog" aria-labelledby="modal-terms" aria-hidden="true">
+         <div class="modal fade" id="modal-terms" tabindex="-1" role="dialog" aria-labelledby="modal-terms" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-slidedown" role="document">
                 <div class="modal-content">
                     <div class="block block-themed block-transparent mb-0">
@@ -55,10 +55,11 @@
                             </div>
                         </div>
                         <div class="block-content">
-                            <p>Bantuan Untuk Donasi</p>
-                            <p>1. Isi Biodata Diri dan Jumlah Donasi</p>
-                            <p>2. Pilih Bank</p>
-                            <p>3. Transfer Ke Rekening SSH</p>
+                            <p>Bantuan Untuk Pemesanan</p>
+                            <p>1. Isi Biodata Diri dan Pilih Waktu Tenggang Penyimpanan</p>
+                            <p>2. Pilih Bank Untuk Pembayaran</p>
+                            <p>3. Transfer Ke Rekening RESIK</p>
+                            <p>4. Simpan Invoice atau Unduh Invoice dari Email</p>
                         </div>
                     </div>
                     <div class="modal-footer">
@@ -68,7 +69,7 @@
                     </div>
                 </div>
             </div>
-        </div>  --}}
+        </div> 
 
         {{--  <!-- Codebase Core JS -->  --}}
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/core/jquery.min.js')}}"></script>

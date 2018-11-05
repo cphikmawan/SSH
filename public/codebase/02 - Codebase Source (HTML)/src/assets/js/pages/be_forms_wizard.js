@@ -151,6 +151,18 @@ var BeFormWizard = function() {
                     required: true,
                     minlength: 3
                 },
+                'wizard-identitas': {
+                    required: true,
+                    minlength: 3
+                },
+                'wizard-telepon': {
+                    required: true,
+                    minlength: 3
+                },
+                'wizard-barang': {
+                    required: true,
+                    minlength: 3
+                },
                 'wizard-alamat': {
                     required: true,
                     minlength: 3
@@ -176,6 +188,18 @@ var BeFormWizard = function() {
                 },
                 'wizard-nama': {
                     required: 'Nama Wajib Diisi',
+                    minlength: 'Nama Minimal 3 Karakter'
+                },
+                'wizard-identitas': {
+                    required: 'No Identitas Wajib Diisi',
+                    minlength: 'Nama Minimal 3 Karakter'
+                },
+                'wizard-telepon': {
+                    required: 'No Telepon Wajib Diisi',
+                    minlength: 'Nama Minimal 3 Karakter'
+                },
+                'wizard-barang': {
+                    required: 'Jenis Barang Wajib Diisi',
                     minlength: 'Nama Minimal 3 Karakter'
                 },
                 'wizard-alamat': {
