@@ -11,86 +11,70 @@
 |
 */
 
+//frontpage
 Route::get('/', function () {
-    return view('Front.frontpage');
+    return view('front.index');
 });
 
 Route::get('/about', function () {
-    return view('Front.about');
-});
-
-Route::get('/donasi', function () {
-    return view('Donasi.donasi');
-});
-
-Route::get('/dashboard', function () {
-    return view('Dashboard.index');
-});
-
-Route::get('/post', function () {
-    return view('Dashboard.post');
-});
-
-Route::get('/gallery', function () {
-    return view('Dashboard.gallery');
-});
-
-Route::get('/comment', function () {
-    return view('Dashboard.comment');
-});
-
-Route::get('/user', function () {
-    return view('Dashboard.user');
-});
-
-Route::get('/donation', function () {
-    return view('Dashboard.donation');
-});
-
-Route::get('/readmore', function () {
-    return view('Front.readmore');
-});
-
-Route::get('/masuk', function () {
-    return view('Auth.login');
-});
-
-Route::get('/daftar', function () {
-    return view('Auth.register');
-});
-
-Route::get('/lupa_password', function () {
-    return view('Auth.forgot');
-});
-
-Route::get('/info', function () {
-    return view('Auth.info');
+    return view('front.about');
 });
 
 Route::get('/contact', function () {
-    return view('Front.contact');
+    return view('front.contact');
 });
 
 Route::get('/pesan', function () {
-    return view('Front.info');
+    return view('front.info');
+});
+
+//
+Route::get('/harga', function () {
+    return view('harga.harga');
 });
 
 Route::get('/pesan_donasi', function () {
-    return view('Donasi.info');
+    return view('harga.info');
 });
 
-Route::get('/readmore1', function () {
-    return view('Front.readmore1');
+//dashboard
+Route::get('/dashboard', function () {
+    return view('dashboard.index');
 });
 
-Route::get('/readmore2', function () {
-    return view('Front.readmore2');
+Route::get('/post', function () {
+    return view('dashboard.post');
 });
 
-Route::get('/readmore3', function () {
-    return view('Front.readmore3');
+Route::get('/gallery', function () {
+    return view('dashboard.gallery');
 });
 
-Route::get('/readmore4', function () {
-    return view('Front.readmore4');
+Route::get('/comment', function () {
+    return view('dashboard.comment');
+});
+
+Route::get('/user', function () {
+    return view('dashboard.user');
+});
+
+Route::get('/donation', function () {
+    return view('dashboard.donation');
+});
+
+//auth
+Route::get('/masuk', function () {
+    return view('auth.login');
+});
+
+Route::get('/daftar', function () {
+    return view('auth.register');
+});
+
+Route::get('/lupa_password', function () {
+    return view('auth.forgot');
+});
+
+Route::get('/info', function () {
+    return view('auth.info');
 });

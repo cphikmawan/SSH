@@ -21,13 +21,13 @@
                     </div>
                     <div class="js-slider slick-nav-black slick-dotted-inner slick-dotted-white" data-dots="true" data-arrows="true">
                         <div>
-                <div class="bg-image" style="background-image: url('image/front4.jpg');">
+                <div class="bg-image" style="background-image: url('image/storage.jpg');">
                     <div class="bg-black-op-75">
                         <div class="content content-top text-center">
                             <div class="py-100">
-                                <h1 class="font-w700 text-white mb-10">SSH</h1>
-                                <h2 class="h4 font-w400 text-white-op">Saturday Sharing Homeless</h2>
-                                <h2 class="h5 font-w400 text-white-op">Komunitas Sosial</h2>                                
+                                <h1 class="font-w700 text-white mb-10">RESIK</h1>
+                                <h2 class="h4 font-w400 text-white-op">Reservation & Keeping Product</h2>
+                                <h2 class="h5 font-w400 text-white-op">Solusi Simpan Barang</h2>                                
                             </div>
                         </div>
                     </div>
@@ -35,13 +35,13 @@
 
                         </div>
                         <div>
-                <div class="bg-image" style="background-image: url('image/front5.jpg');">
+                <div class="bg-image" style="background-image: url('image/storage1.jpg');">
                     <div class="bg-black-op-75">
                         <div class="content content-top text-center">
                             <div class="py-100">
-                                <h1 class="font-w700 text-white mb-10">SSH</h1>
-                                <h2 class="h4 font-w400 text-white-op">Sunday Sharing Homeless</h2>
-                                <h2 class="h5 font-w400 text-white-op">Peduli</h2>
+                                <h1 class="font-w700 text-white mb-10">RESIK</h1>
+                                <h2 class="h4 font-w400 text-white-op">Reservation & Keeping Product</h2>
+                                <h2 class="h5 font-w400 text-white-op">Solusi Simpan Barang</h2>
                             </div>
                         </div>
                     </div>
@@ -49,13 +49,13 @@
 
                         </div>
                         <div>
-                <div class="bg-image" style="background-image: url('image/front1.jpg');">
+                <div class="bg-image" style="background-image: url('image/storage.jpg');">
                     <div class="bg-black-op-75">
                         <div class="content content-top text-center">
                             <div class="py-100">
-                                <h1 class="font-w700 text-white mb-10">SSH</h1>
-                                <h2 class="h4 font-w400 text-white-op">Sunday Sharing Homeless</h2>
-                                <h2 class="h5 font-w400 text-white-op">Berbagi</h2>                                
+                                <h1 class="font-w700 text-white mb-10">RESIK</h1>
+                                <h2 class="h4 font-w400 text-white-op">Reservation & Keeping Product</h2>
+                                <h2 class="h5 font-w400 text-white-op">Solusi Simpan Barang</h2>                                
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@
                 </div>
 
                 <!-- Blog and Sidebar -->
-                <div class="content">
+                {{--  <div class="content">
                     <div class="row items-push py-30">
                         <!-- Posts -->
                         <div class="col-xl-8">
@@ -292,7 +292,7 @@
                         </div>
                         <!-- END Sidebar -->
                     </div>
-                </div>
+                </div>  --}}
                 <!-- END Blog and Sidebar -->
             </main>
             <!-- END Main Container -->

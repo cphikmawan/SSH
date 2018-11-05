@@ -8,7 +8,7 @@
             <div class="content-header-item">
                 <a class="link-effect font-w700 mr-5" href="/">
                     <i class="fa fa-handshake-o text-primary"></i>
-                    <span class="font-size-xl text-dual-primary-dark">SS</span><span class="font-size-xl text-primary">H</span>
+                    <span class="font-size-xl text-dual-primary-dark">RESI</span><span class="font-size-xl text-primary">K</span>
                 </a>
             </div>
             <!-- END Logo -->
@@ -46,8 +46,8 @@
                     </a>
                 </li>
                 <li>
-                    <a class="{{ request()->is('donasi') ? 'active' : '' }}" href="/donasi">
-                        <i class="fa fa-dollar"></i>Donasi
+                    <a class="{{ request()->is('harga') ? 'active' : '' }}" href="/harga">
+                        <i class="fa fa-dollar"></i>Harga
                     </a>
                 </li>
                 <li>

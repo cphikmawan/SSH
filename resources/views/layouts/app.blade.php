@@ -3,7 +3,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
-        <title>SSH | @yield('title')</title>
+        <title>RESIK | @yield('title')</title>
 
         <meta name="description" content="Codebase - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest">
         <meta name="author" content="pixelcave">
@@ -42,7 +42,7 @@
         </div>
         {{--  <!-- END Page Container -->  --}}
         
-        <div class="modal fade" id="modal-terms" tabindex="-1" role="dialog" aria-labelledby="modal-terms" aria-hidden="true">
+        {{--  <div class="modal fade" id="modal-terms" tabindex="-1" role="dialog" aria-labelledby="modal-terms" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-slidedown" role="document">
                 <div class="modal-content">
                     <div class="block block-themed block-transparent mb-0">
@@ -68,7 +68,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>  --}}
 
         {{--  <!-- Codebase Core JS -->  --}}
         <script src="{{('codebase/02 - Codebase Source (HTML)/src/assets/js/core/jquery.min.js')}}"></script>
