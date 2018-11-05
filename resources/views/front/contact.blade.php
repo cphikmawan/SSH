@@ -29,7 +29,7 @@
         <div class="content content-full">
             <div class="row justify-content-center py-30">
                 <div class="col-lg-8 col-xl-6" style="background-color: white">
-                    <form class="js-validation-signup" action="/pesan">
+                    <form class="js-validation-signup" action="/">
                         <div class="form-group row">
                             <div class="col-12">
                                 <div class="form-material form-material-primary floating">
@@ -66,8 +66,5 @@
             </div>
         </div>
         <!-- END Contact Form -->
-
-        <!-- Google Maps, functionality is initialized in js/pages/be_pages_generic_contact.js, for more examples you can check out https://hpneo.github.io/gmaps/ -->
-        <div id="js-map-be-contact" style="height: 380px;"></div>
     </main>
 @endsection

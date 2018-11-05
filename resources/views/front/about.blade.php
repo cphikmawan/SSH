@@ -55,10 +55,10 @@
                         <div class="col-md-6 col-xl-4">
                             <div class="block text-center">
                                 <div class="block-content">
-                                    <img class="img-avatar img-avatar96" src="/image/penyok.jpg" alt="">
+                                    <img class="img-avatar img-avatar96" src="/image/fikri.jpg" alt="">
                                 </div>
                                 <div class="block-content block-content-full">
-                                    <div class="font-size-h4 font-w600 mb-0">Udin IMM</div>
+                                    <div class="font-size-h4 font-w600 mb-0">Fikri S.</div>
                                     <div class="font-size-h5 text-muted">Pendiri</div>
                                 </div>
                                 <div class="block-content block-content-full bg-body-light">
@@ -77,11 +77,11 @@
                         <div class="col-md-6 col-xl-4">
                             <div class="block text-center">
                                 <div class="block-content">
-                                    <img class="img-avatar img-avatar96" src="/image/fuad.jpg" alt="">
+                                    <img class="img-avatar img-avatar96" src="/image/ayis.jpeg" alt="">
                                 </div>
                                 <div class="block-content block-content-full">
-                                    <div class="font-size-h4 font-w600 mb-0">DR Fu</div>
-                                    <div class="font-size-h5 text-muted">Manajer</div>
+                                    <div class="font-size-h4 font-w600 mb-0">Fitria N.</div>
+                                    <div class="font-size-h5 text-muted">Sekretaris</div>
                                 </div>
                                 <div class="block-content block-content-full bg-body-light">
                                     <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
@@ -99,10 +99,10 @@
                         <div class="col-md-6 col-xl-4">
                             <div class="block text-center">
                                 <div class="block-content">
-                                    <img class="img-avatar img-avatar96" src="/image/awan.jpeg" alt="">
+                                    <img class="img-avatar img-avatar96" src="/image/dini.jpg" alt="">
                                 </div>
                                 <div class="block-content block-content-full">
-                                    <div class="font-size-h4 font-w600 mb-0">Cloud</div>
+                                    <div class="font-size-h4 font-w600 mb-0">Dini R.</div>
                                     <div class="font-size-h5 text-muted">Manajer</div>
                                 </div>
                                 <div class="block-content block-content-full bg-body-light">
@@ -125,11 +125,11 @@
                         <div class="col-md-6 col-xl-4">
                             <div class="block text-center">
                                 <div class="block-content">
-                                    <img class="img-avatar img-avatar96" src="/image/penyok.jpg" alt="">
+                                    <img class="img-avatar img-avatar96" src="/image/wisnu.jpg" alt="">
                                 </div>
                                 <div class="block-content block-content-full">
-                                    <div class="font-size-h4 font-w600 mb-0">Udin IMM</div>
-                                    <div class="font-size-h5 text-muted">Pendiri</div>
+                                    <div class="font-size-h4 font-w600 mb-0">Wisnu R.</div>
+                                    <div class="font-size-h5 text-muted">Desainer</div>
                                 </div>
                                 <div class="block-content block-content-full bg-body-light">
                                     <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">
@@ -147,11 +147,11 @@
                         <div class="col-md-6 col-xl-4">
                             <div class="block text-center">
                                 <div class="block-content">
-                                    <img class="img-avatar img-avatar96" src="/image/fuad.jpg" alt="">
+                                    <img class="img-avatar img-avatar96" src="/image/awan.jpeg" alt="">
                                 </div>
                                 <div class="block-content block-content-full">
-                                    <div class="font-size-h4 font-w600 mb-0">DR Fu</div>
-                                    <div class="font-size-h5 text-muted">Manajer</div>
+                                    <div class="font-size-h4 font-w600 mb-0">Cahya P.</div>
+                                    <div class="font-size-h5 text-muted">Developer</div>
                                 </div>
                                 <div class="block-content block-content-full bg-body-light">
                                     <a class="btn btn-circle btn-secondary" href="https://cloudy.my.id">

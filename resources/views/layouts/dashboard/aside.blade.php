@@ -44,7 +44,7 @@
             <!-- END Search -->
 
             <!-- Mini Stats -->
-            <div class="block pull-r-l">
+            {{--  <div class="block pull-r-l">
                 <div class="block-content block-content-full block-content-sm bg-body-light">
                     <div class="row">
                         <div class="col-4">
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>  --}}
             <!-- END Mini Stats -->
 {{-- 
             <!-- Teman -->

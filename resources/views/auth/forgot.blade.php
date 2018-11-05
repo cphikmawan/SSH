@@ -1,20 +1,20 @@
 @extends('layouts.auth.app')
 
-@section('title', 'Daftar')
+@section('title', 'Lupa Password')
 
 @section('content')
-    <div class="bg-image" style="background-image: url('image/sedekah.jpg');">
+    <div class="bg-image" style="background-image: url('image/storage.jpg');">
         <div class="row mx-0 bg-black-op">
             <div class="hero-static col-md-6 col-xl-8 d-none d-md-flex align-items-md-end">
                 <div class="p-30 invisible" data-toggle="appear">
                     <p class="font-size-h3 font-w600 text-white">
-                        “Allah menghendaki kemudahan bagimu dan tiada menghendaki kesulitan”
+                        “A person is but the product of their thoughts. What they think, they become.”
                     </p>
                     <p class="font-size-h5 text-white">
-                        (QS. Al-Baqarah: 185)
+                        - Mahatma Gandhi -
                     </p>
                     <p class="font-italic text-white-op">
-                        Coded with <i class="fa fa-heart text-pulse"></i> by <a class="font-w600" href="https://github.com/fuaddary/SSH" target="_blank">Kelompok IMK</a>
+                        Coded with <i class="fa fa-heart text-pulse"></i> by <a class="font-w600" href="https://cloudy.my.id" target="_blank">Kelompok 6</a>
                     </p>
                 </div>
             </div>
@@ -24,7 +24,7 @@
                     <div class="px-30 py-10">
                         <a class="link-effect font-w700" href="/">
                             <i class="si si-fire"></i>
-                            <span class="font-size-xl text-primary-dark">SSH</span>
+                            <span class="font-size-xl text-primary-dark">RESIK</span>
                         </a>
                         <h1 class="h3 font-w700 mt-30 mb-10">Jangan panik, dapatkan akunmu kembali</h1>
                         <h2 class="h5 font-w400 text-muted mb-0">Masukkan Email</h2>

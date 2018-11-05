@@ -24,42 +24,15 @@ Route::get('/contact', function () {
     return view('front.contact');
 });
 
-Route::get('/pesan', function () {
-    return view('front.info');
-});
 
 //
 Route::get('/harga', function () {
     return view('harga.harga');
 });
 
-Route::get('/pesan_donasi', function () {
-    return view('harga.info');
-});
-
 //dashboard
 Route::get('/dashboard', function () {
     return view('dashboard.index');
-});
-
-Route::get('/post', function () {
-    return view('dashboard.post');
-});
-
-Route::get('/gallery', function () {
-    return view('dashboard.gallery');
-});
-
-Route::get('/comment', function () {
-    return view('dashboard.comment');
-});
-
-Route::get('/user', function () {
-    return view('dashboard.user');
-});
-
-Route::get('/donation', function () {
-    return view('dashboard.donation');
 });
 
 //auth

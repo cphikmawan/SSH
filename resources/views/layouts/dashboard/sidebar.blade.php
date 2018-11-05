@@ -29,7 +29,7 @@
                     <div class="content-header-item">
                         <a class="link-effect font-w700" href="/">
                             <i class="fa fa-handshake-o text-primary"></i>
-                            <span class="font-size-xl text-dual-primary-dark">SSH</span>
+                            <span class="font-size-xl text-dual-primary-dark">RESIK</span>
                         </a>
                     </div>
                     <!-- END Logo -->
@@ -79,19 +79,7 @@
                         <a class="{{ request()->is('dashboard') ? 'active' : '' }}" href="{{ url('/dashboard') }}"><i class="fa fa-coffee"></i><span class="sidebar-mini-hide">Dasbor</span></a>
                     </li>
                     <li>
-                        <a class="{{ request()->is('post') ? 'active' : '' }}" href="{{ url('/post') }}"><i class="fa fa-file-text-o"></i><span class="sidebar-mini-hide">Posting</span></a>
-                    </li>
-                    <li>
-                        <a class="{{ request()->is('gallery') ? 'active' : '' }}" href="{{ url('/gallery') }}"><i class="fa fa-photo"></i><span class="sidebar-mini-hide">Galeri</span></a>
-                    </li>
-                    <li>
-                        <a class="{{ request()->is('comment') ? 'active' : '' }}" href="{{ url('/comment') }}"><i class="si si-bubbles"></i><span class="sidebar-mini-hide">Komentar</span></a>
-                    </li>
-                    <li>
-                        <a class="{{ request()->is('user') ? 'active' : '' }}" href="{{ url('/user') }}"><i class="si si-users"></i><span class="sidebar-mini-hide">Pengguna</span></a>
-                    </li>
-                    <li>
-                        <a class="{{ request()->is('donation') ? 'active' : '' }}" href="{{ url('/donation') }}"><i class="fa fa-money"></i><span class="sidebar-mini-hide">Donasi</span></a>
+                        <a class="{{ request()->is('post') ? 'active' : '' }}" href="{{ url('/') }}"><i class="fa fa-file-text-o"></i><span class="sidebar-mini-hide">Menu Lainnya</span></a>
                     </li>
                 </ul>
             </div>
