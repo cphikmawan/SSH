@@ -14,7 +14,7 @@
                         - Mahatma Gandhi -
                     </p>
                     <p class="font-italic text-white-op">
-                        Coded with <i class="fa fa-heart text-pulse"></i> by <a class="font-w600" href="https://cloudy.my.id" target="_blank">Kelompok 6</a>
+                        Created with <i class="fa fa-heart text-pulse"></i> by <a class="font-w600" href="https://cloudy.my.id" target="_blank">Kelompok 4</a>
                     </p>
                 </div>
             </div>

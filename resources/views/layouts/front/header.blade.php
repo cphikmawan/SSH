@@ -51,10 +51,15 @@
                     </a>
                 </li>
                 <li>
+                    <a class="{{ request()->is('faq') ? 'active' : '' }}" href="/faq">
+                        <i class="fa fa-question"></i>FAQ
+                    </a>
+                </li>
+                {{-- <li>
                     <a class="{{ request()->is('masuk') ? 'active' : '' }}" href="/masuk">
                         <i class="si si-user"></i>Masuk
                     </a>
-                </li>
+                </li> --}}
             </ul>
             <!-- END Header Navigation -->
         </div>

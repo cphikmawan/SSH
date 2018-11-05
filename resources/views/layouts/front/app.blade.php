@@ -29,7 +29,7 @@
             @yield('header')
 
             {{--  <!-- Main Container -->  --}}
-            <main id="main-container">
+            <main style="padding-top: 20px;" id="main-container">
                 {{--  <!-- Page Content -->  --}}
                 <div class="content content-full">
                     @yield('content')
@@ -38,7 +38,7 @@
             </main>
             {{--  <!-- END Main Container -->  --}}
 
-            @include('layouts.footer')
+            @include('layouts.front.footer')
         </div>
         {{--  <!-- END Page Container -->  --}}
         

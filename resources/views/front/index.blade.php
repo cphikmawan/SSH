@@ -1,19 +1,18 @@
-@extends('layouts.app')
+@extends('layouts.front.app')
 
 @section('title', 'Home')
 
 @section('sidebar')
-    @include('layouts.sidebar')
+    @include('layouts.front.sidebar')
 @endsection
 
 @section('header')
-    @include('layouts.header')    
+    @include('layouts.front.header')    
 @endsection
 
 @section('content')
-
             <!-- Main Container -->
-            <main id="main-container">
+            <main style="padding-top: 38px;" id="main-container">
 
                 <!-- Slider with inner dots and black arrows -->
                 <div class="block">
