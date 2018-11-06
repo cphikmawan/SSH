@@ -23,7 +23,7 @@
                     {{-- <!-- Header --> --}}
                     <div class="px-30 py-10">
                         <a class="link-effect font-w700" href="/">
-                            <i class="si si-fire"></i>
+                            <img height="46" width="36" src="image/logo.jpg"></img>
                             <span class="font-size-xl text-primary-dark">RESIK</span>
                         </a>
                         <h1 class="h3 font-w700 mt-30 mb-10">Jangan panik, dapatkan akunmu kembali</h1>

@@ -14,9 +14,9 @@
         <meta property="og:type" content="website">
         <meta property="og:url" content="">
         <meta property="og:image" content="">
-        <link rel="shortcut icon" href="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/favicons/favicon.png') }}">
-        <link rel="icon" type="image/png" sizes="192x192" href="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/favicons/favicon-192x192.png') }}">
-        <link rel="apple-touch-icon" sizes="180x180" href="{{('codebase/02 - Codebase Source (HTML)/src/assets/img/favicons/apple-touch-icon-180x180.png') }}">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="icon" type="image/png" sizes="192x192" href="favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico">
         <link rel="stylesheet" id="css-main" href="{{('codebase/02 - Codebase Source (HTML)/src/assets/css/codebase.min.css') }}">
     </head>
     <body>

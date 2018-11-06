@@ -28,7 +28,7 @@
                     <!-- Logo -->
                     <div class="content-header-item">
                         <a class="link-effect font-w700" href="/">
-                            <i class="fa fa-handshake-o text-primary"></i>
+                            <img height="24" width="24" src="image/logo.jpg"></img>
                             <span class="font-size-xl text-dual-primary-dark">RESIK</span>
                         </a>
                     </div>
