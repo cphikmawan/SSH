@@ -76,7 +76,7 @@
             <div class="content-side content-side-full">
                 <ul class="nav-main">
                     <li>
-                        <a class="{{ request()->is('dashboard') ? 'active' : '' }}" href="{{ url('/dashboard') }}"><i class="fa fa-home"></i><span class="sidebar-mini-hide">Dasboard</span></a>
+                        <a class="{{ request()->is('dashboard') ? 'active' : '' }}" href="{{ url('/dashboard') }}"><i class="fa fa-home"></i><span class="sidebar-mini-hide">Dashboard</span></a>
                     </li>
                     <li>
                         <a class="{{ request()->is('pesanan') ? 'active' : '' }}" href="{{ url('/pesanan') }}"><i class="fa fa-list-ul"></i><span class="sidebar-mini-hide">Pesanan</span></a>

@@ -14,7 +14,7 @@
 {{--  <!-- Progress Wizards -->  --}}
 <h2 class="content-heading">
     <a href="/harga"><button type="button" class="btn btn-sm btn-rounded btn-alt-secondary float-right">Batal</button></a>
-    <i class="fa fa-calculator"> Pembayaran</i>
+    <i class="fa fa-calculator"> Isi Data Diri & Pembayaran</i>
 </h2>
 <div class="row">
     <div class="col-md-12">
